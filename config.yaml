@@ -1,0 +1,27 @@
+run:
+  name: "demo_rto"
+  output_dir: "runs"
+
+experiment:
+  policy_question: "Mandatory 4-Day Return-to-Office policy starting next quarter."
+  steps: 6
+  include_neighbor_opinion_text: true
+  max_neighbors_in_prompt: 6
+  store_prompts: false
+
+llm:
+  provider: "dummy"   # dummy | openai | gemini
+  model: "dummy-v0"
+  temperature: 0.7
+  seed: 42
+  max_concurrency: 8
+  min_interval_sec: 0.05
+  max_retries: 2
+
+prompts:
+  behavior_rules:
+    - "Stay consistent with your persona."
+    - "Update based on argument quality and social context, not numeric averaging."
+    - "Be realistic: corporate tone, no mention of being an AI."
+    - "Return ONLY valid JSON that matches the provided JSON Schema (no markdown, no extra keys)."
+    - "Keep updated_opinion under 120 words."
