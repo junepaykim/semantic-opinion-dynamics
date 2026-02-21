@@ -22,6 +22,7 @@ htmlcov/
 .ipynb_checkpoints/
 
 runs/
+runs_test/
 
 cache/
 outputs/
