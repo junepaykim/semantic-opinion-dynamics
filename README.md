@@ -28,12 +28,12 @@ Each node is an agent with a persona + opinion text that updates over discrete t
    - `runs/<run_id>/steps/step_0000.json ...` (validated as `StepLog`)
    - plus `config_used.yaml`, `network_used.json`, `personas_used.yaml` snapshots
 
-## Quickstart (uv)
+## Quickstart
 Initial dev environment setup:
 ```bash 
 python3 bootstrap.py
 ```
-
+To run the code:
 ```bash
 make init
 make run
