@@ -1,5 +1,5 @@
 """AgentModel: update network nodes via LLM."""
 
-from .update import updateNodeOpinion, updateNodes
+from .iterate import agentIterate, updateNode
 
-__all__ = ["updateNodes", "updateNodeOpinion"]
+__all__ = ["agentIterate", "updateNode"]
