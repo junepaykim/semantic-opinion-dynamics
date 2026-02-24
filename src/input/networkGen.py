@@ -16,6 +16,7 @@ networksDir = root / "networks"
 def generateNetwork(
     nNodes: int = 20,
     graphType: Literal["random", "scale_free", "small_world"] = "random",
+    outputName: str | None = None,
     **kwargs,
 ) -> dict:
     """
@@ -27,6 +28,7 @@ def generateNetwork(
           - "random": Erdős–Rényi random graph. Each edge exists with probability p. kwargs: p (default 0.1)
           - "scale_free": Barabási–Albert scale-free network. Preferential attachment. kwargs: m (edges per new node, default 2)
           - "small_world": Watts–Strogatz small-world network. Start from ring, rewire with probability p. kwargs: k (neighbors per node, default 4), p (rewire prob, default 0.3)
+        outputName: If provided, save to networks/{outputName}.json; otherwise auto-name as Net1, Net2, ...
         **kwargs: Extra params per graph type (p, m, k, seed, etc.)
 
     Returns:
@@ -80,10 +82,28 @@ def initNodes(network: dict, outputName: str | None = None) -> dict:
 
 
 
+def loadNetwork(name: str) -> dict:
+    """
+    Load network from networks/{name}.json.
+
+    Args:
+        name: Network name without .json extension, e.g. "Net1" or "myGraph"
+
+    Returns:
+        Network dict with nodes.
+    """
+    path = networksDir / f"{name}.json"
+    if not path.exists():
+        raise FileNotFoundError(f"Network not found: {path}")
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def saveNetwork(network: dict, name: str | None = None) -> Path:
     """
     Save network as JSON to networks/ directory.
     If name is None, auto-name as Net1.json, Net2.json, ... incrementing.
+    name may include subpath, e.g. "Net1_slices/iter1", which creates networks/Net1_slices/.
     """
     networksDir.mkdir(parents=True, exist_ok=True)
     if name is None:
@@ -98,6 +118,7 @@ def saveNetwork(network: dict, name: str | None = None) -> Path:
         nextNum = max(nums, default=0) + 1
         name = f"Net{nextNum}"
     path = networksDir / f"{name}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(network, f, ensure_ascii=False, indent=2)
     return path
