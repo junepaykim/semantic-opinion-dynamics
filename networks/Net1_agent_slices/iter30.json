@@ -1,0 +1,690 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.451,
+      "prompt": "In alignment with our neighbors, I now support a balanced mix of remote work and office collaboration for productivity, relationships, and harmony in our compassionate community.",
+      "persona": "gentle, kind-hearted, considerate, compassionate, soft-spoken, empathetic, understanding, patient, lenient, tolerant",
+      "neighbors": {
+        "6": 0.513869,
+        "41": 0.352979,
+        "43": 0.425554
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.576,
+      "prompt": "Together with my compassionate neighbors, I advocate for a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, diplomatic, adaptable, empathetic, balanced",
+      "neighbors": {
+        "6": 0.469048,
+        "13": 0.824183,
+        "18": 0.580548,
+        "20": 0.669338,
+        "33": 0.255764,
+        "34": 0.221006,
+        "36": 0.665879
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.521,
+      "prompt": "With the support of my caring neighbors, I now aim for a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our compassionate community.",
+      "persona": "gentle, mild-mannered, approachable, considerate, diplomatic, yielding, compassionate, patient",
+      "neighbors": {
+        "15": 0.501007,
+        "18": 0.565359,
+        "19": 0.170712
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.358,
+      "prompt": "Together with my compassionate neighbors, I advocate for a balanced blend of remote work and office collaboration to prioritize productivity and harmonious relationships in our caring community.",
+      "persona": "gentle, assertive, balanced, compassionate, diplomatic, considerate, decisive, approachable, composed",
+      "neighbors": {
+        "11": 0.150465,
+        "20": 0.066226,
+        "23": 0.493392,
+        "31": 0.502762,
+        "37": 0.275819,
+        "47": 0.369925,
+        "50": 0.429666
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.523,
+      "prompt": "Together with my compassionate neighbors, I strongly advocate for a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "kind, understanding, compassionate, accommodating, assertive, patient, empathetic, considerate, diplomatic",
+      "neighbors": {
+        "15": 0.380137,
+        "19": 0.24971,
+        "27": 0.110639,
+        "28": 0.633708,
+        "46": 0.70978,
+        "50": 0.678569
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.609,
+      "prompt": "Together with my neighbors, I strongly advocate for a balanced mix of remote work and office collaboration to enhance productivity, relationships, and harmony in our compassionate community.",
+      "persona": "kind, compassionate, assertive, understanding, balanced, patient",
+      "neighbors": {
+        "1": 0.513869,
+        "2": 0.469048,
+        "10": 0.206186,
+        "18": 0.17809,
+        "35": 0.828628,
+        "40": 0.754281,
+        "47": 0.258592
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.47,
+      "prompt": "Together with my compassionate community, I strongly advocate for a balanced blend of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring environment.",
+      "persona": "gentle, composed, balanced, considerate, diplomatic, moderate",
+      "neighbors": {
+        "17": 0.38591,
+        "31": 0.170878,
+        "37": 0.367531,
+        "39": 0.553953,
+        "40": 0.5214
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.437,
+      "prompt": "In alignment with my caring community, I advocate for a balanced mix of remote work and office collaboration to nurture productivity, relationships, and harmony in our supportive environment.",
+      "persona": "gentle, assertive, considerate, diplomatic, balanced, moderate, tactful, composed, reasonable",
+      "neighbors": {
+        "17": 0.463609,
+        "22": 0.292188,
+        "38": 1.0,
+        "42": 0.136227
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.465,
+      "prompt": "In alignment with my compassionate neighbors, I now support a slightly higher balance of remote work and office collaboration, valuing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, compassionate, considerate, empathetic, understanding, patient, kind-hearted, tolerant",
+      "neighbors": {
+        "18": 0.387369,
+        "23": 0.538433,
+        "31": 0.470886,
+        "34": 0.204308,
+        "39": 0.519088
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.466,
+      "prompt": "I am now aligned with my neighbors, supporting a balanced mix of remote work and office collaboration to enhance productivity and relationships in our compassionate community.",
+      "persona": "gentle, moderate, considerate, balanced, diplomatic, thoughtful, composed, patient, tactful",
+      "neighbors": {
+        "6": 0.206186,
+        "14": 0.435991,
+        "23": 0.377955,
+        "37": 0.284433,
+        "42": 1.0,
+        "46": 0.539574
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.589,
+      "prompt": "Together with my compassionate neighbors, I advocate for a balanced blend of remote work and office collaboration to ensure productivity, strong relationships, and harmony within our caring community.",
+      "persona": "gentle, considerate, diplomatic, accommodating, patient, easy-going, warm-hearted, mild-mannered, agreeable",
+      "neighbors": {
+        "4": 0.150465,
+        "27": 0.731899,
+        "40": 0.571305
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.615,
+      "prompt": "Together with my compassionate community, I now strongly advocate for a balanced blend of remote work and office collaboration to maximize productivity, relationships, and harmony in our caring environment.",
+      "persona": "kind, compassionate, understanding, patient, considerate, empathetic, gentle, warm, supportive, caring",
+      "neighbors": {
+        "13": 0.572285,
+        "14": 0.371154,
+        "18": 0.756226,
+        "21": 0.735883,
+        "22": 0.670627,
+        "26": 0.452902,
+        "32": 0.455117,
+        "33": 0.413185,
+        "37": 0.666069,
+        "39": 0.233746
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.667,
+      "prompt": "Together with my compassionate community, I now advocate for a well-balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring environment.",
+      "persona": "gentle, assertive, balanced, diplomatic, considerate, tactful, approachable, fair",
+      "neighbors": {
+        "2": 0.824183,
+        "12": 0.572285,
+        "17": 0.736244,
+        "22": 0.16393,
+        "23": 0.79101,
+        "28": 0.355008,
+        "29": 0.720034,
+        "32": 0.579455,
+        "33": 0.885403,
+        "34": 0.216735,
+        "46": 0.495137,
+        "49": 0.719623
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.539,
+      "prompt": "Aligned with my compassionate neighbors, I now fully support a balanced blend of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, compassionate, understanding, considerate, balanced",
+      "neighbors": {
+        "10": 0.435991,
+        "12": 0.371154,
+        "17": 0.5226,
+        "21": 0.695348,
+        "23": 0.538765,
+        "29": 0.622342,
+        "47": 0.429086,
+        "49": 0.594049
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.463,
+      "prompt": "Together with my compassionate neighbors, I now strive for a balanced blend of remote work and office collaboration, emphasizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, decisive, accommodating, empathetic, diplomatic, considerate, assertive",
+      "neighbors": {
+        "3": 0.501007,
+        "5": 0.380137,
+        "17": 0.516888,
+        "40": 0.401869
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.843,
+      "prompt": "In alignment with my caring neighbors, I support a balanced blend of remote work and office collaboration, fostering productivity, relationships, and harmony in our compassionate community.",
+      "persona": "gentle, assertive, diplomatic, considerate, balanced, reasonable, tactful",
+      "neighbors": {
+        "31": 0.963548,
+        "45": 0.584756
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.606,
+      "prompt": "In collaboration with my compassionate community, I advocate for a balanced blend of remote work and office collaboration to enhance productivity and foster harmonious relationships in our caring environment.",
+      "persona": "calm, peaceful, patient, accommodating, agreeable, understanding, laid-back, tolerant, easygoing",
+      "neighbors": {
+        "7": 0.38591,
+        "8": 0.463609,
+        "13": 0.736244,
+        "14": 0.5226,
+        "15": 0.516888,
+        "24": 0.870301,
+        "25": 0.336325,
+        "30": 0.512843,
+        "31": 0.582923,
+        "35": 0.366145,
+        "40": 0.76193,
+        "41": 0.582609,
+        "44": 0.667973,
+        "46": 0.593337,
+        "50": 0.824694
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.526,
+      "prompt": "Together with my compassionate neighbors, I now advocate for a balanced blend of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, compassionate, diplomatic, considerate, balanced",
+      "neighbors": {
+        "2": 0.580548,
+        "3": 0.565359,
+        "6": 0.17809,
+        "9": 0.387369,
+        "12": 0.756226,
+        "29": 0.552293,
+        "34": 0.666062,
+        "47": 0.380916,
+        "50": 0.569428
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.612,
+      "prompt": "With the strong support of my caring neighbors, I now prioritize a balanced mix of remote work and office collaboration for enhanced productivity, relationships, and harmony in our compassionate community.",
+      "persona": "gentle, considerate, accommodating, diplomatic, balanced, composed, understanding, patient",
+      "neighbors": {
+        "3": 0.170712,
+        "5": 0.24971,
+        "31": 0.676127,
+        "39": 0.593362
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.358,
+      "prompt": "Collaborating with my caring community, I now support a balanced mix of remote work and office collaboration for enhanced productivity, relationships, and harmony.",
+      "persona": "gentle, compassionate, considerate, kind-hearted, understanding, patient, empathetic, caring",
+      "neighbors": {
+        "2": 0.669338,
+        "4": 0.066226,
+        "26": 0.191785,
+        "28": 0.463821,
+        "43": 0.292156
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.599,
+      "prompt": "Alongside my compassionate neighbors, I now advocate for a balanced mix of remote work and office collaboration, emphasizing productivity, relationships, and harmony in our caring community.",
+      "persona": "mild, balanced, moderate, composed, middle-of-the-road, fair-minded, level-headed, considerate",
+      "neighbors": {
+        "12": 0.735883,
+        "14": 0.695348,
+        "33": 0.465868,
+        "38": 0.522186
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.3618,
+      "prompt": "With the consensus in our compassionate community, I support a balanced blend of remote work and office collaboration for increased productivity, relationships, and harmony.",
+      "persona": "kind, considerate, balanced, compassionate, diplomatic, patient, understanding, assertive, empathetic, calm",
+      "neighbors": {
+        "8": 0.292188,
+        "12": 0.670627,
+        "13": 0.16393,
+        "38": 0.307967,
+        "50": 0.405098
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.544,
+      "prompt": "I now fully support a balanced blend of remote work and office collaboration, valuing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, considerate, patient, balanced, diplomatic, understanding, moderate, accommodating, empathetic, composed",
+      "neighbors": {
+        "4": 0.493392,
+        "9": 0.538433,
+        "10": 0.377955,
+        "13": 0.79101,
+        "14": 0.538765,
+        "24": 0.544858
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.565,
+      "prompt": "In collaboration with my compassionate neighbors, I now strongly advocate for a balanced blend of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, compassionate, considerate, understanding, mild, kind, empathetic",
+      "neighbors": {
+        "17": 0.870301,
+        "23": 0.544858,
+        "29": 0.553791,
+        "33": 0.429201,
+        "34": 0.0,
+        "48": 0.659259,
+        "49": 0.40389
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.599,
+      "prompt": "In alignment with my compassionate community, I now support a balanced blend of remote work and office collaboration for enhanced productivity and nurturing relationships in our caring environment.",
+      "persona": "gentle, kind, compassionate, agreeable, considerate, modest, patient, understanding, sympathetic",
+      "neighbors": {
+        "17": 0.336325,
+        "35": 0.584848,
+        "45": 0.702491
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.405,
+      "prompt": "In alignment with my compassionate neighbors, I now advocate for a balanced mix of remote work and office collaboration, prioritizing productivity and harmony in our caring community.",
+      "persona": "gentle, compassionate, understanding, considerate, empathetic, patient, kind",
+      "neighbors": {
+        "12": 0.452902,
+        "20": 0.191785,
+        "30": 0.166203,
+        "35": 0.451566,
+        "49": 0.834651
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.623,
+      "prompt": "I now lean slightly more towards a balanced mix of remote work and office collaboration, aligning with my compassionate neighbors' emphasis on productivity, relationships, and harmony.",
+      "persona": "gentle, considerate, accommodating, empathetic, diplomatic, compromising",
+      "neighbors": {
+        "5": 0.110639,
+        "11": 0.731899,
+        "30": 0.763894,
+        "37": 0.446291,
+        "48": 0.19552
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.525,
+      "prompt": "I align with my compassionate neighbors in supporting a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, understanding, patient, empathetic, calm, supportive, easy-going",
+      "neighbors": {
+        "5": 0.633708,
+        "13": 0.355008,
+        "20": 0.463821,
+        "48": 0.677775
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.592,
+      "prompt": "Considering our compassionate community's feedback, I now strongly advocate for a well-balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring environment.",
+      "persona": "kind, compassionate, considerate, understanding, empathetic, patient, supportive, tolerant, gentle",
+      "neighbors": {
+        "13": 0.720034,
+        "14": 0.622342,
+        "18": 0.552293,
+        "24": 0.553791,
+        "38": 0.306786,
+        "44": 0.699661,
+        "49": 0.270504
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.52,
+      "prompt": "In alignment with my compassionate community, I advocate for a balanced blend of remote work and office collaboration, prioritizing productivity and harmony in our caring environment.",
+      "persona": "gentle, kind-hearted, considerate, approachable, patient, understanding",
+      "neighbors": {
+        "17": 0.512843,
+        "26": 0.166203,
+        "27": 0.763894,
+        "42": 0.550419,
+        "49": 0.423275
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.62,
+      "prompt": "Together with my compassionate neighbors, I now strongly advocate for a balanced blend of remote work and office collaboration to enhance productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, considerate, compassionate, kind-hearted, understanding, patient, diplomatic, tolerant, easy-going",
+      "neighbors": {
+        "4": 0.502762,
+        "7": 0.170878,
+        "9": 0.470886,
+        "16": 0.963548,
+        "17": 0.582923,
+        "19": 0.676127,
+        "33": 0.843274,
+        "38": 0.152228,
+        "39": 0.655249
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.632,
+      "prompt": "Together with my compassionate neighbors, I now advocate for a well-balanced blend of remote work and office collaboration to optimize productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, compassionate, composed, understanding, diplomatic",
+      "neighbors": {
+        "12": 0.455117,
+        "13": 0.579455,
+        "34": 0.357054,
+        "46": 0.901019
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.522,
+      "prompt": "Together with my compassionate neighbors, I advocate a balanced mix of remote work and office collaboration for enhanced productivity and relationships in our caring community.",
+      "persona": "mild-mannered, considerate, diplomatic, balanced, composed, accommodating, approachable, reasonable",
+      "neighbors": {
+        "2": 0.255764,
+        "12": 0.413185,
+        "13": 0.885403,
+        "21": 0.465868,
+        "24": 0.429201,
+        "31": 0.843274,
+        "35": 0.413236,
+        "40": 0.39989,
+        "43": 0.613163,
+        "44": 0.544081,
+        "48": 0.382409
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.428,
+      "prompt": "In collaboration with my compassionate neighbors, I now advocate for a more balanced mix of remote work and office collaboration, promoting productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, balanced, diplomatic, moderate, composed",
+      "neighbors": {
+        "2": 0.221006,
+        "9": 0.204308,
+        "13": 0.216735,
+        "18": 0.666062,
+        "24": 0.0,
+        "32": 0.357054,
+        "47": 0.647882
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.538,
+      "prompt": "Alongside my compassionate neighbors, I now firmly advocate for a balanced combination of remote work and office collaboration to nurture productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, compassionate, diplomatic, considerate, balanced, patient, understanding, tolerant, composed",
+      "neighbors": {
+        "6": 0.828628,
+        "17": 0.366145,
+        "25": 0.584848,
+        "26": 0.451566,
+        "33": 0.413236,
+        "50": 0.986458
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.56,
+      "prompt": "With my compassionate neighbors, I strongly advocate for a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, approachable, diplomatic, flexible, empathetic, reasonable, patient, composed",
+      "neighbors": {
+        "2": 0.665879,
+        "49": 0.318194
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.471,
+      "prompt": "I am now fully aligned with my compassionate neighbors, advocating for a balanced blend of remote work and office collaboration to enhance productivity and relationships in our caring community.",
+      "persona": "gentle, kind-hearted, empathetic, considerate, compassionate, patient, understanding, mild-mannered, accommodating",
+      "neighbors": {
+        "4": 0.275819,
+        "7": 0.367531,
+        "10": 0.284433,
+        "12": 0.666069,
+        "27": 0.446291,
+        "49": 0.618046
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.447,
+      "prompt": "With the valuable input from my caring neighbors, I now advocate for a balanced mix of remote work and office days to foster productivity, relationships, and harmony in our supportive community.",
+      "persona": "gentle, balanced, accommodating, considerate, patient, diplomatic, mild",
+      "neighbors": {
+        "8": 1.0,
+        "21": 0.522186,
+        "22": 0.307967,
+        "29": 0.306786,
+        "31": 0.152228
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.53,
+      "prompt": "In alignment with my compassionate community, I advocate for a balanced mix of remote work and office collaboration, valuing productivity, relationships, and harmony in our caring environment.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, patient, understanding, mild-mannered, soft-spoken, empathetic",
+      "neighbors": {
+        "7": 0.553953,
+        "9": 0.519088,
+        "12": 0.233746,
+        "19": 0.593362,
+        "31": 0.655249
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.53,
+      "prompt": "Together with my compassionate community, I advocate for a well-balanced mix of remote work and office collaboration to prioritize productivity, relationships, and harmony in our caring environment.",
+      "persona": "gentle, assertive, compassionate, balanced, considerate, patient, tactful, empathetic, diplomatic",
+      "neighbors": {
+        "6": 0.754281,
+        "7": 0.5214,
+        "11": 0.571305,
+        "15": 0.401869,
+        "17": 0.76193,
+        "33": 0.39989,
+        "44": 0.513742
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.445,
+      "prompt": "I support a balanced mix of remote work and office collaboration, aligning with our community's values for productivity and nurturing relationships.",
+      "persona": "gentle, compassionate, empathetic, understanding, considerate, patient",
+      "neighbors": {
+        "1": 0.352979,
+        "17": 0.582609,
+        "46": 0.3266
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.529,
+      "prompt": "I now prioritize a balanced blend of remote work and office collaboration to enhance productivity and relationships in our compassionate community.",
+      "persona": "gentle, moderate, considerate, balanced, reasonable, diplomatic, composed, tolerant, patient, fair",
+      "neighbors": {
+        "8": 0.136227,
+        "10": 1.0,
+        "30": 0.550419,
+        "46": 0.509248,
+        "50": 0.38714
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.548,
+      "prompt": "I value a balanced mix of remote work and office collaboration, in line with our compassionate community, to optimize productivity and foster strong relationships for a harmonious environment.",
+      "persona": "gentle, assertive, empathetic, diplomatic, moderate, considerate, balanced",
+      "neighbors": {
+        "1": 0.425554,
+        "20": 0.292156,
+        "33": 0.613163
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.642,
+      "prompt": "Aligned with my compassionate community, I support a balanced blend of remote work and office collaboration to nurture productivity and relationships in our caring environment.",
+      "persona": "gentle, compassionate, empathetic, understanding, composed, balanced",
+      "neighbors": {
+        "17": 0.667973,
+        "29": 0.699661,
+        "33": 0.544081,
+        "40": 0.513742
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.646,
+      "prompt": "I value our community's consensus on a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our compassionate environment.",
+      "persona": "gentle, compassionate, understanding, considerate, accommodating, empathetic",
+      "neighbors": {
+        "16": 0.584756,
+        "25": 0.702491
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.61,
+      "prompt": "Together with my compassionate neighbors, I strongly advocate for a well-balanced mix of remote work and office collaboration to optimize productivity and foster harmonious relationships in our caring community.",
+      "persona": "gentle, kind-hearted, patient, compassionate, considerate, understanding, soft-spoken",
+      "neighbors": {
+        "5": 0.70978,
+        "10": 0.539574,
+        "13": 0.495137,
+        "17": 0.593337,
+        "32": 0.901019,
+        "41": 0.3266,
+        "42": 0.509248
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.426,
+      "prompt": "In collaboration with my compassionate neighbors, I now advocate for a slightly higher balance of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, compassionate, understanding, moderate, considerate, patient, diplomatic",
+      "neighbors": {
+        "4": 0.369925,
+        "6": 0.258592,
+        "14": 0.429086,
+        "18": 0.380916,
+        "34": 0.647882
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.571,
+      "prompt": "Together with my compassionate neighbors, I strongly support a balanced blend of remote work and office collaboration, emphasizing productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, assertive, considerate, balanced, diplomatic, compassionate",
+      "neighbors": {
+        "24": 0.659259,
+        "27": 0.19552,
+        "28": 0.677775,
+        "33": 0.382409
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.517,
+      "prompt": "With the support of my compassionate neighbors, I now embrace a well-balanced mix of remote work and office collaboration for enhanced productivity, relationships, and harmony in our caring community.",
+      "persona": "gentle, kind-hearted, considerate, sympathetic, compassionate, caring, warm, mild-mannered, tender, understanding",
+      "neighbors": {
+        "13": 0.719623,
+        "14": 0.594049,
+        "24": 0.40389,
+        "26": 0.834651,
+        "29": 0.270504,
+        "30": 0.423275,
+        "36": 0.318194,
+        "37": 0.618046
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.615,
+      "prompt": "Collaborating with my compassionate community, I now firmly support a balanced mix of remote work and office collaboration, prioritizing productivity, relationships, and harmony in our caring environment.",
+      "persona": "gentle, compassionate, empathetic, understanding, kind-hearted, patient",
+      "neighbors": {
+        "4": 0.429666,
+        "5": 0.678569,
+        "17": 0.824694,
+        "18": 0.569428,
+        "22": 0.405098,
+        "35": 0.986458,
+        "42": 0.38714
+      }
+    }
+  ]
+}

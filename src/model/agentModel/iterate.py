@@ -1,36 +1,39 @@
-"""
-Agent-based graph iteration: update nodes via LLM.
-Each node's opinionScore and prompt are generated and updated by LLM from persona and neighbor info.
-"""
+"""Agent iteration: update nodes via LLM."""
+
+from tqdm import tqdm
+
+from input import modelCall, saveNetwork
+
+PRECISION = 6
 
 
-def updateNode(node: dict) -> dict:
-    """
-    Call LLM API to update node's opinionScore and prompt in place; return updated content.
-    LLM generates new opinion score and opinion description from persona, opinionScore, neighbor info, etc. prompt ≤ 50 words.
+def updateNode(node: dict, id_to_node: dict[str, dict]) -> dict:
+    """Update node opinion and prompt via LLM from persona and neighbor info."""
+    neighbors = node.get("neighbors", {})
+    neighbor_info: list[tuple[str, float]] = []
+    for jid, wij in neighbors.items():
+        j_node = id_to_node.get(jid)
+        if j_node is not None:
+            j_prompt = j_node.get("prompt", "")
+            neighbor_info.append((j_prompt, wij))
 
-    Args:
-        node: node dict with id, opinionScore, prompt, persona, neighbors. opinionScore and prompt modified in place.
-
-    Returns:
-        Updated content, e.g. {"opinionScore": float, "prompt": str}
-    """
-    # TODO: implement
-    raise NotImplementedError
+    score, promptText = modelCall.updateNodeOpinion(
+        persona=node.get("persona", ""),
+        current_score=float(node.get("opinionScore", 0.5)),
+        current_prompt=node.get("prompt", ""),
+        neighbor_info=neighbor_info,
+    )
+    return {"opinionScore": score, "prompt": promptText}
 
 
 def agentIterate(network: dict, outputName: str | None = None) -> dict:
-    """
-    Run one Agent graph iteration: call updateNode for each node to update opinionScore and prompt.
-    LLM generates new opinion score and description from persona, neighbor info, etc.
-    Updates network in place and returns the updated graph.
-
-    Args:
-        network: dict with nodes (each has id, opinionScore, prompt, persona, neighbors). Modified in place.
-        outputName: if provided, save to networks/{outputName}.json
-
-    Returns:
-        Updated network (same dict, opinionScore and prompt updated for all nodes)
-    """
-    # TODO: iterate nodes, call updateNode(node), write returned content to node. If outputName, call input.networkGen saveNetwork.
-    raise NotImplementedError
+    """One agent iteration: update all nodes via LLM, optionally save."""
+    nodes = network.get("nodes", [])
+    id_to_node = {n["id"]: n for n in nodes}
+    for node in tqdm(nodes, desc="Agent iter", unit="node"):
+        u = updateNode(node, id_to_node)
+        node["opinionScore"] = round(float(u.get("opinionScore", node["opinionScore"])), PRECISION)
+        node["prompt"] = u.get("prompt", node["prompt"])
+    if outputName:
+        saveNetwork(network, outputName)
+    return network

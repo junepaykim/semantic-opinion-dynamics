@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.505,
+      "prompt": "I embrace a harmonious blend of remote work for peace, combined with office connections for bonds. This mix nurtures collaboration and empathy, aligning with my kind and considerate nature.",
+      "persona": "gentle, assertive, kind, balanced, tolerant, considerate",
+      "neighbors": {
+        "2": 0.468865,
+        "3": 0.726854,
+        "4": 0.780144,
+        "5": 0.539264,
+        "6": 0.303268,
+        "7": 0.327119,
+        "8": 0.838164,
+        "9": 0.457408,
+        "12": 0.128993,
+        "17": 0.341634,
+        "18": 0.688518,
+        "24": 0.424082,
+        "25": 0.376068,
+        "26": 0.239963,
+        "48": 0.083647
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.594,
+      "prompt": "I now appreciate a harmonious blend of remote work for focus and peace, coupled with office interactions for personal connections. This mix nurtures collaboration, empathy, and productivity, resonating with my kind and considerate nature.",
+      "persona": "kind, empathetic, assertive, diplomatic, considerate, balanced",
+      "neighbors": {
+        "1": 0.468865,
+        "5": 0.533511,
+        "7": 0.276409,
+        "11": 0.943288,
+        "24": 0.322605,
+        "27": 0.924887,
+        "33": 0.482426
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.647,
+      "prompt": "I now embrace a balanced mix of remote work for focus and peace, intertwined with office interactions for personal bonds, aligning with my nurturing and collaborative nature, and reflecting the empathetic and kind-hearted sentiments of my community.",
+      "persona": "caring, compassionate, considerate, empathetic, kind-hearted, understanding, patient, gentle, nurturing",
+      "neighbors": {
+        "1": 0.726854,
+        "4": 0.602876,
+        "6": 0.696392,
+        "9": 0.503962,
+        "15": 0.174972,
+        "16": 0.524976,
+        "19": 0.783516,
+        "22": 0.306614,
+        "23": 0.498967,
+        "31": 0.427369,
+        "39": 0.823463,
+        "41": 0.371092,
+        "42": 0.88455,
+        "43": 0.666181,
+        "44": 0.50432,
+        "47": 0.077252,
+        "49": 0.287306
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.604,
+      "prompt": "I now value a harmonious blend of remote work for focus and peace, combined with office connections for personal bonds, nurturing collaboration and empathy in diverse environments, reflecting my compassionate and caring nature.",
+      "persona": "gentle, compassionate, understanding, empathetic, considerate, patient, kind, balanced",
+      "neighbors": {
+        "1": 0.780144,
+        "3": 0.602876,
+        "8": 0.412046,
+        "11": 0.325513,
+        "36": 0.305748,
+        "50": 0.834849
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.505,
+      "prompt": "I now lean towards a harmonious blend of remote work for focus and peace, intertwined with office interactions for personal bonds. This balance fosters collaboration, empathy, and productivity, in line with my kind-hearted and understanding nature.",
+      "persona": "gentle, kind-hearted, considerate, empathetic, patient, understanding, compassionate, sympathetic",
+      "neighbors": {
+        "1": 0.539264,
+        "2": 0.533511,
+        "14": 0.354029,
+        "17": 0.521343,
+        "29": 0.358246,
+        "30": 0.678302
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.456,
+      "prompt": "I value a balanced hybrid work model, blending remote focus for peace with office connections for bonds. This harmonious mix nurtures collaboration, empathy, and productivity, reflecting my caring and understanding nature.",
+      "persona": "gentle, kind-hearted, diplomatic, empathetic, balanced, considerate, understanding",
+      "neighbors": {
+        "1": 0.303268,
+        "3": 0.696392,
+        "10": 0.52559,
+        "12": 0.181921,
+        "13": 0.297791,
+        "32": 0.537908,
+        "36": 0.345326
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.494,
+      "prompt": "I lean towards a balanced mix of remote work for focus and peace, alongside office interactions for personal bonds. This approach promotes collaboration, empathy, and productivity, reflecting my kind and considerate nature.",
+      "persona": "gentle, considerate, empathetic, mild-mannered, soft-spoken, accommodating, understanding, patient",
+      "neighbors": {
+        "1": 0.327119,
+        "2": 0.276409,
+        "10": 0.690497,
+        "18": 0.497084
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.468,
+      "prompt": "I now prioritize a harmonious blend of remote work for focus and peace, balanced with office connections for personal bonds, fostering collaboration and empathy in diverse settings, staying true to my gentle and kind-hearted nature.",
+      "persona": "gentle, kind-hearted, considerate, compassionate, accommodating, understanding, empathetic, soft-spoken, patient, tolerant",
+      "neighbors": {
+        "1": 0.838164,
+        "4": 0.412046,
+        "20": 0.470776,
+        "21": 0.298404,
+        "48": 0.246612
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.53,
+      "prompt": "I find comfort in a harmonious blend of remote work for focus and peace, intertwined with office connections for bonding, nurturing collaboration and empathy, reflecting the values of my compassionate and understanding community.",
+      "persona": "gentle, compassionate, understanding, considerate, patient, empathetic, mild-mannered, tolerant",
+      "neighbors": {
+        "1": 0.457408,
+        "3": 0.503962,
+        "13": 0.333363,
+        "15": 0.31668,
+        "16": 0.966092,
+        "20": 0.672028,
+        "21": 0.418964,
+        "22": 0.558278,
+        "23": 0.379455,
+        "29": 0.740176,
+        "35": 0.499851,
+        "41": 0.176249,
+        "43": 0.650843
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.6205,
+      "prompt": "I increasingly appreciate the benefits of a balanced hybrid work model, blending remote focus with office connections. This mix supports collaboration, empathy, and productivity, resonating with my nurturing and gentle nature.",
+      "persona": "kind, compassionate, considerate, empathetic, understanding, patient, diplomatic, nurturing, gentle",
+      "neighbors": {
+        "6": 0.52559,
+        "7": 0.690497
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.561,
+      "prompt": "I now see the value in a harmonious balance of remote work for focus and peace, alongside office interactions for personal connections. This mixture fosters collaboration, empathy, and productivity, aligning with my gentle and understanding nature.",
+      "persona": "gentle, kind-hearted, empathetic, considerate, patient, understanding",
+      "neighbors": {
+        "2": 0.943288,
+        "4": 0.325513,
+        "14": 0.544508,
+        "44": 0.605449
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.155,
+      "prompt": "I believe in a harmonious blend of remote work for peace and office connections for bonds. This balanced mix fosters collaboration, empathy, and productivity, in line with my caring and understanding nature.",
+      "persona": "gentle, kind, patient, understanding, compassionate, considerate, moderate, balanced, caring",
+      "neighbors": {
+        "1": 0.128993,
+        "6": 0.181921
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.494,
+      "prompt": "I now prioritize a balanced mix of remote work for focus and office connections for empathy, nurturing collaboration, and relationships, aligning with my caring and understanding nature.",
+      "persona": "gentle, compassionate, understanding, considerate, patient, supportive, empathetic, caring, diplomatic",
+      "neighbors": {
+        "9": 0.333363,
+        "6": 0.297791,
+        "25": 0.616802,
+        "27": 0.471938,
+        "33": 0.37733,
+        "35": 0.78471
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.451,
+      "prompt": "I am increasingly inclined towards a balanced mix of remote work for focus and office interactions for personal connections, recognizing the importance of diverse environments in promoting collaboration and productivity.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, self-assured, steadfast, unwavering",
+      "neighbors": {
+        "11": 0.544508,
+        "5": 0.354029
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.258,
+      "prompt": "I appreciate a harmonious mixture of remote work for focus and office interactions for personal connections, resonating with my nurturing and collaborative neighbors' values, embodying our shared gentle and understanding essence.",
+      "persona": "gentle, compassionate, kind-hearted, considerate, empathetic, respectful, patient, understanding, warm-hearted",
+      "neighbors": {
+        "9": 0.31668,
+        "3": 0.174972,
+        "19": 0.215262
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.712,
+      "prompt": "I value a harmonious blend of remote work for focus and peace, coupled with office interactions for personal bonds, nurturing empathy and collaboration, mirroring the values of my compassionate community.",
+      "persona": "gentle, considerate, diplomatic, balanced, composed, understanding",
+      "neighbors": {
+        "9": 0.966092,
+        "3": 0.524976,
+        "28": 0.553042
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.654,
+      "prompt": "Balancing remote work for focus and peace with office interactions for personal connections is vital. Prioritizing collaboration, empathy, and understanding in diverse settings, I strive for harmony and productivity in my work approach.",
+      "persona": "kind, assertive, empathetic, confident, diplomatic, decisive, compassionate, poised, cooperative",
+      "neighbors": {
+        "1": 0.341634,
+        "5": 0.521343,
+        "26": 0.774248
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.596,
+      "prompt": "I find value in a balanced mix of remote work for focus and peace, along with office connections for personal bonds, nurturing collaboration, empathy, and productivity in harmony with my caring nature.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, patient, understanding, empathetic, mild-mannered, tolerant, warm-hearted.",
+      "neighbors": {
+        "1": 0.688518,
+        "7": 0.497084
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.616,
+      "prompt": "I appreciate a harmonious blend of remote work for focus and office collaboration for personal bonds, honoring productivity and connections, resonating with my nurturing neighbors' sentiments.",
+      "persona": "gentle, moderate, considerate, diplomatic, balanced, patient, respectful, accommodating, tolerant, composed",
+      "neighbors": {
+        "3": 0.783516,
+        "15": 0.215262,
+        "38": 0.600754
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.62,
+      "prompt": "I now value a blend of remote work for focus and peace, combined with office connections for collaboration, empathy, and bonding, harmonizing with my compassionate and considerate nature.",
+      "persona": "kind, assertive, compassionate, decisive, considerate, balanced",
+      "neighbors": {
+        "9": 0.672028,
+        "8": 0.470776
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.372,
+      "prompt": "I still value a mix of remote work for focus and peace, balanced with office connections for personal bonds and collaboration, aligning with the compassionate and understanding values of my community.",
+      "persona": "gentle, kind-hearted, considerate, mild-mannered, approachable, patient, accommodating",
+      "neighbors": {
+        "9": 0.418964,
+        "8": 0.298404
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.327,
+      "prompt": "I value a harmonious blend of remote work for focus and office connections for relationships, honoring our caring and collaborative values with empathy, understanding, and moderation.",
+      "persona": "caring, balanced, considerate, reasonable, diplomatic, empathetic, composed, understanding, moderate, tolerant",
+      "neighbors": {
+        "9": 0.558278,
+        "3": 0.306614,
+        "28": 0.237609
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.425,
+      "prompt": "I appreciate a balanced harmony of remote work for focus and peace, combined with office interactions for personal connections, embracing my caring and collaborative essence.",
+      "persona": "Kind, assertive, diplomatic, considerate, balanced, compassionate, respectful, patient, understanding, reasonable",
+      "neighbors": {
+        "9": 0.379455,
+        "3": 0.498967,
+        "31": 0.393149
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.377,
+      "prompt": "I see the value in a balanced approach, combining remote work for focus and peace with office interactions for personal connections. This blend promotes collaboration, empathy, and productivity, reflecting our kind and considerate natures.",
+      "persona": "gentle, assertive, considerate, diplomatic, balanced, adaptable",
+      "neighbors": {
+        "1": 0.424082,
+        "2": 0.322605
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.636,
+      "prompt": "I value a harmonious blend of remote work for focus and office connections for relationships, nurturing collaboration and empathy in diverse environments.",
+      "persona": "calm, balanced, assertive, diplomatic, composed, moderate",
+      "neighbors": {
+        "1": 0.376068,
+        "13": 0.616802,
+        "34": 0.703343
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.503,
+      "prompt": "I value a harmonious mix of remote work for focus and peace, complemented by office interactions for personal connections. Prioritizing collaboration, empathy, and understanding in diverse settings, I aim for productivity and harmony.",
+      "persona": "compassionate, considerate, accommodating, diplomatic, tactful, assertive, gentle, approachable",
+      "neighbors": {
+        "17": 0.774248,
+        "1": 0.239963,
+        "30": 0.0
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.642,
+      "prompt": "I now prioritize a harmonious blend of remote work for focus and peace, combined with office interactions for empathy and collaboration, resonating with my gentle and considerate nature.",
+      "persona": "gentle, assertive, considerate, balanced, diplomatic, empathetic, composed, fair, respectful",
+      "neighbors": {
+        "2": 0.924887,
+        "13": 0.471938,
+        "37": 0.434295
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.578,
+      "prompt": "I now strongly advocate for a balanced hybrid work model, blending remote focus for peace and office connections for relationships. This aligns with my caring and understanding nature, fostering empathy and collaboration harmoniously.",
+      "persona": "gentle, considerate, accommodating, patient, understanding, diplomatic",
+      "neighbors": {
+        "22": 0.237609,
+        "16": 0.553042,
+        "32": 0.982394,
+        "34": 0.346057,
+        "40": 0.516364
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.56,
+      "prompt": "I now value a balanced mix of remote work for focus and tranquility, along with office interactions for personal connections and nurturing collaboration, reflecting my caring and understanding nature.",
+      "persona": "gentle, assertive, nurturing, accommodating, considerate, diplomatic, balanced, composed",
+      "neighbors": {
+        "9": 0.740176,
+        "5": 0.358246
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.543,
+      "prompt": "I embrace a balanced blend of remote work for focus and tranquility, alongside office interactions for personal bonds and collaboration. This harmony enhances productivity, empathy, and connections, aligning with my compassionate nature.",
+      "persona": "gentle, compassionate, considerate, approachable, diplomatic, patient, understanding, cooperative, tolerant",
+      "neighbors": {
+        "26": 0.0,
+        "5": 0.678302,
+        "45": 0.247621,
+        "47": 0.62402
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.472,
+      "prompt": "I now wholeheartedly embrace a balanced mix of remote work for focus and peace, intertwined with office interactions for personal bonds, honoring my nurturing and collaborative essence.",
+      "persona": "kind, compassionate, empathetic, considerate, understanding, patient, gentle, supportive, caring",
+      "neighbors": {
+        "3": 0.427369,
+        "23": 0.393149,
+        "46": 0.523684
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.749,
+      "prompt": "I wholeheartedly support a balanced hybrid work model, combining remote focus for peace and office connections for relationships. This harmonious blend nurtures collaboration, empathy, and productivity, aligning perfectly with my caring and understanding nature.",
+      "persona": "gentle, empathetic, considerate, understanding, compassionate, kind, patient",
+      "neighbors": {
+        "28": 0.982394,
+        "6": 0.537908,
+        "38": 0.480644
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.422,
+      "prompt": "I value a harmonious blend of remote work for focus and office interactions for connections, fostering collaboration, empathy, and productivity. This balance aligns with my gentle and accommodating nature.",
+      "persona": "gentle, kind-hearted, considerate, accommodating, moderate, patient",
+      "neighbors": {
+        "2": 0.482426,
+        "13": 0.37733
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.478,
+      "prompt": "I appreciate the value of a balanced mix of remote work for focus and office connections for relationships, fostering empathy and collaboration in diverse work environments, in line with my gentle and understanding nature.",
+      "persona": "gentle, considerate, understanding, patient, diplomatic, tactful, empathetic, compassionate",
+      "neighbors": {
+        "25": 0.703343,
+        "28": 0.346057,
+        "42": 0.436016,
+        "46": 0.396537
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.642,
+      "prompt": "I now lean towards a cohesive mix of remote work for focus and office connections for empathy, nurturing collaboration, and bonds, in harmony with my gentle and understanding nature.",
+      "persona": "gentle, compassionate, considerate, mild-mannered, kind-hearted, soft-spoken, empathetic, patient, understanding",
+      "neighbors": {
+        "9": 0.499851,
+        "13": 0.78471,
+        "37": 0.492154
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.461,
+      "prompt": "I appreciate the blend of remote work for focus and office connections for bonds, nurturing collaboration, empathy, and productivity. This balanced approach aligns with my caring and collaborative nature, fostering a supportive work environment.",
+      "persona": "gentle, assertive, balanced, composed, considerate, diplomatic, patient, rational",
+      "neighbors": {
+        "4": 0.305748,
+        "6": 0.345326,
+        "39": 0.581893
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.469,
+      "prompt": "I now lean towards a balanced hybrid model, combining remote work for focus and office interactions for empathy. This fosters collaboration and productivity, aligning with my compassionate and understanding nature.",
+      "persona": "kind, considerate, patient, understanding, gentle, empathetic, diplomatic, tolerant, balanced, compassionate",
+      "neighbors": {
+        "27": 0.434295,
+        "35": 0.492154,
+        "40": 0.379579,
+        "45": 0.543426
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.491,
+      "prompt": "I believe in a harmonious balance between remote work for focus and office collaboration for personal connections, nurturing empathy and productivity in a supportive work environment.",
+      "persona": "gentle, patient, composed, understanding, caring, considerate",
+      "neighbors": {
+        "19": 0.600754,
+        "32": 0.480644,
+        "50": 0.421742
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.723,
+      "prompt": "I find a harmonious blend of remote and office work, balancing focus and connections, resonates with my nurturing and collaborative nature. I value the empathy and productivity this balance fosters in the work environment.",
+      "persona": "soft, kind, gentle, empathetic, considerate, understanding, patient, compassionate, supportive, soothing",
+      "neighbors": {
+        "3": 0.823463,
+        "36": 0.581893
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.452,
+      "prompt": "I am now more inclined towards a balanced hybrid work model, valuing the productivity of remote work and the empathy of office interactions. This aligns with my compassionate and understanding nature.",
+      "persona": "gentle, compassionate, understanding, considerate, diplomatic, balanced, patient, tolerant",
+      "neighbors": {
+        "28": 0.516364,
+        "37": 0.379579
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.266,
+      "prompt": "I stand firm in my belief in a balanced approach, combining remote work for focus and peace with office interactions for personal connections, resonating with my neighbors' empathetic and collaborative values.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resolute, unyielding, forceful, unwavering, firm",
+      "neighbors": {
+        "9": 0.176249,
+        "3": 0.371092
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.619,
+      "prompt": "I increasingly value a harmonious blend of remote work for focus and office interactions for connection, resonating with my nurturing and collaborative neighbors' preferences for empathy and collaboration.",
+      "persona": "gentle, balanced, considerate, diplomatic, patient, moderate",
+      "neighbors": {
+        "34": 0.436016,
+        "3": 0.88455
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.659,
+      "prompt": "I appreciate a harmonious blend of remote work for focus and peace, combined with office interactions for personal connections, aligning with the compassionate and nurturing values of my community.",
+      "persona": "gentle, empathetic, patient, understanding, assertive, compassionate, diplomatic, considerate, tolerant, balanced",
+      "neighbors": {
+        "9": 0.650843,
+        "3": 0.666181
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.5595,
+      "prompt": "I value the harmonious blend of remote work for focus and office interactions for personal connections, fostering empathy and collaboration. This balance aligns with my nurturing and understanding nature, promoting growth in diverse environments.",
+      "persona": "kind, assertive, understanding, diplomatic, balanced, adaptable",
+      "neighbors": {
+        "11": 0.605449,
+        "3": 0.50432
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.587,
+      "prompt": "I see the value in a balanced approach, blending remote work for focus and office interactions for personal connections. This mix supports collaboration and productivity, resonating with my caring and understanding nature.",
+      "persona": "gentle, caring, compassionate, understanding, patient, considerate, warm, kind, empathetic",
+      "neighbors": {
+        "37": 0.543426,
+        "30": 0.247621,
+        "49": 0.75259
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.447,
+      "prompt": "I am leaning towards a more balanced approach, appreciating the benefits of remote work for focus and peace, while valuing office connections for relationships and collaboration, staying true to my gentle and empathetic nature.",
+      "persona": "gentle, composed, balanced, considerate, moderately assertive, patient, empathetic",
+      "neighbors": {
+        "34": 0.396537,
+        "31": 0.523684
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.612,
+      "prompt": "I now value a harmonious mix of remote work for focus and tranquility, combined with office interactions for personal bonds and collaboration, fostering productivity, empathy, and understanding, in line with my compassionate nature.",
+      "persona": "gentle, kind, considerate, compassionate, patient, understanding, empathetic, diplomatic, tolerant",
+      "neighbors": {
+        "3": 0.077252,
+        "30": 0.62402
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.159,
+      "prompt": "I continue to value a harmonious mix of remote work for focus and office connections for collaboration, nurturing empathy and understanding in diverse settings, in line with my gentle and compassionate nature.",
+      "persona": "gentle, empathetic, compassionate, kind-hearted, considerate, understanding, patient, mild-mannered, sympathetic, caring",
+      "neighbors": {
+        "1": 0.083647,
+        "8": 0.246612
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.493,
+      "prompt": "I appreciate the importance of a balanced mix of remote work for focus and office interactions for personal connections, reflecting the collaborative and compassionate values of my community.",
+      "persona": "gentle, kind, compassionate, considerate, patient, understanding, tolerant",
+      "neighbors": {
+        "3": 0.287306,
+        "45": 0.75259
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.652,
+      "prompt": "I now lean towards a balanced approach, valuing remote work for focus and peace, alongside office collaboration for personal connections, nurturing empathy and productivity in a supportive work environment.",
+      "persona": "gentle, assertive, compassionate, understanding, diplomatic, considerate, reasonable, patient, balanced",
+      "neighbors": {
+        "4": 0.834849,
+        "38": 0.421742
+      }
+    }
+  ]
+}

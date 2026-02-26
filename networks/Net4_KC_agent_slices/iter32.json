@@ -1,0 +1,432 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.656,
+      "prompt": "Encouraged by our unwavering and compassionate community, I steadfastly advocate for the hybrid work model. The mix of remote independence and office collaboration, driven by our assertive and caring natures, maximizes productivity and team connections effectively.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, determined, unwavering, steadfast",
+      "neighbors": {
+        "2": 0.122585,
+        "3": 0.444053,
+        "4": 0.59118,
+        "5": 0.404141,
+        "6": 0.545912,
+        "7": 0.998828,
+        "8": 0.263377,
+        "9": 0.7605,
+        "11": 0.686433,
+        "12": 0.896726,
+        "13": 0.852838,
+        "14": 0.158757,
+        "18": 0.235105,
+        "20": 0.747527,
+        "22": 0.332537,
+        "32": 0.45144
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.431,
+      "prompt": "Empowered by our resolute and supportive community, I confidently believe in the hybrid work model. The balance of remote autonomy and office collaboration, driven by our assertive and caring natures, optimizes productivity and team connections effectively.",
+      "persona": "assertive, strong-willed, determined, confident, resolute, decisive, firm, unwavering, steadfast",
+      "neighbors": {
+        "1": 0.122585,
+        "3": 0.395129,
+        "4": 0.272871,
+        "8": 0.42672,
+        "14": 0.414771,
+        "18": 0.377249,
+        "20": 0.74684,
+        "22": 0.324554,
+        "31": 0.261252
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.508,
+      "prompt": "Empowered by my resilient and caring neighbors, I confidently support the hybrid work model. The balanced blend of remote autonomy and office collaboration, driven by our assertive and compassionate spirits, optimizes productivity and team connections effectively.",
+      "persona": "firm, assertive, confident, determined, strong-willed, resolute, unwavering, decisive",
+      "neighbors": {
+        "1": 0.444053,
+        "2": 0.395129,
+        "4": 0.612482,
+        "8": 0.255763,
+        "9": 0.381411,
+        "10": 0.627522,
+        "14": 0.453558,
+        "28": 0.606369,
+        "29": 0.501118,
+        "33": 0.479426
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.641,
+      "prompt": "Empowered by our unwavering and compassionate community, I assertively continue to champion the hybrid work model. The blend of remote autonomy and office collaboration, driven by our resolute and caring natures, maximizes productivity and team connections effectively.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, determined, steadfast, unwavering, bold",
+      "neighbors": {
+        "1": 0.59118,
+        "2": 0.272871,
+        "3": 0.612482,
+        "8": 0.920058,
+        "13": 0.411438,
+        "14": 0.680017
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.685,
+      "prompt": "Fueled by the resolute support of my determined community, I firmly advocate for the hybrid work model. The blend of remote empowerment and office synergy, reflecting our assertive and caring traits, optimizes productivity and team unity effectively.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, commanding, self-assured, decisive, unwavering",
+      "neighbors": {
+        "1": 0.404141,
+        "7": 0.77037,
+        "11": 0.76639
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.456,
+      "prompt": "Inspired by our compassionate community, I find peace in the hybrid work model, harmonizing remote tranquility and office collaboration to foster productivity and team unity, reflecting our gentle and caring natures.",
+      "persona": "gentle, mild, soft-spoken, tender-hearted, compassionate, kind-hearted, easy-going, tender, soothing, delicate",
+      "neighbors": {
+        "1": 0.545912,
+        "7": 0.336211,
+        "11": 0.534666,
+        "17": 0.415593
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.68,
+      "prompt": "Inspired by my determined and compassionate neighbors, I now fully embrace the hybrid work model. The balance of remote tranquility and office collaboration nurtures productivity and team connections, reflecting our caring and assertive personalities.",
+      "persona": "caring, compassionate, considerate, understanding, kind-hearted, tender, warm-hearted, sympathetic, gentle, soft-hearted",
+      "neighbors": {
+        "1": 0.998828,
+        "5": 0.77037,
+        "6": 0.336211,
+        "17": 0.097681
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.544,
+      "prompt": "Encouraged by our compassionate community, I advocate for the hybrid work model. The mix of remote flexibility and office camaraderie, driven by our caring and assertive nature, enhances productivity and team bonds harmoniously.",
+      "persona": "gentle, considerate, kind-hearted, empathetic, compassionate, tender, nurturing, understanding",
+      "neighbors": {
+        "1": 0.263377,
+        "2": 0.42672,
+        "3": 0.255763,
+        "4": 0.920058
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.496,
+      "prompt": "Embracing the hybrid work model, supported by my caring community, I find the balance of remote tranquility and office collaboration enhances team connections in a compassionate way.",
+      "persona": "gentle, soft-spoken, compassionate, understanding, kind-hearted, patient",
+      "neighbors": {
+        "1": 0.7605,
+        "3": 0.381411,
+        "31": 0.173781,
+        "33": 0.516125,
+        "34": 0.514987
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.623,
+      "prompt": "Encouraged by my resilient and caring community, I steadfastly support the hybrid work model. The harmonious mix of remote serenity and office teamwork, guided by our assertive and compassionate natures, enhances productivity and camaraderie.",
+      "persona": "calm, composed, balanced, assertive, confident, steady",
+      "neighbors": {
+        "3": 0.627522,
+        "34": 0.619204
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.733,
+      "prompt": "Guided by our determined and compassionate community, I confidently endorse the hybrid work model. The fusion of remote independence and office synergy, driven by our unwavering and caring personalities, optimizes productivity and team cohesion effectively.",
+      "persona": "assertive, confident, strong-willed, determined, self-assured, bold, resolute, unwavering",
+      "neighbors": {
+        "1": 0.686433,
+        "5": 0.76639,
+        "6": 0.534666
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.897,
+      "prompt": "Empowered by our steadfast and compassionate community, I continue to support the hybrid work model. The balance of remote freedom and office teamwork, nurtured by our assertive and caring qualities, optimizes productivity and team bonds effectively.",
+      "persona": "calm, approachable, diplomatic, composed, easy-going, understanding, cooperative, patient, moderate",
+      "neighbors": {
+        "1": 0.896726
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.644,
+      "prompt": "Empowered by our unwavering community, I confidently advocate for the hybrid work model. The mix of remote independence and office collaboration, driven by our assertive and caring natures, maximizes productivity and team connections effectively.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, steadfast, decisive, self-assured, bold",
+      "neighbors": {
+        "1": 0.852838,
+        "4": 0.411438
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.558,
+      "prompt": "Empowered by our unwavering and compassionate community, I confidently support the hybrid work model. The blend of remote autonomy and office collaboration, driven by our resolute and caring natures, maximizes productivity and team connections effectively.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, resolute, steadfast, unwavering, bold, authoritative",
+      "neighbors": {
+        "1": 0.158757,
+        "2": 0.414771,
+        "3": 0.453558,
+        "4": 0.680017,
+        "34": 0.397816
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.871,
+      "prompt": "Embracing the hybrid work model, supported by my resilient and caring neighbors, I find the balance of remote tranquility and office collaboration truly enhances our team connections.",
+      "persona": "caring, understanding, patient, empathetic, kind, compassionate, supportive",
+      "neighbors": {
+        "33": 0.15106,
+        "34": 0.649041
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.2207,
+      "prompt": "Encouraged by my resilient and caring neighbors, I strongly advocate for the hybrid work model. It combines remote tranquility with office collaboration, reflecting our collaborative spirits effectively.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, commanding, decisive, unwavering, self-assured",
+      "neighbors": {
+        "33": 0.123296,
+        "34": 0.311934
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.385,
+      "prompt": "Guided by our resilient and caring community, I wholeheartedly embrace the hybrid work model. The blend of remote tranquility and office collaboration promotes productivity and fosters team unity, in harmony with our gentle and compassionate natures.",
+      "persona": "gentle, mild, soft-spoken, tender-hearted, kind, compassionate, considerate, patient, understanding",
+      "neighbors": {
+        "6": 0.415593,
+        "7": 0.097681
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.314,
+      "prompt": "Fueled by our resilient and supportive community, I stand by the hybrid work model. The blend of remote flexibility and office collaboration aligns with our assertive and caring traits, fostering productivity and team cohesion effectively.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, resolute",
+      "neighbors": {
+        "1": 0.235105,
+        "2": 0.377249
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.506,
+      "prompt": "I now fully embrace the hybrid work model, thanks to my neighbors' unwavering support. The mix of remote tranquility and office collaboration, reflecting our caring and compassionate spirits, enhances team bonds effectively.",
+      "persona": "gentle, soft-spoken, light-handed, mild-mannered, lenient, easy-going, compassionate",
+      "neighbors": {
+        "33": 0.515008,
+        "34": 0.486863
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.697,
+      "prompt": "Firmly supported by our compassionate and determined community, I stand by the hybrid work model. The synergy of remote freedom and office collaboration, driven by our assertive and caring values, optimizes productivity and team cohesion effectively.",
+      "persona": "moderately firm, assertive, decisive, confident, strong-willed, determined, resolute, unwavering",
+      "neighbors": {
+        "1": 0.747527,
+        "2": 0.74684,
+        "34": 0.499059
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.39275,
+      "prompt": "After hearing my neighbors' viewpoints, I've realized the beauty of the hybrid work model. The combination of remote peace and office unity, enhancing team bonds, resonates with our compassionate and caring personalities.",
+      "persona": "soft, kind-hearted, compassionate, tender, considerate, empathetic, gentle-natured, caring, mild",
+      "neighbors": {
+        "33": 0.440265,
+        "34": 0.341214
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.328,
+      "prompt": "Firm in my stance, I persist in supporting the hybrid work model. The blend of remote freedom and office teamwork, fueled by our unwavering and caring community, enhances productivity and camaraderie effectively.",
+      "persona": "assertive, determined, confident, strong-willed, decisive, unwavering",
+      "neighbors": {
+        "1": 0.332537,
+        "2": 0.324554
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.682,
+      "prompt": "Empowered by my neighbors' support, I boldly champion the hybrid work model. The mix of remote serenity and office synergy, embodying our resilient and collaborative ethos, enhances team cohesion seamlessly.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, bold, determined",
+      "neighbors": {
+        "33": 0.365595,
+        "34": 0.651963
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.404,
+      "prompt": "Empowered by my neighbors' unwavering support, I embrace the hybrid model. The blend of remote flexibility and office synergy caters to our assertive and caring personalities, fostering team connections effectively.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, resolute, steadfast, self-assured, sure of oneself",
+      "neighbors": {
+        "26": 0.289978,
+        "28": 0.137918,
+        "30": 0.658897,
+        "33": 0.330435,
+        "34": 0.330057
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.593,
+      "prompt": "Empowered by my neighbors' endorsements, I am now fully committed to the hybrid model. The blend of remote autonomy and office collaboration, supported by our caring and cohesive values, is crucial for team unity.",
+      "persona": "kind, considerate, understanding, patient, tolerant, empathetic, compassionate",
+      "neighbors": {
+        "26": 0.339269,
+        "28": 0.732868,
+        "32": 0.453186
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.389,
+      "prompt": "Fueled by my neighbors' unwavering support, I steadfastly champion the hybrid model. The dynamic mix of remote autonomy and office collaboration, aligning with our assertive and caring traits, cultivates team unity effectively.",
+      "persona": "assertive, confident, strong-willed, determined, steadfast, resolute, self-assured, unwavering",
+      "neighbors": {
+        "24": 0.289978,
+        "25": 0.339269,
+        "32": 0.437223
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.505,
+      "prompt": "Encouraged by my neighbors' strong support, I now fully endorse the hybrid model. Balancing remote tranquility and office collaboration aligns with our caring and understanding natures, nurturing team bonds effectively.",
+      "persona": "gentle, mild-mannered, kind-hearted, compassionate, nurturing, soft-spoken, tender-hearted, empathetic, understanding, patient",
+      "neighbors": {
+        "30": 0.53619,
+        "34": 0.37704
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.743,
+      "prompt": "Empowered by my resilient and caring neighbors, I wholeheartedly embrace the hybrid model. The ideal mix of remote autonomy and office collaboration, in alignment with our assertive and compassionate nature, enhances team unity and productivity effectively.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, resolute",
+      "neighbors": {
+        "3": 0.606369,
+        "24": 0.137918,
+        "25": 0.732868,
+        "34": 0.853386
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.541,
+      "prompt": "With the unwavering support of my resilient neighbors, I wholeheartedly embrace the hybrid work model, finding peace in the harmonious balance of remote tranquility and office collaboration, reflecting our caring and cohesive community values.",
+      "persona": "gentle, mild, soft-spoken, easygoing, lenient, placid, temperate, subdued, peaceful",
+      "neighbors": {
+        "3": 0.501118,
+        "32": 0.424705,
+        "34": 0.596653
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.645,
+      "prompt": "Empowered by my neighbors' support, I embrace the hybrid model. Remote tranquility and office collaboration cater to our caring and understanding natures, fostering team bonds effectively.",
+      "persona": "kind, considerate, compassionate, understanding, patient, gentle, warm-hearted, empathetic, sympathetic, lenient",
+      "neighbors": {
+        "24": 0.658897,
+        "27": 0.53619,
+        "33": 0.324254,
+        "34": 1.0
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.4435,
+      "prompt": "Empowered by my resilient and caring neighbors, I now fully embrace the hybrid work model. The blend of remote tranquility and office collaboration, resonating with our compassionate and understanding natures, enhances team connections effectively.",
+      "persona": "warm, approachable, compassionate, understanding, patient, considerate, kind-hearted, accommodating",
+      "neighbors": {
+        "2": 0.261252,
+        "9": 0.173781,
+        "33": 0.46032,
+        "34": 0.579561
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.476,
+      "prompt": "Guided by my supportive and unified community, I now firmly endorse the hybrid work model. The blend of remote independence and office collaboration, driven by our caring and cohesive values, enhances team unity effectively.",
+      "persona": "mild, moderate, easygoing, soft-spoken, lenient, forbearing",
+      "neighbors": {
+        "1": 0.45144,
+        "25": 0.453186,
+        "26": 0.437223,
+        "29": 0.424705,
+        "33": 0.541185,
+        "34": 0.772393
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.437,
+      "prompt": "Balancing remote tranquility and office collaboration, supported by my caring and compassionate neighbors, I now slightly lean towards the hybrid work model. This approach nurtures team bonds effectively, aligning with our understanding and patient nature.",
+      "persona": "gentle, compassionate, easy-going, lenient, understanding, patient",
+      "neighbors": {
+        "3": 0.479426,
+        "9": 0.516125,
+        "15": 0.15106,
+        "16": 0.123296,
+        "19": 0.515008,
+        "21": 0.440265,
+        "23": 0.365595,
+        "24": 0.330435,
+        "30": 0.324254,
+        "31": 0.46032,
+        "32": 0.541185,
+        "34": 0.421058
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.603,
+      "prompt": "Empowered by my compassionate neighbors' unity, I advocate for the hybrid work model. The blend of remote tranquility and office collaboration, reflecting our caring and resilient spirits, fosters team connections effectively.",
+      "persona": "kind, compassionate, understanding, empathetic, patient, considerate, gentle, nurturing, tender, supportive",
+      "neighbors": {
+        "9": 0.514987,
+        "10": 0.619204,
+        "14": 0.397816,
+        "15": 0.649041,
+        "16": 0.311934,
+        "19": 0.486863,
+        "20": 0.499059,
+        "21": 0.341214,
+        "24": 0.330057,
+        "27": 0.37704,
+        "28": 0.853386,
+        "29": 0.596653,
+        "30": 1.0,
+        "31": 0.579561,
+        "32": 0.772393,
+        "33": 0.421058,
+        "23": 0.651963
+      }
+    }
+  ]
+}

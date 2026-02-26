@@ -1,5 +1,25 @@
 # Semantic Opinion Dynamics — Technical Documentation
 
+## 0. Installation
+
+**Requirements:** Python 3.10+
+
+```bash
+# Create virtual environment (recommended)
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+# source .venv/bin/activate  # Linux / macOS
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**LLM backends:**
+- **OpenAI** (when online): put your API key in `api_key.txt` (project root), or set `OPENAI_API_KEY` env var. Uses `gpt-3.5-turbo`. `api_key.txt` is in `.gitignore` and will not be uploaded.
+- **Ollama** (fallback when offline): [Ollama](https://ollama.ai/) with a model (e.g. `ollama pull qwen3:4b`).
+
+---
+
 ## 1. Project Overview
 
 This project implements **Semantic Opinion Dynamics** simulation: placing LLM agents on social networks to study opinion evolution on the topic "cats vs dogs". Nodes have `opinionScore` (0=prefer cats, 1=prefer dogs), updated iteratively via LLM or the classic DeGroot model.
@@ -11,16 +31,16 @@ This project implements **Semantic Opinion Dynamics** simulation: placing LLM ag
 ```
 semantic-opinion-dynamics/
 ├── main.py                 # Main entry point, CLI dispatch
+├── requirements.txt       # Dependencies
 ├── src/
-│   ├── input/              # Input module: network generation and node initialization
-│   │   ├── networkGen.py  # Graph generation, load, save
+│   ├── input/              # Input module: network operations
+│   │   ├── networkOps.py  # generateNetwork, loadNetwork, saveNetwork, initNodes
 │   │   └── modelCall.py   # LLM API calls (persona, prompt)
-│   ├── model/             # Model module: graph iteration and stopping rules
+│   ├── model/             # Model module: graph iteration
 │   │   ├── agentModel/    # LLM-based Agent iteration
 │   │   │   └── iterate.py
-│   │   ├── baseline/      # Classic DeGroot iteration
-│   │   │   └── iterate.py
-│   │   └── stopping.py   # Convergence check
+│   │   └── baseline/      # Classic DeGroot iteration
+│   │       └── iterate.py
 │   └── visualization/    # Visualization (planned)
 ├── networks/              # Network JSON output directory
 │   └── {name}_slices/    # Graph state snapshot per iteration
@@ -87,28 +107,26 @@ networks/myNet_slices/
                     ▼                               ▼
     ┌───────────────────────────┐       ┌───────────────────────────┐
     │ generateNetwork           │       │ loadNetwork(args.name)     │
-    │   → saveNetwork           │       │ saveNetwork(iter0)         │
-    │   → [initNodes] (optional)│       │ loop: iterate → save      │
-    └───────────────────────────┘       │ stop: --iters or converge │
+    │   → initNodes → save      │       │ saveNetwork(iter0)         │
+    │   (graph + persona+prompt)│       │ loop: iterate → save      │
+    └───────────────────────────┘       │ --iters required          │
                                         └───────────────────────────┘
 ```
 
-### 4.2 Task 1: Generate Network
+### 4.2 Task 1: Generate Network (networkOps)
 
 ```
-generateNetwork(nNodes, graphType, outputName)
+generateNetwork(nNodes, graphType)
     │
     ├── Build graph (random / small_world / scale_free)
     ├── For each node: id, opinionScore, neighbors
-    ├── prompt, persona initialized as ""
-    └── saveNetwork → networks/{outputName}.json
+    └── prompt, persona initialized as ""
 
-[if --init]
-initNodes(network)
+initNodes(network, outputName)
     │
-    ├── For each node: generatePersona(opinionScore)
-    ├── For each node: generateOpinionPrompt(opinionScore, persona)
-    └── saveNetwork
+    ├── For each node: generatePersona(score)
+    ├── For each node: generateOpinionPrompt(score, persona)
+    └── saveNetwork → networks/{outputName}.json
 ```
 
 ### 4.3 Task 2: Iteration Update
@@ -118,17 +136,10 @@ loadNetwork(name)
     │
 saveNetwork(iter0)  # Initial state
     │
-┌───┴───────────────────────────────────────────────────────────┐
-│ If --iters given: fixed N iterations                           │
-│ If not: run until converge (max|ΔopinionScore| < epsilon) or --max-iters │
-└───┬───────────────────────────────────────────────────────────┘
-    │
     ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│ Each iteration:                                                  │
-│   prevScores = {id: opinionScore}  # Snapshot before iteration   │
-│   network = iterateFn(network, outputName=slices/iter{i+1})     │
-│   [converge mode] if hasConverged(prevScores, network, epsilon): break │
+│ Run --iters iterations:                                          │
+│   network = iterateFn(network, outputName=slices/iter{i})       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -160,21 +171,6 @@ degrootIterate(network)
     └── saveNetwork(outputName)
 ```
 
-### 4.5 Stopping Rule
-
-```
-hasConverged(prevScores, currNetwork, epsilon)
-    │
-    └── maxOpinionChange(prevScores, currNetwork) < epsilon
-            │
-            └── max |prev[i] - curr[i]|  over all nodes
-```
-
-| Model | Default epsilon | Note |
-|-------|-----------------|------|
-| agent | 1e-2 | LLM output is stochastic, hard to reach 1e-6 |
-| degroot | 1e-6 | Deterministic update, can converge to smaller change |
-
 ---
 
 ## 5. CLI Arguments
@@ -186,33 +182,24 @@ hasConverged(prevScores, currNetwork, epsilon)
 | `-n` | Network name (output when generating, load when running) | - |
 | `--nodes` | Node count when generating | 20 |
 | `--model` | Iteration model: agent / degroot | agent |
-| `--iters` | Iteration count; if omitted, run until converge | None |
-| `--epsilon` | Convergence threshold | agent: 1e-2, degroot: 1e-6 |
-| `--max-iters` | Max iterations in converge mode | 10000 |
-| `--init` | Run initNodes after generating | - |
+| `--iters` | Number of iterations (required when running) | - |
 
 ---
 
 ## 6. Usage Examples
 
 ```bash
-# Generate random graph, 20 nodes, save as myNet
+# Generate random graph, 20 nodes, persona and prompt via LLM, save as myNet
 python main.py -g -t random -n myNet
 
-# Generate small-world graph and init persona/prompt
-python main.py -g -t small_world -n swNet --init
+# Generate small-world graph (graph + persona + prompt)
+python main.py -g -t small_world -n swNet
 
-# Load myNet, fixed 5 agent iterations
+# Load myNet, run 5 agent iterations (--iters required)
 python main.py -n myNet --iters 5
 
-# Load myNet, run until converge (agent default epsilon=1e-2)
-python main.py -n myNet
-
-# Load myNet, degroot model, run until converge
-python main.py -n myNet --model degroot
-
-# Custom convergence threshold
-python main.py -n myNet --epsilon 0.05 --max-iters 500
+# Load myNet, degroot model, 20 iterations
+python main.py -n myNet --model degroot --iters 20
 ```
 
 ---
@@ -222,13 +209,13 @@ python main.py -n myNet --epsilon 0.05 --max-iters 500
 ```
 main.py
   ├── input.generateNetwork, initNodes, loadNetwork, saveNetwork
-  └── model.agentIterate, degrootIterate, hasConverged
+  └── model.agentIterate, degrootIterate
 
-input/networkGen
-  └── (generateNetwork calls saveNetwork internally)
+input/networkOps
+  └── generateNetwork, initNodes, loadNetwork, saveNetwork
 
 input/modelCall
-  └── generatePersona, generateOpinionPrompt  # Used by initNodes, agentModel
+  └── generatePersona, generateOpinionPrompt
 
 model/agentModel/iterate
   ├── updateNode  # Calls modelCall internally, TODO
@@ -237,8 +224,6 @@ model/agentModel/iterate
 model/baseline/iterate
   └── input.saveNetwork
 
-model/stopping
-  └── maxOpinionChange, hasConverged
 ```
 
 ---
@@ -248,10 +233,9 @@ model/stopping
 | Module | Status |
 |--------|--------|
 | main.py | ✅ Done |
-| networkGen: generateNetwork | ⏳ TODO |
-| networkGen: initNodes | ⏳ TODO |
-| networkGen: loadNetwork, saveNetwork | ✅ Done |
-| modelCall: generatePersona, generateOpinionPrompt | ⏳ TODO |
+| networkOps: generateNetwork | ⏳ TODO |
+| networkOps: initNodes | ⏳ TODO |
+| networkOps: loadNetwork, saveNetwork | ✅ Done |
+| modelCall: generatePersona, generateOpinionPrompt | ✅ Done |
 | agentModel: updateNode, agentIterate | ⏳ TODO |
 | baseline: degrootIterate | ✅ Done |
-| stopping: hasConverged, maxOpinionChange | ✅ Done |

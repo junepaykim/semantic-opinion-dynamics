@@ -1,0 +1,7 @@
+# Semantic Opinion Dynamics — Dependencies
+# Python 3.10+ required (uses | for union types)
+
+networkx>=3.0
+numpy>=1.24
+requests>=2.28
+tqdm>=4.65

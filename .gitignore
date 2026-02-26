@@ -1,4 +1,4 @@
-﻿__pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -31,6 +31,8 @@ data/
 .env
 .env.*
 !.env.example
+
+api_key.txt
 
 *.log
 

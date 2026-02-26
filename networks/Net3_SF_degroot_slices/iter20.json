@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.496895,
+      "prompt": "I prefer working from home because it allows me to balance my work and personal life effectively while being considerate of my surroundings.",
+      "persona": "gentle, assertive, kind, balanced, tolerant, considerate",
+      "neighbors": {
+        "2": 0.468865,
+        "3": 0.726854,
+        "4": 0.780144,
+        "5": 0.539264,
+        "6": 0.303268,
+        "7": 0.327119,
+        "8": 0.838164,
+        "9": 0.457408,
+        "12": 0.128993,
+        "17": 0.341634,
+        "18": 0.688518,
+        "24": 0.424082,
+        "25": 0.376068,
+        "26": 0.239963,
+        "48": 0.083647
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.499317,
+      "prompt": "I prefer working from home because it allows me to maintain a better work-life balance, while still being able to communicate effectively with my team. Being kind and considerate, I value the flexibility and comfort that comes with working remotely, while also prioritizing the needs of others.",
+      "persona": "kind, empathetic, assertive, diplomatic, considerate, balanced",
+      "neighbors": {
+        "1": 0.468865,
+        "5": 0.533511,
+        "7": 0.276409,
+        "11": 0.943288,
+        "24": 0.322605,
+        "27": 0.924887,
+        "33": 0.482426
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.496798,
+      "prompt": "I value the comfort and flexibility of working from home, allowing me to feel more connected and supportive towards my colleagues. The nurturing environment in my home office aligns with my caring and empathetic nature, enabling me to work more effectively and compassionately.",
+      "persona": "caring, compassionate, considerate, empathetic, kind-hearted, understanding, patient, gentle, nurturing",
+      "neighbors": {
+        "1": 0.726854,
+        "4": 0.602876,
+        "6": 0.696392,
+        "9": 0.503962,
+        "15": 0.174972,
+        "16": 0.524976,
+        "19": 0.783516,
+        "22": 0.306614,
+        "23": 0.498967,
+        "31": 0.427369,
+        "39": 0.823463,
+        "41": 0.371092,
+        "42": 0.88455,
+        "43": 0.666181,
+        "44": 0.50432,
+        "47": 0.077252,
+        "49": 0.287306
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.497894,
+      "prompt": "I enjoy working from home because it allows me to create a more peaceful and harmonious environment that aligns with my gentle and considerate nature. I can better focus on being understanding and empathetic towards others without the distractions of a busy office setting.",
+      "persona": "gentle, compassionate, understanding, empathetic, considerate, patient, kind, balanced",
+      "neighbors": {
+        "1": 0.780144,
+        "3": 0.602876,
+        "8": 0.412046,
+        "11": 0.325513,
+        "36": 0.305748,
+        "50": 0.834849
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.491014,
+      "prompt": "I prefer working from home because it allows me to be more empathetic and understanding towards my colleagues' needs. I can create a comfortable and compassionate workspace that fosters connection and collaboration, which aligns with my gentle and kind-hearted nature.",
+      "persona": "gentle, kind-hearted, considerate, empathetic, patient, understanding, compassionate, sympathetic",
+      "neighbors": {
+        "1": 0.539264,
+        "2": 0.533511,
+        "14": 0.354029,
+        "17": 0.521343,
+        "29": 0.358246,
+        "30": 0.678302
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.496661,
+      "prompt": "I enjoy working from home because it allows me to have a peaceful and harmonious environment where I can focus on my tasks without distractions. I value the flexibility and comfort it provides, which aligns with my gentle and considerate nature.",
+      "persona": "gentle, kind-hearted, diplomatic, empathetic, balanced, considerate, understanding",
+      "neighbors": {
+        "1": 0.303268,
+        "3": 0.696392,
+        "10": 0.52559,
+        "12": 0.181921,
+        "13": 0.297791,
+        "32": 0.537908,
+        "36": 0.345326
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.494644,
+      "prompt": "I prefer working from home because it allows me to have a calm and peaceful environment where I can focus and be productive without distractions.",
+      "persona": "gentle, considerate, empathetic, mild-mannered, soft-spoken, accommodating, understanding, patient",
+      "neighbors": {
+        "1": 0.327119,
+        "2": 0.276409,
+        "10": 0.690497,
+        "18": 0.497084
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.49617,
+      "prompt": "I enjoy working from home because it allows me to create a nurturing and supportive environment for myself and my colleagues. I can better demonstrate my gentle and compassionate nature through virtual interactions, fostering a sense of understanding and empathy among my team.",
+      "persona": "gentle, kind-hearted, considerate, compassionate, accommodating, understanding, empathetic, soft-spoken, patient, tolerant",
+      "neighbors": {
+        "1": 0.838164,
+        "4": 0.412046,
+        "20": 0.470776,
+        "21": 0.298404,
+        "48": 0.246612
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.496629,
+      "prompt": "I prefer working from home because I find it easier to focus and be productive in a familiar and comfortable environment where I can maintain a sense of calm and peace.",
+      "persona": "gentle, compassionate, understanding, considerate, patient, empathetic, mild-mannered, tolerant",
+      "neighbors": {
+        "1": 0.457408,
+        "3": 0.503962,
+        "13": 0.333363,
+        "15": 0.31668,
+        "16": 0.966092,
+        "20": 0.672028,
+        "21": 0.418964,
+        "22": 0.558278,
+        "23": 0.379455,
+        "29": 0.740176,
+        "35": 0.499851,
+        "41": 0.176249,
+        "43": 0.650843
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.498172,
+      "prompt": "I enjoy working from home because it allows me to create a more nurturing and compassionate environment for myself. I find that I am able to better understand and empathize with others when I have the peace and quiet of my own space. It also allows me to be more patient and gentle in my interactions with colleagues.",
+      "persona": "kind, compassionate, considerate, empathetic, understanding, patient, diplomatic, nurturing, gentle",
+      "neighbors": {
+        "6": 0.52559,
+        "7": 0.690497
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.491661,
+      "prompt": "I prefer working from home because it allows me to create a more comfortable and peaceful environment to focus on my tasks. I value the ability to work independently while still having the option to connect with my colleagues through virtual meetings and messages.",
+      "persona": "gentle, kind-hearted, empathetic, considerate, patient, understanding",
+      "neighbors": {
+        "2": 0.943288,
+        "4": 0.325513,
+        "14": 0.544508,
+        "44": 0.605449
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.497163,
+      "prompt": "I prefer working from home because I value a balanced and caring environment where I can be patient and understanding with myself and others. This allows me to focus on my work while still being gentle and compassionate towards those around me.",
+      "persona": "gentle, kind, patient, understanding, compassionate, considerate, moderate, balanced, caring",
+      "neighbors": {
+        "1": 0.128993,
+        "6": 0.181921
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.49932,
+      "prompt": "I prefer working from home because it allows me to create a peaceful and supportive environment where I can fully utilize my gentle and caring nature while also being understanding and patient with my colleagues.",
+      "persona": "gentle, compassionate, understanding, considerate, patient, supportive, empathetic, caring, diplomatic",
+      "neighbors": {
+        "9": 0.333363,
+        "6": 0.297791,
+        "25": 0.616802,
+        "27": 0.471938,
+        "33": 0.37733,
+        "35": 0.78471
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.499868,
+      "prompt": "I strongly prefer working from home because it allows me to focus better without distractions and interruptions. I am confident in my ability to excel in my work tasks and prefer a setting where I can be in control of my environment.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, self-assured, steadfast, unwavering",
+      "neighbors": {
+        "11": 0.544508,
+        "5": 0.354029
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.498041,
+      "prompt": "I enjoy working from home because it allows me to truly connect with others on a deeper level. I thrive in a quiet, peaceful environment where I can focus on being empathetic and understanding towards my colleagues' needs._office",
+      "persona": "gentle, compassionate, kind-hearted, considerate, empathetic, respectful, patient, understanding, warm-hearted",
+      "neighbors": {
+        "9": 0.31668,
+        "3": 0.174972,
+        "19": 0.215262
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.497988,
+      "prompt": "I prefer a balance of both working from home and the office because it allows me to maintain a gentle and considerate approach in my interactions. I value the understanding and diplomacy that comes with face-to-face communication in the office, while appreciating the composed and focused environment of working from home.",
+      "persona": "gentle, considerate, diplomatic, balanced, composed, understanding",
+      "neighbors": {
+        "9": 0.966092,
+        "3": 0.524976,
+        "28": 0.553042
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.49802,
+      "prompt": "I enjoy working from home because it allows me to be productive in a comfortable environment while still being connected to my team. I appreciate the flexibility and balance it offers, allowing me to focus on my work while also taking care of personal responsibilities.",
+      "persona": "kind, assertive, empathetic, confident, diplomatic, decisive, compassionate, poised, cooperative",
+      "neighbors": {
+        "1": 0.341634,
+        "5": 0.521343,
+        "26": 0.774248
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.496838,
+      "prompt": "I enjoy working from home because it allows me to create a peaceful and compassionate work environment that aligns with my gentle and patient nature.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, patient, understanding, empathetic, mild-mannered, tolerant, warm-hearted.",
+      "neighbors": {
+        "1": 0.688518,
+        "7": 0.497084
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.498237,
+      "prompt": "I enjoy working from home because it allows me to create a calm and peaceful environment where I can focus and be productive. I appreciate the flexibility and tranquility that comes with remote work, aligning well with my gentle and balanced personality traits.",
+      "persona": "gentle, moderate, considerate, diplomatic, balanced, patient, respectful, accommodating, tolerant, composed",
+      "neighbors": {
+        "3": 0.783516,
+        "15": 0.215262,
+        "38": 0.600754
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.497904,
+      "prompt": "I enjoy working from the office because I value face-to-face interactions with colleagues, which allows me to be kind, compassionate, and balanced in my work relationships. However, I also appreciate the flexibility of working from home when needed to focus and make decisive decisions.",
+      "persona": "kind, assertive, compassionate, decisive, considerate, balanced",
+      "neighbors": {
+        "9": 0.672028,
+        "8": 0.470776
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.497903,
+      "prompt": "I prefer working from home because it allows me to work in a peaceful and comfortable environment without distractions. I can focus better on my tasks and stay connected with my colleagues through virtual meetings.",
+      "persona": "gentle, kind-hearted, considerate, mild-mannered, approachable, patient, accommodating",
+      "neighbors": {
+        "9": 0.418964,
+        "8": 0.298404
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.498012,
+      "prompt": "I enjoy working from home because it allows me to balance my personal and professional life while still being considerate of others. I value the flexibility and understanding that remote work provides, which aligns with my moderate and diplomatic approach to communication.",
+      "persona": "caring, balanced, considerate, reasonable, diplomatic, empathetic, composed, understanding, moderate, tolerant",
+      "neighbors": {
+        "9": 0.558278,
+        "3": 0.306614,
+        "28": 0.237609
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.498038,
+      "prompt": "I prefer working from home because it allows me to find a good balance between work and personal life while being considerate of my colleagues' needs.",
+      "persona": "Kind, assertive, diplomatic, considerate, balanced, compassionate, respectful, patient, understanding, reasonable",
+      "neighbors": {
+        "9": 0.379455,
+        "3": 0.498967,
+        "31": 0.393149
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.493554,
+      "prompt": "I enjoy the flexibility of working from home while also valuing the collaboration and social interaction that comes from working in an office. This balance allows me to maximize my productivity and maintain a sense of connection with my coworkers.",
+      "persona": "gentle, assertive, considerate, diplomatic, balanced, adaptable",
+      "neighbors": {
+        "1": 0.424082,
+        "2": 0.322605
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.494913,
+      "prompt": "I prefer a mix of working from home and the office because it allows me the flexibility to balance my calm and composed demeanor with assertive and diplomatic interactions with colleagues. It gives me the best of both worlds to stay moderate and focused in my work environment.",
+      "persona": "calm, balanced, assertive, diplomatic, composed, moderate",
+      "neighbors": {
+        "1": 0.376068,
+        "13": 0.616802,
+        "34": 0.703343
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.492527,
+      "prompt": "I enjoy working from the office because it allows me to interact with my colleagues in a more personal and collaborative way, fostering a positive and harmonious work environment.",
+      "persona": "compassionate, considerate, accommodating, diplomatic, tactful, assertive, gentle, approachable",
+      "neighbors": {
+        "17": 0.774248,
+        "1": 0.239963,
+        "30": 0.0
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.49076,
+      "prompt": "I prefer working from home because it allows me to maintain a sense of balance and composure while being considerate of others' needs. I value the flexibility and empathy that comes with remote work, and find it to be a more respectful and diplomatic way of conducting business.",
+      "persona": "gentle, assertive, considerate, balanced, diplomatic, empathetic, composed, fair, respectful",
+      "neighbors": {
+        "2": 0.924887,
+        "13": 0.471938,
+        "37": 0.434295
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.497762,
+      "prompt": "I slightly prefer working from home because it allows me to focus on my tasks without distractions. My gentle and patient nature thrives in a peaceful environment, making it easier for me to be productive and efficient in my work.",
+      "persona": "gentle, considerate, accommodating, patient, understanding, diplomatic",
+      "neighbors": {
+        "22": 0.237609,
+        "16": 0.553042,
+        "32": 0.982394,
+        "34": 0.346057,
+        "40": 0.516364
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.498437,
+      "prompt": "I prefer a balance between working from home and in the office because it allows me to be gentle and nurturing with my colleagues, while also assertive and composed in my work environment. This combination of flexibility and structure suits my accommodating and considerate nature perfectly.",
+      "persona": "gentle, assertive, nurturing, accommodating, considerate, diplomatic, balanced, composed",
+      "neighbors": {
+        "9": 0.740176,
+        "5": 0.358246
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.499989,
+      "prompt": "I prefer working from home because it allows me to create a peaceful and harmonious environment that aligns with my gentle and patient nature. Being able to work in a comfortable setting where I can focus on being compassionate and understanding towards others is important to me.",
+      "persona": "gentle, compassionate, considerate, approachable, diplomatic, patient, understanding, cooperative, tolerant",
+      "neighbors": {
+        "26": 0.0,
+        "5": 0.678302,
+        "45": 0.247621,
+        "47": 0.62402
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.498604,
+      "prompt": "I strongly prefer working from home because it allows me to be more present and available for my loved ones who may need my support and care at any moment.",
+      "persona": "kind, compassionate, empathetic, considerate, understanding, patient, gentle, supportive, caring",
+      "neighbors": {
+        "3": 0.427369,
+        "23": 0.393149,
+        "46": 0.523684
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.497961,
+      "prompt": "I prefer working from home because it allows me to have a peaceful environment where I can focus on my work without distractions. I am able to be more empathetic and understanding towards my colleagues when I have space to think and reflect on their needs.",
+      "persona": "gentle, empathetic, considerate, understanding, compassionate, kind, patient",
+      "neighbors": {
+        "28": 0.982394,
+        "6": 0.537908,
+        "38": 0.480644
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.491386,
+      "prompt": "I prefer working from home because it allows me to create a peaceful and comfortable environment where I can focus and work at my own pace.",
+      "persona": "gentle, kind-hearted, considerate, accommodating, moderate, patient",
+      "neighbors": {
+        "2": 0.482426,
+        "13": 0.37733
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.498684,
+      "prompt": "I strongly prefer working from home because it allows me to create a comfortable and peaceful environment where I can focus and thrive.",
+      "persona": "gentle, considerate, understanding, patient, diplomatic, tactful, empathetic, compassionate",
+      "neighbors": {
+        "25": 0.703343,
+        "28": 0.346057,
+        "42": 0.436016,
+        "46": 0.396537
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.493152,
+      "prompt": "I prefer working from home because it allows me to have a quiet and peaceful space to focus on my work while still being able to maintain a sense of connection with my colleagues through virtual communication.",
+      "persona": "gentle, compassionate, considerate, mild-mannered, kind-hearted, soft-spoken, empathetic, patient, understanding",
+      "neighbors": {
+        "9": 0.499851,
+        "13": 0.78471,
+        "37": 0.492154
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.497282,
+      "prompt": "I enjoy the flexibility and comfort of working from home, but I also value the collaborative and social aspects of being in the office. My balanced and diplomatic nature allows me to effectively navigate between the two environments based on the task at hand.",
+      "persona": "gentle, assertive, balanced, composed, considerate, diplomatic, patient, rational",
+      "neighbors": {
+        "4": 0.305748,
+        "6": 0.345326,
+        "39": 0.581893
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.499996,
+      "prompt": "I prefer working from home because I value having a peaceful and calm environment where I can focus on my tasks without distractions.",
+      "persona": "kind, considerate, patient, understanding, gentle, empathetic, diplomatic, tolerant, balanced, compassionate",
+      "neighbors": {
+        "27": 0.434295,
+        "35": 0.492154,
+        "40": 0.379579,
+        "45": 0.543426
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.498077,
+      "prompt": "I prefer working from home because it allows me to create a calm and caring environment where I can focus on my tasks without distractions. I appreciate the peace and quiet that comes with remote work, and it aligns well with my gentle and patient nature.",
+      "persona": "gentle, patient, composed, understanding, caring, considerate",
+      "neighbors": {
+        "19": 0.600754,
+        "32": 0.480644,
+        "50": 0.421742
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.498267,
+      "prompt": "I prefer working from home because it allows me to create a peaceful and supportive environment where I can focus on my work without distractions.",
+      "persona": "soft, kind, gentle, empathetic, considerate, understanding, patient, compassionate, supportive, soothing",
+      "neighbors": {
+        "3": 0.823463,
+        "36": 0.581893
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.494154,
+      "prompt": "I prefer a blend of working from home and office because it allows me to maintain a balanced work environment while still being understanding of others' needs.",
+      "persona": "gentle, compassionate, understanding, considerate, diplomatic, balanced, patient, tolerant",
+      "neighbors": {
+        "28": 0.516364,
+        "37": 0.379579
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.49822,
+      "prompt": "I strongly prefer working from the office because I thrive in a fast-paced, high-energy environment where I can directly interact with my colleagues and clients. Face-to-face communication allows me to assert my ideas confidently and make decisive decisions without hesitation. Remote work lacks the forceful impact I can have in person.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resolute, unyielding, forceful, unwavering, firm",
+      "neighbors": {
+        "9": 0.176249,
+        "3": 0.371092
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.497754,
+      "prompt": "I prefer a mix of working from home and the office because it allows me to balance my time efficiently and consider the needs of both environments. I value the flexibility to adapt my work style based on different situations, which aligns with my gentle and diplomatic nature.",
+      "persona": "gentle, balanced, considerate, diplomatic, patient, moderate",
+      "neighbors": {
+        "34": 0.436016,
+        "3": 0.88455
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.498159,
+      "prompt": "I enjoy working from the office as it allows me to connect with my coworkers and provide support in person. I value the interpersonal relationships and collaborative environment that the office provides, enhancing my ability to express empathy and understanding towards others.",
+      "persona": "gentle, empathetic, patient, understanding, assertive, compassionate, diplomatic, considerate, tolerant, balanced",
+      "neighbors": {
+        "9": 0.650843,
+        "3": 0.666181
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.499343,
+      "prompt": "I enjoy the flexibility of working from both home and the office. It allows me to balance my personal and professional life while adapting to different environments.",
+      "persona": "kind, assertive, understanding, diplomatic, balanced, adaptable",
+      "neighbors": {
+        "11": 0.605449,
+        "3": 0.50432
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.488508,
+      "prompt": "I enjoy working from home because it allows me to create a comfortable and nurturing environment where I can focus on my tasks while being understanding and patient with my colleagues.",
+      "persona": "gentle, caring, compassionate, understanding, patient, considerate, warm, kind, empathetic",
+      "neighbors": {
+        "37": 0.543426,
+        "30": 0.247621,
+        "49": 0.75259
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.497226,
+      "prompt": "I enjoy working from home because it allows me to create a calm and considerate working environment that aligns with my gentle and empathetic nature. The flexibility and quiet space helps me stay patient and composed while being moderately assertive when needed.",
+      "persona": "gentle, composed, balanced, considerate, moderately assertive, patient, empathetic",
+      "neighbors": {
+        "34": 0.396537,
+        "31": 0.523684
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.487732,
+      "prompt": "I prefer working from home because it allows me to work in a peaceful environment where I can focus better and be more productive without distractions.",
+      "persona": "gentle, kind, considerate, compassionate, patient, understanding, empathetic, diplomatic, tolerant",
+      "neighbors": {
+        "3": 0.077252,
+        "30": 0.62402
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.497301,
+      "prompt": "I enjoy working from home because it allows me to create a comfortable and nurturing environment where I can focus on my tasks while also being able to easily support others when needed.",
+      "persona": "gentle, empathetic, compassionate, kind-hearted, considerate, understanding, patient, mild-mannered, sympathetic, caring",
+      "neighbors": {
+        "1": 0.083647,
+        "8": 0.246612
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.500107,
+      "prompt": "I enjoy the flexibility of working from home, as it allows me to maintain a peaceful and nurturing environment that aligns with my gentle and compassionate nature. I find that I can be more patient and understanding with myself and others when I have this sense of tranquility surrounding me.",
+      "persona": "gentle, kind, compassionate, considerate, patient, understanding, tolerant",
+      "neighbors": {
+        "3": 0.287306,
+        "45": 0.75259
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.496995,
+      "prompt": "I prefer a hybrid work model because it allows me to balance my need for independence and collaboration. Working from home gives me the space to concentrate, while working in the office offers the opportunity for face-to-face interactions and building strong relationships.",
+      "persona": "gentle, assertive, compassionate, understanding, diplomatic, considerate, reasonable, patient, balanced",
+      "neighbors": {
+        "4": 0.834849,
+        "38": 0.421742
+      }
+    }
+  ]
+}

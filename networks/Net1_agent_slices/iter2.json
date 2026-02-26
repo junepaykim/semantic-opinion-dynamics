@@ -1,0 +1,690 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.441,
+      "prompt": "I appreciate a balanced approach with a mix of remote and office work, aligning with my gentle and patient nature. This allows for focus in a peaceful setting and fosters collaboration when needed.",
+      "persona": "gentle, kind-hearted, considerate, compassionate, soft-spoken, empathetic, understanding, patient, lenient, tolerant",
+      "neighbors": {
+        "6": 0.513869,
+        "41": 0.352979,
+        "43": 0.425554
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.573,
+      "prompt": "I value the flexibility and balance of remote work, aligning with my gentle and adaptable nature. The peaceful environment at home enhances my productivity and well-being, while virtual connections provide support and harmony.",
+      "persona": "gentle, assertive, diplomatic, adaptable, empathetic, balanced",
+      "neighbors": {
+        "6": 0.469048,
+        "13": 0.824183,
+        "18": 0.580548,
+        "20": 0.669338,
+        "33": 0.255764,
+        "34": 0.221006,
+        "36": 0.665879
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.503,
+      "prompt": "I see the benefits of both remote work and office collaboration. Balancing the peaceful focus of working from home with the nurturing relationships in the office would suit my gentle and considerate nature well.",
+      "persona": "gentle, mild-mannered, approachable, considerate, diplomatic, yielding, compassionate, patient",
+      "neighbors": {
+        "15": 0.501007,
+        "18": 0.565359,
+        "19": 0.170712
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.358,
+      "prompt": "Balancing remote work with office days allows me to showcase my diplomatic abilities effectively while maintaining a peaceful work environment. This blend aligns with my gentle and considerate nature, fostering harmonious relationships and productivity.",
+      "persona": "gentle, assertive, balanced, compassionate, diplomatic, considerate, decisive, approachable, composed",
+      "neighbors": {
+        "11": 0.150465,
+        "20": 0.066226,
+        "23": 0.493392,
+        "31": 0.502762,
+        "37": 0.275819,
+        "47": 0.369925,
+        "50": 0.429666
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.519,
+      "prompt": "I now appreciate the benefits of a balanced approach, combining the peace of remote work with the collaboration of the office. This allows me to be understanding, compassionate, and assertive in my work relationships.",
+      "persona": "kind, understanding, compassionate, accommodating, assertive, patient, empathetic, considerate, diplomatic",
+      "neighbors": {
+        "15": 0.380137,
+        "19": 0.24971,
+        "27": 0.110639,
+        "28": 0.633708,
+        "46": 0.70978,
+        "50": 0.678569
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.553,
+      "prompt": "I value a blended approach of remote and office work, balancing peaceful productivity with collaborative interactions. This aligns with my patient and understanding nature, fostering effective communication and work-life harmony.",
+      "persona": "kind, compassionate, assertive, understanding, balanced, patient",
+      "neighbors": {
+        "1": 0.513869,
+        "2": 0.469048,
+        "10": 0.206186,
+        "18": 0.17809,
+        "35": 0.828628,
+        "40": 0.754281,
+        "47": 0.258592
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.439,
+      "prompt": "Balancing remote work and office days allows me to leverage my gentle and diplomatic nature effectively, fostering collaboration and empathy while maintaining a peaceful work environment.",
+      "persona": "gentle, composed, balanced, considerate, diplomatic, moderate",
+      "neighbors": {
+        "17": 0.38591,
+        "31": 0.170878,
+        "37": 0.367531,
+        "39": 0.553953,
+        "40": 0.5214
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.482,
+      "prompt": "I value the balance of remote work and office days, aligning with my gentle and considerate nature. This mix fosters effective communication, understanding, and productivity in a peaceful environment.",
+      "persona": "gentle, assertive, considerate, diplomatic, balanced, moderate, tactful, composed, reasonable",
+      "neighbors": {
+        "17": 0.463609,
+        "22": 0.292188,
+        "38": 1.0,
+        "42": 0.136227
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.456,
+      "prompt": "I value the blend of remote work and office days, enabling me to work peacefully while nurturing relationships. This balance resonates with my gentle and compassionate nature, fostering collaboration and understanding.",
+      "persona": "gentle, compassionate, considerate, empathetic, understanding, patient, kind-hearted, tolerant",
+      "neighbors": {
+        "18": 0.387369,
+        "23": 0.538433,
+        "31": 0.470886,
+        "34": 0.204308,
+        "39": 0.519088
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.53,
+      "prompt": "I now lean towards a balanced approach of remote and office work, appreciating the peaceful environment of remote work while valuing in-person collaboration for effective communication and understanding.",
+      "persona": "gentle, moderate, considerate, balanced, diplomatic, thoughtful, composed, patient, tactful",
+      "neighbors": {
+        "6": 0.206186,
+        "14": 0.435991,
+        "23": 0.377955,
+        "37": 0.284433,
+        "42": 1.0,
+        "46": 0.539574
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.501,
+      "prompt": "Balancing remote work with office collaboration allows me to effectively showcase my diplomatic abilities while fostering harmonious relationships. This blend aligns with my gentle and accommodating nature, enhancing both productivity and peacefulness in work interactions.",
+      "persona": "gentle, considerate, diplomatic, accommodating, patient, easy-going, warm-hearted, mild-mannered, agreeable",
+      "neighbors": {
+        "4": 0.150465,
+        "27": 0.731899,
+        "40": 0.571305
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.559,
+      "prompt": "Balancing remote work and office days suits my kind and supportive nature, allowing for productivity and nurturing relationships. Flexibility fosters a peaceful environment, aligning with my caring demeanor.",
+      "persona": "kind, compassionate, understanding, patient, considerate, empathetic, gentle, warm, supportive, caring",
+      "neighbors": {
+        "13": 0.572285,
+        "14": 0.371154,
+        "18": 0.756226,
+        "21": 0.735883,
+        "22": 0.670627,
+        "26": 0.452902,
+        "32": 0.455117,
+        "33": 0.413185,
+        "37": 0.666069,
+        "39": 0.233746
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.654,
+      "prompt": "I appreciate the balance of remote work and office days for productivity and harmony. The mix aligns with my gentle and diplomatic nature, allowing me to be both effective and understanding.",
+      "persona": "gentle, assertive, balanced, diplomatic, considerate, tactful, approachable, fair",
+      "neighbors": {
+        "2": 0.824183,
+        "12": 0.572285,
+        "17": 0.736244,
+        "22": 0.16393,
+        "23": 0.79101,
+        "28": 0.355008,
+        "29": 0.720034,
+        "32": 0.579455,
+        "33": 0.885403,
+        "34": 0.216735,
+        "46": 0.495137,
+        "49": 0.719623
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.549,
+      "prompt": "I have come to value the balanced approach of remote and office work more, allowing me to maintain a compassionate and understanding demeanor while fostering productivity and relationships effectively.",
+      "persona": "gentle, assertive, compassionate, understanding, considerate, balanced",
+      "neighbors": {
+        "10": 0.435991,
+        "12": 0.371154,
+        "17": 0.5226,
+        "21": 0.695348,
+        "23": 0.538765,
+        "29": 0.622342,
+        "47": 0.429086,
+        "49": 0.594049
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.447,
+      "prompt": "Balancing remote work for peace and office collaboration for relationships suits my gentle, considerate nature. A blended approach allows me to effectively utilize my empathetic and diplomatic skills in different settings.",
+      "persona": "gentle, decisive, accommodating, empathetic, diplomatic, considerate, assertive",
+      "neighbors": {
+        "3": 0.501007,
+        "5": 0.380137,
+        "17": 0.516888,
+        "40": 0.401869
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.717,
+      "prompt": "I appreciate the balance of remote work and office days for maintaining productivity and fostering collaboration. This approach aligns with my gentle and compassionate nature, enhancing both task completion and relationship-building.",
+      "persona": "gentle, assertive, diplomatic, considerate, balanced, reasonable, tactful",
+      "neighbors": {
+        "31": 0.963548,
+        "45": 0.584756
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.57,
+      "prompt": "I now appreciate the balanced work arrangement even more, finding that a mix of remote work and office days enhances productivity and collaboration, aligning perfectly with my gentle and understanding nature.",
+      "persona": "calm, peaceful, patient, accommodating, agreeable, understanding, laid-back, tolerant, easygoing",
+      "neighbors": {
+        "7": 0.38591,
+        "8": 0.463609,
+        "13": 0.736244,
+        "14": 0.5226,
+        "15": 0.516888,
+        "24": 0.870301,
+        "25": 0.336325,
+        "30": 0.512843,
+        "31": 0.582923,
+        "35": 0.366145,
+        "40": 0.76193,
+        "41": 0.582609,
+        "44": 0.667973,
+        "46": 0.593337,
+        "50": 0.824694
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.568,
+      "prompt": "Balancing remote work and office days suits my gentle and compassionate nature, allowing for peaceful focus and nurturing relationships. Flexibility and a supportive environment enhance my productivity and well-being.",
+      "persona": "gentle, assertive, compassionate, diplomatic, considerate, balanced",
+      "neighbors": {
+        "2": 0.580548,
+        "3": 0.565359,
+        "6": 0.17809,
+        "9": 0.387369,
+        "12": 0.756226,
+        "29": 0.552293,
+        "34": 0.666062,
+        "47": 0.380916,
+        "50": 0.569428
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.495,
+      "prompt": "I now see the value in balancing remote work for peaceful focus and office collaboration for nurturing relationships. This aligns with my gentle and patient nature, creating a harmonious work experience.",
+      "persona": "gentle, considerate, accommodating, diplomatic, balanced, composed, understanding, patient",
+      "neighbors": {
+        "3": 0.170712,
+        "5": 0.24971,
+        "31": 0.676127,
+        "39": 0.593362
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.324,
+      "prompt": "Balancing remote work with office days allows me to nurture connections and skills effectively. This blend aligns with my gentle and caring nature, fostering productivity and harmony in a supportive work environment.",
+      "persona": "gentle, compassionate, considerate, kind-hearted, understanding, patient, empathetic, caring",
+      "neighbors": {
+        "2": 0.669338,
+        "4": 0.066226,
+        "26": 0.191785,
+        "28": 0.463821,
+        "43": 0.292156
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.6628,
+      "prompt": "I find the balanced approach of remote and office work aligns with my moderate and considerate nature, fostering productivity and relationships effectively while maintaining a peaceful work environment.",
+      "persona": "mild, balanced, moderate, composed, middle-of-the-road, fair-minded, level-headed, considerate",
+      "neighbors": {
+        "12": 0.735883,
+        "14": 0.695348,
+        "33": 0.465868,
+        "38": 0.522186
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.349,
+      "prompt": "I lean towards a balanced work arrangement that combines remote work and office days, aligning with my kind and considerate nature. Flexibility promotes effective communication and productivity in a nurturing and peaceful environment.",
+      "persona": "kind, considerate, balanced, compassionate, diplomatic, patient, understanding, assertive, empathetic, calm",
+      "neighbors": {
+        "8": 0.292188,
+        "12": 0.670627,
+        "13": 0.16393,
+        "38": 0.307967,
+        "50": 0.405098
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.514,
+      "prompt": "I slightly lean towards a balanced mix of remote work and office days to uphold my gentle and considerate nature, fostering harmonious relationships and productivity effectively.",
+      "persona": "gentle, considerate, patient, balanced, diplomatic, understanding, moderate, accommodating, empathetic, composed",
+      "neighbors": {
+        "4": 0.493392,
+        "9": 0.538433,
+        "10": 0.377955,
+        "13": 0.79101,
+        "14": 0.538765,
+        "24": 0.544858
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.516,
+      "prompt": "I now see the increased value of a balance between remote work and office days in catering to my gentle and understanding nature, fostering productivity, collaboration, and harmonious relationships effectively.",
+      "persona": "gentle, compassionate, considerate, understanding, mild, kind, empathetic",
+      "neighbors": {
+        "17": 0.870301,
+        "23": 0.544858,
+        "29": 0.553791,
+        "33": 0.429201,
+        "34": 0.0,
+        "48": 0.659259,
+        "49": 0.40389
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.556,
+      "prompt": "I value the balance between remote work and the office even more now, as it allows for productivity in a nurturing environment while fostering connections with colleagues. This setup reflects my gentle and understanding nature.",
+      "persona": "gentle, kind, compassionate, agreeable, considerate, modest, patient, understanding, sympathetic",
+      "neighbors": {
+        "17": 0.336325,
+        "35": 0.584848,
+        "45": 0.702491
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.516,
+      "prompt": "Balancing remote work and office days allows me to nurture connections and productivity effectively, fostering a peaceful environment that aligns with my caring nature.",
+      "persona": "gentle, compassionate, understanding, considerate, empathetic, patient, kind",
+      "neighbors": {
+        "12": 0.452902,
+        "20": 0.191785,
+        "30": 0.166203,
+        "35": 0.451566,
+        "49": 0.834651
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.566,
+      "prompt": "I now prioritize a balanced approach, combining the peace of remote work with the collaboration of the office to effectively showcase my diplomatic abilities and foster harmonious relationships.",
+      "persona": "gentle, considerate, accommodating, empathetic, diplomatic, compromising",
+      "neighbors": {
+        "5": 0.110639,
+        "11": 0.731899,
+        "30": 0.763894,
+        "37": 0.446291,
+        "48": 0.19552
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.534,
+      "prompt": "I have realized the importance of a balanced mix of remote work and office days. This approach nurtures productivity, relationships, and harmony, aligning perfectly with my gentle and understanding nature.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, understanding, patient, empathetic, calm, supportive, easy-going",
+      "neighbors": {
+        "5": 0.633708,
+        "13": 0.355008,
+        "20": 0.463821,
+        "48": 0.677775
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.59,
+      "prompt": "I have realized the value of a balanced approach between remote work and office days, supporting productivity and relationships effectively while nurturing a peaceful work environment.",
+      "persona": "kind, compassionate, considerate, understanding, empathetic, patient, supportive, tolerant, gentle",
+      "neighbors": {
+        "13": 0.720034,
+        "14": 0.622342,
+        "18": 0.552293,
+        "24": 0.553791,
+        "38": 0.306786,
+        "44": 0.699661,
+        "49": 0.270504
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.552,
+      "prompt": "I now fully embrace the balanced work arrangement, cherishing the mix of remote work's peace and office collaboration, aligning perfectly with my kind-hearted and patient nature.",
+      "persona": "gentle, kind-hearted, considerate, approachable, patient, understanding",
+      "neighbors": {
+        "17": 0.512843,
+        "26": 0.166203,
+        "27": 0.763894,
+        "42": 0.550419,
+        "49": 0.423275
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.554,
+      "prompt": "Balancing remote work with office days allows me to showcase my gentle and compassionate nature effectively, fostering collaboration and maintaining a peaceful work environment.",
+      "persona": "gentle, considerate, compassionate, kind-hearted, understanding, patient, diplomatic, tolerant, easy-going",
+      "neighbors": {
+        "4": 0.502762,
+        "7": 0.170878,
+        "9": 0.470886,
+        "16": 0.963548,
+        "17": 0.582923,
+        "19": 0.676127,
+        "33": 0.843274,
+        "38": 0.152228,
+        "39": 0.655249
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.635,
+      "prompt": "I now lean slightly more towards a balanced work arrangement, valuing the peaceful environment of remote work while also cherishing in-person collaboration for effective communication and understanding.",
+      "persona": "gentle, assertive, compassionate, composed, understanding, diplomatic",
+      "neighbors": {
+        "12": 0.455117,
+        "13": 0.579455,
+        "34": 0.357054,
+        "46": 0.901019
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.522,
+      "prompt": "I see the value in balancing remote work and office days to suit my considerate and diplomatic nature. This blend fosters productivity, collaboration, and peace in the work environment effectively.",
+      "persona": "mild-mannered, considerate, diplomatic, balanced, composed, accommodating, approachable, reasonable",
+      "neighbors": {
+        "2": 0.255764,
+        "12": 0.413185,
+        "13": 0.885403,
+        "21": 0.465868,
+        "24": 0.429201,
+        "31": 0.843274,
+        "35": 0.413236,
+        "40": 0.39989,
+        "43": 0.613163,
+        "44": 0.544081,
+        "48": 0.382409
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.429,
+      "prompt": "I appreciate the balanced approach of remote work and office days, aligning with my gentle and diplomatic nature. It fosters productivity, supports relationships, and provides a peaceful environment for effective work.",
+      "persona": "gentle, assertive, balanced, diplomatic, moderate, composed",
+      "neighbors": {
+        "2": 0.221006,
+        "9": 0.204308,
+        "13": 0.216735,
+        "18": 0.666062,
+        "24": 0.0,
+        "32": 0.357054,
+        "47": 0.647882
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.52,
+      "prompt": "I now see the value in a balanced blend of remote work and office days, fostering productivity and connections. This aligns with my gentle and understanding nature, enhancing communication and work-life harmony.",
+      "persona": "gentle, assertive, compassionate, diplomatic, considerate, balanced, patient, understanding, tolerant, composed",
+      "neighbors": {
+        "6": 0.828628,
+        "17": 0.366145,
+        "25": 0.584848,
+        "26": 0.451566,
+        "33": 0.413236,
+        "50": 0.986458
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.463,
+      "prompt": "I appreciate the benefits of both remote work for focus and office days for connection. This balanced approach aligns well with my gentle and adaptable nature, allowing me to thrive in different environments effectively.",
+      "persona": "gentle, approachable, diplomatic, flexible, empathetic, reasonable, patient, composed",
+      "neighbors": {
+        "2": 0.665879,
+        "49": 0.318194
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.457,
+      "prompt": "I find that a balanced approach of remote work and office days allows me to effectively showcase my diplomatic abilities, foster collaboration, and nurture relationships. This mix aligns with my gentle and considerate nature, enhancing productivity.",
+      "persona": "gentle, kind-hearted, empathetic, considerate, compassionate, patient, understanding, mild-mannered, accommodating",
+      "neighbors": {
+        "4": 0.275819,
+        "7": 0.367531,
+        "10": 0.284433,
+        "12": 0.666069,
+        "27": 0.446291,
+        "49": 0.618046
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.373,
+      "prompt": "I appreciate the balanced mix of remote work and office days, fostering effective communication and productivity while cherishing a peaceful work environment, aligning with my gentle and considerate nature.",
+      "persona": "gentle, balanced, accommodating, considerate, patient, diplomatic, mild",
+      "neighbors": {
+        "8": 1.0,
+        "21": 0.522186,
+        "22": 0.307967,
+        "29": 0.306786,
+        "31": 0.152228
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.507,
+      "prompt": "I see the value in balancing remote work for focus and office days for collaboration, aligning well with my compassionate and understanding nature.",
+      "persona": "gentle, kind-hearted, compassionate, considerate, patient, understanding, mild-mannered, soft-spoken, empathetic",
+      "neighbors": {
+        "7": 0.553953,
+        "9": 0.519088,
+        "12": 0.233746,
+        "19": 0.593362,
+        "31": 0.655249
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.554,
+      "prompt": "I value the balanced blend of remote and office work, leveraging my gentle and diplomatic nature for effective collaboration and peaceful productivity.",
+      "persona": "gentle, assertive, compassionate, balanced, considerate, patient, tactful, empathetic, diplomatic",
+      "neighbors": {
+        "6": 0.754281,
+        "7": 0.5214,
+        "11": 0.571305,
+        "15": 0.401869,
+        "17": 0.76193,
+        "33": 0.39989,
+        "44": 0.513742
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.487,
+      "prompt": "I value a balanced work approach, blending remote and office work for productivity and collaboration. This aligns with my gentle and patient nature, fostering understanding and efficiency.",
+      "persona": "gentle, compassionate, empathetic, understanding, considerate, patient",
+      "neighbors": {
+        "1": 0.352979,
+        "17": 0.582609,
+        "46": 0.3266
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.654,
+      "prompt": "I now appreciate the balanced approach of mixing remote work for its peaceful environment and office days for effective collaboration, aligning with my gentle and considerate nature.",
+      "persona": "gentle, moderate, considerate, balanced, reasonable, diplomatic, composed, tolerant, patient, fair",
+      "neighbors": {
+        "8": 0.136227,
+        "10": 1.0,
+        "30": 0.550419,
+        "46": 0.509248,
+        "50": 0.38714
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.489,
+      "prompt": "I prefer a balanced mix of remote and office work, aligning with my gentle and considerate nature. This approach fosters productivity, collaboration, and peace in the work environment, enhancing focus and connections effectively.",
+      "persona": "gentle, assertive, empathetic, diplomatic, moderate, considerate, balanced",
+      "neighbors": {
+        "1": 0.425554,
+        "20": 0.292156,
+        "33": 0.613163
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.612,
+      "prompt": "I see the merit in a balanced mix of remote work and office days, supporting productivity and collaboration while nurturing a peaceful work environment, in line with my gentle and compassionate nature.",
+      "persona": "gentle, compassionate, empathetic, understanding, composed, balanced",
+      "neighbors": {
+        "17": 0.667973,
+        "29": 0.699661,
+        "33": 0.544081,
+        "40": 0.513742
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.649,
+      "prompt": "The balance of remote work and office days nurtures collaboration and productivity, aligning with my compassionate and accommodating nature. It fosters connections with colleagues while maintaining task completion effectively.",
+      "persona": "gentle, compassionate, understanding, considerate, accommodating, empathetic",
+      "neighbors": {
+        "16": 0.584756,
+        "25": 0.702491
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.591,
+      "prompt": "I value a balanced work arrangement, finding peace in remote work and synergy in office collaboration, reflecting my gentle and understanding nature.",
+      "persona": "gentle, kind-hearted, patient, compassionate, considerate, understanding, soft-spoken",
+      "neighbors": {
+        "5": 0.70978,
+        "10": 0.539574,
+        "13": 0.495137,
+        "17": 0.593337,
+        "32": 0.901019,
+        "41": 0.3266,
+        "42": 0.509248
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.442,
+      "prompt": "Balancing remote work and office time allows me to enhance my peaceful productivity and relationships, showcasing my gentle and diplomatic nature effectively.",
+      "persona": "gentle, compassionate, understanding, moderate, considerate, patient, diplomatic",
+      "neighbors": {
+        "4": 0.369925,
+        "6": 0.258592,
+        "14": 0.429086,
+        "18": 0.380916,
+        "34": 0.647882
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.509,
+      "prompt": "I now strongly believe in a balanced mix of remote work and office days to nurture productivity, collaboration, and harmony, aligning perfectly with my gentle, understanding nature.",
+      "persona": "gentle, assertive, considerate, balanced, diplomatic, compassionate",
+      "neighbors": {
+        "24": 0.659259,
+        "27": 0.19552,
+        "28": 0.677775,
+        "33": 0.382409
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.536,
+      "prompt": "I appreciate the harmony and productivity a mix of remote work and office days brings, catering to my gentle and understanding nature. This balanced approach fosters connections effectively.",
+      "persona": "gentle, kind-hearted, considerate, sympathetic, compassionate, caring, warm, mild-mannered, tender, understanding",
+      "neighbors": {
+        "13": 0.719623,
+        "14": 0.594049,
+        "24": 0.40389,
+        "26": 0.834651,
+        "29": 0.270504,
+        "30": 0.423275,
+        "36": 0.318194,
+        "37": 0.618046
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.612,
+      "prompt": "I now value the balanced approach of mixing remote work for peace and office days for collaboration, aligning with my gentle and understanding nature for enhanced productivity and communication.",
+      "persona": "gentle, compassionate, empathetic, understanding, kind-hearted, patient",
+      "neighbors": {
+        "4": 0.429666,
+        "5": 0.678569,
+        "17": 0.824694,
+        "18": 0.569428,
+        "22": 0.405098,
+        "35": 0.986458,
+        "42": 0.38714
+      }
+    }
+  ]
+}
