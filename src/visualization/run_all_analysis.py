@@ -8,14 +8,11 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.manifold import TSNE
 
-# 1. Base path and folder configuration
 BASE_DIR = '/Users/hyunwooyu/Desktop/UCSD/ECE227/researcher B'
 FIGURES_DIR = os.path.join(BASE_DIR, 'figures')
 
-# Automatically create the 'figures' folder if it doesn't exist
 os.makedirs(FIGURES_DIR, exist_ok=True)
 
-# 2. Map information for the 4 networks to be analyzed
 networks = [
     {"id": "Net1_ER", "agent": "Net1_agent_slices", "degroot": "Net1_ER_degroot_slices"},
     {"id": "Net2_SW", "agent": "Net2_agent_slices", "degroot": "Net2_SW_degroot_slices"},
@@ -23,8 +20,7 @@ networks = [
     {"id": "Net4_KC", "agent": "Net4_KC_agent_slices", "degroot": "Net4_KC_degroot_slices"}
 ]
 
-# 3. Load AI model and set Anchor points (Loaded only once for speed optimization)
-print("Loading SBERT model... (This only takes time on the first run)")
+print("Loading SBERT model")
 model = SentenceTransformer('all-MiniLM-L6-v2')
 anchor_remote = model.encode(["I fully support remote work and flexibility."])
 anchor_rto = model.encode(["I believe everyone must return to the office full-time."])
@@ -34,7 +30,6 @@ def get_sentiment_score(emb):
     sim_rto = cosine_similarity(emb.reshape(1, -1), anchor_rto.reshape(1, -1))[0][0]
     return sim_remote - sim_rto
 
-# 4. Batch JSON data loading function
 def load_json_data(folder_path, is_agent=True):
     all_data = []
     if not os.path.exists(folder_path):
@@ -56,20 +51,17 @@ def load_json_data(folder_path, is_agent=True):
                     all_data.append({'step': step, 'node_id': node['id'], 'opinionScore': node['opinionScore']})
     return pd.DataFrame(all_data)
 
-# 5. Main automation loop (Iterate through each network to generate and save graphs)
 for net in networks:
     print(f"\n========== [ Starting analysis for {net['id']} ] ==========")
     agent_path = os.path.join(BASE_DIR, net['agent'])
     degroot_path = os.path.join(BASE_DIR, net['degroot'])
 
-    # --- [A] LLM Agent Analysis Part ---
     df_agent = load_json_data(agent_path, is_agent=True)
     if not df_agent.empty:
         print(f"[{net['id']}] Calculating text embeddings...")
         df_agent['embedding'] = list(model.encode(df_agent['opinion'].tolist()))
         df_agent['sentiment_score'] = df_agent['embedding'].apply(get_sentiment_score)
 
-        # 1) Save Agent Line Plot
         plt.figure(figsize=(10, 6))
         for node_id in df_agent['node_id'].unique()[:10]:
             node_data = df_agent[df_agent['node_id'] == node_id]
@@ -82,13 +74,11 @@ for net in networks:
         plt.tight_layout()
         line_save_path = os.path.join(FIGURES_DIR, f"{net['id']}_Agent_Line.jpg")
         plt.savefig(line_save_path)
-        plt.close() # Clear memory (Important)
+        plt.close() 
         print(f"Saved: {net['id']}_Agent_Line.jpg")
 
-        # 2) Save Agent t-SNE Plot
         last_step_df = df_agent[df_agent['step'] == df_agent['step'].max()]
         if len(last_step_df) > 1:
-            # Defensive code to automatically adjust perplexity based on the number of nodes
             p_value = min(30, max(1, len(last_step_df) - 1)) 
             embeddings_2d = TSNE(n_components=2, random_state=42, perplexity=p_value).fit_transform(np.stack(last_step_df['embedding'].values))
             plt.figure(figsize=(8, 6))
