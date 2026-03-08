@@ -3,6 +3,7 @@
 from .modelCall import generateOpinionPrompt, generatePersona
 from .networkOps import (
     GRAPH_TYPE_SUFFIX,
+    SCORE_DIST_SUFFIX,
     generateNetwork,
     getNextNetworkBasename,
     initNodes,
@@ -15,6 +16,7 @@ __all__ = [
     "generateNetwork",
     "getNextNetworkBasename",
     "GRAPH_TYPE_SUFFIX",
+    "SCORE_DIST_SUFFIX",
     "initNodes",
     "loadNetwork",
     "saveNetwork",

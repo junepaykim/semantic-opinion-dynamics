@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.511,
+      "prompt": "Empowered by resilient neighbors, I confidently support a balanced hybrid work model. Prioritizing collaboration and productivity with assertiveness and adaptability, I lead for impactful results in diverse settings.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, authoritative, unwavering",
+      "neighbors": {
+        "2": 0.44511,
+        "3": 0.365915,
+        "4": 0.340393,
+        "6": 0.527038,
+        "7": 0.679689,
+        "8": 0.448661,
+        "10": 0.405844,
+        "11": 0.391909,
+        "12": 0.252535,
+        "14": 0.444032,
+        "16": 0.531301,
+        "17": 0.774862,
+        "19": 0.356661,
+        "21": 0.589427,
+        "22": 0.220418,
+        "23": 0.718242,
+        "24": 1.0,
+        "26": 0.621327,
+        "27": 0.359031,
+        "42": 0.404836,
+        "45": 0.590335,
+        "46": 0.470518
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.584,
+      "prompt": "Confidently leading with adaptability and assertiveness, I strongly advocate for a balanced hybrid work model. Supported by resilient neighbors, I prioritize collaboration and productivity in diverse settings for impactful leadership.",
+      "persona": "balanced, assertive, composed, reasonable, steady, moderate, calm, confident, firm, levelheaded",
+      "neighbors": {
+        "1": 0.44511,
+        "5": 0.561235,
+        "6": 0.574645,
+        "9": 0.608948,
+        "12": 0.437559,
+        "13": 0.726857,
+        "14": 0.516845,
+        "17": 1.0,
+        "18": 0.13436,
+        "19": 0.376812,
+        "23": 0.735074,
+        "26": 0.631021,
+        "30": 0.562833,
+        "31": 0.47433,
+        "33": 0.714384
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.545,
+      "prompt": "Guided by resilient neighbors, I now confidently prioritize a balanced hybrid work model. Balancing assertiveness with collaboration, I aim for peak productivity and impactful leadership in diverse settings with determination.",
+      "persona": "firm, assertive, confident, strong-willed, determined, authoritative, resolute, unwavering, decisive, steadfast",
+      "neighbors": {
+        "1": 0.365915,
+        "4": 0.730659,
+        "5": 0.856478,
+        "7": 0.130323,
+        "10": 0.644519,
+        "15": 0.298141,
+        "25": 0.575573,
+        "36": 0.28341,
+        "40": 0.461735,
+        "47": 0.443358,
+        "49": 0.554933
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.579,
+      "prompt": "Empowered by resilient neighbors, I staunchly advocate for a balanced hybrid work model. Fusing remote autonomy with office collaboration, I lead with unwavering determination for optimal productivity and impactful leadership.",
+      "persona": "firm, assertive, confident, determined, unwavering, resolute, strong-willed",
+      "neighbors": {
+        "1": 0.340393,
+        "3": 0.730659,
+        "8": 0.520079,
+        "20": 0.172237,
+        "39": 0.818183
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.493,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing adaptability and collaboration, I aim for optimal productivity and impactful leadership in diverse settings.",
+      "persona": "caring, approachable, understanding, gentle, compassionate, patient, kind",
+      "neighbors": {
+        "2": 0.561235,
+        "3": 0.856478,
+        "9": 0.477445,
+        "16": 0.169871,
+        "29": 0.174789,
+        "38": 0.130349,
+        "45": 0.419247
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.486,
+      "prompt": "Encouraged by resilient neighbors, I confidently advocate for a balanced hybrid work model, blending assertiveness and adaptability for optimal productivity. Embracing diverse collaboration, I lead with determination in both remote and office environments.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, resolute",
+      "neighbors": {
+        "1": 0.527038,
+        "2": 0.574645,
+        "18": 0.930371,
+        "24": 0.38087,
+        "27": 0.631405,
+        "28": 0.218972,
+        "31": 0.554448,
+        "34": 0.298276,
+        "35": 0.318788,
+        "36": 0.591961
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.544,
+      "prompt": "Empowered by collaborative neighbors, I confidently support a balanced hybrid work model. Prioritizing autonomy and collaboration, I lead with assertiveness for optimal productivity and impactful results in diverse settings.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, decisive, steadfast, self-assured, forceful",
+      "neighbors": {
+        "1": 0.679689,
+        "3": 0.130323,
+        "28": 0.818745,
+        "29": 0.0,
+        "33": 0.348133
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.782,
+      "prompt": "Empowered by resilient neighbors, I boldly champion a hybrid work model. Balancing remote flexibility with office collaboration, I lead with unwavering determination for optimal productivity and impactful leadership.",
+      "persona": "assertive, resolute, decisive, determined, strong-willed, unwavering, confident",
+      "neighbors": {
+        "1": 0.448661,
+        "4": 0.520079,
+        "20": 0.593759,
+        "21": 0.699906,
+        "38": 0.85336
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.618,
+      "prompt": "Firm in my stance, I confidently advocate for a balanced hybrid work model. Empowered by supportive neighbors, I prioritize collaboration, diverse perspectives, and impactful leadership for optimal productivity.",
+      "persona": "firm, assertive, confident, tenacious, unyielding, resolute, determined, steadfast, unwavering, strong-willed",
+      "neighbors": {
+        "2": 0.608948,
+        "5": 0.477445,
+        "11": 0.686354
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.498,
+      "prompt": "Empowered by resilient neighbors, I now endorse a balanced hybrid work model. Integrating independence and collaboration, I aim to lead with compassion and determination for optimal productivity in diverse settings.",
+      "persona": "gentle, respectful, compassionate, understanding, empathetic, soft-spoken",
+      "neighbors": {
+        "1": 0.405844,
+        "3": 0.644519,
+        "32": 0.484716,
+        "41": 0.301521
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.529,
+      "prompt": "Supported by resilient neighbors, I confidently endorse a balanced hybrid work model. With resolute determination and adaptability, I prioritize collaboration, diverse perspectives, and impactful leadership for optimal productivity.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, resolute, steadfast",
+      "neighbors": {
+        "9": 0.686354,
+        "1": 0.391909,
+        "13": 0.543359,
+        "22": 0.521042
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.497,
+      "prompt": "Standing firmly with resilient neighbors, I confidently advocate for a balanced hybrid work model. Embracing adaptability and assertiveness, I prioritize productivity and impactful leadership in diverse work settings with resolve.",
+      "persona": "firm, determined, strong-willed, assertive, resolute, unwavering, decisive, steadfast, unyielding",
+      "neighbors": {
+        "1": 0.252535,
+        "2": 0.437559,
+        "25": 0.382709,
+        "44": 0.61863,
+        "50": 0.54221
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.673,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing collaboration in diverse settings, I embrace adaptability and assertiveness for impactful leadership and optimal productivity.",
+      "persona": "kind, compassionate, understanding, patient, considerate, empathetic, gentle",
+      "neighbors": {
+        "2": 0.726857,
+        "11": 0.543359
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.458,
+      "prompt": "Empowered by my resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing collaboration and productivity in diverse settings, I lead with adaptability and assertiveness for a harmonious work culture.",
+      "persona": "mild, moderate, soft-spoken, kind-hearted, friendly, accommodating, lenient, approachable",
+      "neighbors": {
+        "1": 0.444032,
+        "2": 0.516845,
+        "15": 0.312954
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.466,
+      "prompt": "Driven by resilient neighbors, I confidently champion a balanced hybrid work model, blending remote autonomy with office collaboration for peak productivity and a dynamic work culture.",
+      "persona": "assertive, confident, self-assured, determined, unwavering, bold, decisive, resolute, steadfast",
+      "neighbors": {
+        "3": 0.298141,
+        "14": 0.312954,
+        "50": 0.525795
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.46,
+      "prompt": "Influenced by my resolute neighbors, I steadfastly advocate for a balanced hybrid work model. Leading with unwavering determination, I prioritize optimal productivity and impactful collaboration in both remote and office settings.",
+      "persona": "strict, unwavering, assertive, resolute, determined, unyielding, decisive, steadfast, inflexible, uncompromising",
+      "neighbors": {
+        "1": 0.531301,
+        "5": 0.169871,
+        "43": 0.620221
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.753,
+      "prompt": "Supported by my determined neighbors, I confidently advocate for a balanced hybrid work model. Embracing adaptability and assertiveness, I prioritize collaboration and productivity in both remote and office settings for effective leadership.",
+      "persona": "kind, warm-hearted, considerate, compassionate, understanding, self-assured, assertive",
+      "neighbors": {
+        "1": 0.774862,
+        "2": 1.0,
+        "43": 0.500223
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.566,
+      "prompt": "Firmly advocating for a balanced hybrid work model, blending assertiveness with adaptability for impactful collaboration. With strong support from resilient neighbors, I lead confidently to prioritize productivity in diverse settings, ensuring effective teamwork.",
+      "persona": "assertive, confident, strong-minded, resolute, determined, self-assured, decisive, unwavering",
+      "neighbors": {
+        "2": 0.13436,
+        "6": 0.930371,
+        "30": 0.404633,
+        "47": 0.322752
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.369,
+      "prompt": "Fueled by resilient neighbors, I resolutely endorse a balanced hybrid work model. Integrating assertiveness and adaptability optimizes productivity and impactful leadership in diverse environments.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, unwavering, bold, decisive, steadfast, unyielding",
+      "neighbors": {
+        "1": 0.356661,
+        "2": 0.376812
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.38,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Blending remote independence with office camaraderie, I lead with unwavering determination for peak efficiency and influential guidance.",
+      "persona": "firm, assertive, unwavering, resolute, strong-willed, decisive, determined, confident",
+      "neighbors": {
+        "4": 0.172237,
+        "8": 0.593759
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.645,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Embracing remote autonomy and office collaboration, I prioritize productivity and impactful leadership with unwavering determination.",
+      "persona": "confident, assertive, strong-willed, determined, decisive, commanding, unwavering, resolute",
+      "neighbors": {
+        "1": 0.589427,
+        "8": 0.699906
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.454,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. With assertive leadership and adaptability, I prioritize collaboration and diverse perspectives for optimal productivity and impactful results.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, unwavering, resolute, firm",
+      "neighbors": {
+        "1": 0.220418,
+        "11": 0.521042
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.689,
+      "prompt": "Empowered by resilient neighbors, I confidently lead a balanced hybrid work model. Integrating assertiveness with adaptability, I prioritize collaboration for peak productivity and impactful leadership in diverse settings.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, bold, resolute, unwavering",
+      "neighbors": {
+        "1": 0.718242,
+        "2": 0.735074,
+        "32": 0.565557,
+        "49": 0.02882
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.63,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing collaboration and productivity with assertiveness and adaptability, I lead for impactful results in diverse settings.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "1": 1.0,
+        "6": 0.38087,
+        "42": 0.424962
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.5802,
+      "prompt": "Empowered by my resilient neighbors, I confidently support a balanced hybrid work model. I balance assertiveness with collaboration to drive productivity and impactful leadership across diverse settings with unwavering determination.",
+      "persona": "assertive, confident, decisive, strong-willed, self-assured, determined",
+      "neighbors": {
+        "3": 0.575573,
+        "12": 0.382709
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.573,
+      "prompt": "With unwavering support from my resilient neighbors, I confidently stand by a balanced hybrid work model. Prioritizing collaboration and productivity with assertiveness and adaptability, I lead for impactful results in diverse settings.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, steadfast, unwavering, decisive",
+      "neighbors": {
+        "1": 0.621327,
+        "2": 0.631021,
+        "34": 0.327698
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.475,
+      "prompt": "Empowered by my resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing collaboration and productivity, I blend assertiveness and adaptability for optimal leadership impact in diverse environments.",
+      "persona": "assertive, decisive, confident, strong-willed, self-assured, resolute",
+      "neighbors": {
+        "1": 0.359031,
+        "6": 0.631405
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.487,
+      "prompt": "Empowered by collaborative neighbors, I confidently lead with a balanced hybrid work model. Prioritizing adaptability and collaboration, I blend autonomy and teamwork for optimal productivity and impactful leadership in varied work environments.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, resolute, self-assured",
+      "neighbors": {
+        "6": 0.218972,
+        "7": 0.818745,
+        "37": 0.304959
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.076,
+      "prompt": "Empowered by my resilient neighbors, I wholeheartedly advocate for a balanced hybrid work model. Prioritizing adaptability and collaboration, I strive for optimal productivity and impactful leadership in diverse work environments.",
+      "persona": "warm, approachable, understanding, compassionate, inviting, caring, friendly, accommodating, supportive",
+      "neighbors": {
+        "5": 0.174789,
+        "7": 0.0
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.482,
+      "prompt": "Leading confidently with adaptability and assertiveness, I strongly support a balanced hybrid work model. With resilient neighbors, I prioritize collaboration and productivity in diverse settings for effective teamwork.",
+      "persona": "assertive, confident, decisive, bold, strong-willed, determined, steadfast, unwavering, resolute, self-assured",
+      "neighbors": {
+        "18": 0.404633,
+        "2": 0.562833,
+        "35": 0.0
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.514,
+      "prompt": "Inspired by resilient neighbors, I now wholeheartedly support a balanced hybrid work model. Embracing collaboration and productivity with unwavering determination, I lead with confidence in both remote and office environments for impactful results.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, steadfast, unwavering",
+      "neighbors": {
+        "2": 0.47433,
+        "6": 0.554448
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.521,
+      "prompt": "Empowered by resilient neighbors, I stand firm in advocating for a balanced hybrid work model. Integrating independence and collaboration, I lead with unwavering determination for optimal productivity in diverse settings.",
+      "persona": "firm, assertive, decisive, resolute, strong-willed, determined, unwavering, confident, bold, steadfast",
+      "neighbors": {
+        "10": 0.484716,
+        "23": 0.565557
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.548,
+      "prompt": "Collaborating with resilient neighbors, I confidently champion a balanced hybrid work approach. Balancing adaptability and assertiveness, I drive impactful collaboration and productivity in diverse settings for optimal results.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, forceful, decisive",
+      "neighbors": {
+        "2": 0.714384,
+        "7": 0.348133,
+        "37": 0.510369,
+        "46": 0.571592
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.313,
+      "prompt": "With the unwavering support and guidance of my resilient neighbors, I confidently advocate for a balanced hybrid work model. Prioritizing collaboration and productivity with assertiveness and adaptability, I lead effectively in both remote and office settings.",
+      "persona": "kind, considerate, empathetic, patient, understanding, compassionate, gentle, caring, tolerant, supportive",
+      "neighbors": {
+        "26": 0.327698,
+        "6": 0.298276
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.239,
+      "prompt": "With the resilient support of my neighbors, I confidently champion a balanced hybrid work model, seamlessly integrating remote and office dynamics. I lead with unwavering determination, embracing diverse collaboration for optimal productivity.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, unwavering, determined, steadfast, unyielding",
+      "neighbors": {
+        "6": 0.318788,
+        "30": 0.0
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.5977,
+      "prompt": "Boldly inspired by resilient neighbors, I steadfastly champion a balanced hybrid model. Embracing remote independence and office collaboration, I lead confidently towards peak productivity and impactful leadership in diverse environments.",
+      "persona": "assertive, confident, determined, strong-willed, bold, resolute",
+      "neighbors": {
+        "3": 0.28341,
+        "6": 0.591961,
+        "40": 0.669655
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.4218,
+      "prompt": "Guided by collaborative neighbors, I confidently advocate for a balanced hybrid work model. Embracing adaptability and teamwork, I prioritize productivity and impactful leadership in diverse work environments.",
+      "persona": "kind, considerate, compassionate, understanding, patient, caring, empathetic, gentle, warm, supportive",
+      "neighbors": {
+        "33": 0.510369,
+        "28": 0.304959,
+        "39": 0.0
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.724,
+      "prompt": "Guided by steadfast neighbors, I stand firm in advocating for a hybrid work approach. Balancing remote independence and office collaboration, I lead with resolute determination towards peak productivity and impactful leadership.",
+      "persona": "firm, assertive, confident, decisive, resolute, strong-willed",
+      "neighbors": {
+        "5": 0.130349,
+        "8": 0.85336,
+        "41": 0.65104
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.811,
+      "prompt": "Empowered by resilient neighbors' unwavering support, I steadfastly endorse a balanced hybrid work model. Blending remote freedom with office camaraderie, I lead with resolute determination for optimal productivity and impactful leadership.",
+      "persona": "authoritative, assertive, commanding, unwavering, decisive, strong-willed, stern, resolute, no-nonsense, firm-handed",
+      "neighbors": {
+        "4": 0.818183,
+        "37": 0.0
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.599,
+      "prompt": "Firmly guided by resilient neighbors, I decisively support a balanced hybrid work model. Balancing independence and collaboration, I lead with confidence towards peak productivity and impactful leadership in diverse environments.",
+      "persona": "moderately firm, assertive, resolute, decisive, confident, self-assured",
+      "neighbors": {
+        "3": 0.461735,
+        "36": 0.669655
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.4806,
+      "prompt": "Influenced by my steadfast neighbors, I confidently support a balanced hybrid work model. Integrating remote independence and office collaboration, I lead with resolute determination for maximum productivity and impactful leadership.",
+      "persona": "firm, assertive, confident, strong-willed, resolute, determined, unwavering, decisive",
+      "neighbors": {
+        "10": 0.301521,
+        "38": 0.65104
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.39525,
+      "prompt": "Supported by resilient neighbors, I confidently advocate for a balanced hybrid work model. Embracing adaptability and assertiveness, I lead for optimal team productivity in diverse settings.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering, decisive, steadfast, self-assured",
+      "neighbors": {
+        "1": 0.404836,
+        "24": 0.424962,
+        "44": 0.365824,
+        "48": 0.086037
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.576,
+      "prompt": "Together with my determined neighbors, I resolutely champion a balanced hybrid work model. Embracing adaptability and unwavering determination, I prioritize optimal productivity and impactful collaboration in both remote and office settings for effective leadership.",
+      "persona": "assertive, determined, confident, bold, strong-willed, decisive, resolute, unwavering",
+      "neighbors": {
+        "17": 0.500223,
+        "16": 0.620221
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.48325,
+      "prompt": "Inspired by my resilient neighbors' support, I now lean towards a balanced hybrid work model. Combining adaptability and assertiveness, I aim for optimal team productivity in both remote and office settings.",
+      "persona": "mild, moderate, moderate, reasonable, balanced, measured",
+      "neighbors": {
+        "42": 0.365824,
+        "12": 0.61863
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.545,
+      "prompt": "Empowered by resilient neighbors, I confidently advocate for a balanced hybrid work model. Balancing assertiveness with adaptability, prioritizing collaboration and productivity for optimal impact in diverse settings.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, forceful, self-assured, decisive, authoritative",
+      "neighbors": {
+        "1": 0.590335,
+        "5": 0.419247
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.522,
+      "prompt": "Unified with my resilient neighbors, I stand firm on embracing a balanced hybrid work model. Nurturing impactful collaboration and productivity through a blend of assertiveness and adaptability, I drive optimal results in diverse settings.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, unwavering, determined",
+      "neighbors": {
+        "1": 0.470518,
+        "33": 0.571592
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.437,
+      "prompt": "I confidently advocate for a balanced hybrid work model, combining remote independence with office collaboration for team success. With unwavering determination and strong support from resilient neighbors, my leadership shines in diverse settings.",
+      "persona": "firm, assertive, decisive, confident, strong-willed, unwavering, resolute, determined, commanding, unyielding",
+      "neighbors": {
+        "18": 0.322752,
+        "3": 0.443358,
+        "48": 0.47097
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.466,
+      "prompt": "Firmly leading with unwavering determination, I resolutely support a balanced hybrid work model combining remote independence and office collaboration for amplified team success in diverse settings.",
+      "persona": "firm, assertive, confident, strong-willed, resolute, determined, unwavering, decisive, steadfast",
+      "neighbors": {
+        "42": 0.086037,
+        "47": 0.47097
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.552,
+      "prompt": "Guided by my resilient neighbors, I confidently advocate for a balanced hybrid work model. Balancing assertiveness with collaboration, I aim for peak productivity and impactful leadership in diverse settings.",
+      "persona": "gentle, kind-hearted, compassionate, empathetic, understanding, patient",
+      "neighbors": {
+        "3": 0.554933,
+        "23": 0.02882
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.535,
+      "prompt": "Together with resilient neighbors, I stand by a balanced hybrid work model, prioritizing flexibility for enhanced productivity and collaboration in diverse settings.",
+      "persona": "moderate, balanced, fair, reasonable, composed, measured, rational, level-headed",
+      "neighbors": {
+        "12": 0.54221,
+        "15": 0.525795
+      }
+    }
+  ]
+}

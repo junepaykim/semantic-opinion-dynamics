@@ -9,7 +9,8 @@ from pathlib import Path
 MAX_RETRIES = 5
 TOPIC = "Remote Work v.s. Return-to-Office"  # work-from-home vs work-from-office
 OLLAMA_MODEL = "qwen3:4b"
-OPENAI_MODEL = "gpt-3.5-turbo"
+# Try in order; on context_length_exceeded or rate limit, switch to next. gpt-4o-mini: 128K context, cheaper.
+OPENAI_MODELS = ["gpt-3.5-turbo", "gpt-4o-mini", "gpt-4o"]
 
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 _API_KEY_FILE = _PROJECT_ROOT / "api_key.txt"
@@ -42,25 +43,41 @@ def _load_api_key() -> str | None:
     return None
 
 
-def _call_openai(prompt: str) -> str:
-    """Call OpenAI API. Raises on failure."""
+def _is_switchable_error(status_code: int, text: str) -> bool:
+    """True if error suggests trying another model (context limit, rate limit)."""
+    if status_code == 429:
+        return True
+    text_lower = text.lower()
+    return "context_length" in text_lower or "maximum context" in text_lower or "token" in text_lower and "limit" in text_lower
+
+
+def _call_openai(prompt: str, model_index: int = 0) -> str:
+    """Call OpenAI API. On context/rate limit, retry with next model. Raises on failure."""
     api_key = _load_api_key()
     if not api_key:
         raise ValueError("OpenAI API key not found. Put it in api_key.txt or set OPENAI_API_KEY.")
     url = "https://api.openai.com/v1/chat/completions"
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
-    payload = {
-        "model": OPENAI_MODEL,
-        "messages": [{"role": "user", "content": prompt}],
-    }
-    response = requests.post(url, json=payload, headers=headers, timeout=60)
-    if response.status_code != 200:
-        raise Exception(f"OpenAI HTTP {response.status_code}: {response.text[:200]}")
-    result = response.json()
-    content = result.get("choices", [{}])[0].get("message", {}).get("content")
-    if not content or not str(content).strip():
-        raise ValueError("OpenAI returned empty content")
-    return str(content).strip()
+    last_error = None
+    for i in range(model_index, len(OPENAI_MODELS)):
+        model = OPENAI_MODELS[i]
+        payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        response = requests.post(url, json=payload, headers=headers, timeout=60)
+        if response.status_code == 200:
+            result = response.json()
+            content = result.get("choices", [{}])[0].get("message", {}).get("content")
+            if not content or not str(content).strip():
+                raise ValueError("OpenAI returned empty content")
+            return str(content).strip()
+        last_error = Exception(f"OpenAI HTTP {response.status_code}: {response.text[:200]}")
+        if _is_switchable_error(response.status_code, response.text) and i + 1 < len(OPENAI_MODELS):
+            print(f"[modelCall] {model} limit hit, switching to {OPENAI_MODELS[i + 1]}")
+            continue
+        raise last_error
+    raise last_error
 
 
 def _call_ollama(prompt: str, model: str = OLLAMA_MODEL) -> str:

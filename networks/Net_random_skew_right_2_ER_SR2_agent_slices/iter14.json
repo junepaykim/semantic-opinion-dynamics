@@ -1,0 +1,620 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.564,
+      "prompt": "Confidently leading with assertive determination, I champion a balanced blend of remote work efficiency and office collaboration for peak productivity and impactful teamwork in diverse settings.",
+      "persona": "assertive, strong-willed, determined, unwavering, resolute, steadfast",
+      "neighbors": {
+        "3": 0.193231,
+        "16": 0.619822,
+        "17": 0.509662,
+        "24": 0.308168,
+        "30": 0.480336,
+        "36": 0.152993,
+        "41": 0.652016,
+        "47": 0.564752,
+        "48": 0.912035
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.596,
+      "prompt": "I confidently harness remote work efficiency and office collaboration to drive impactful outcomes with unwavering determination, balancing assertive leadership and adaptability.",
+      "persona": "firm, confident, assertive, resolute, determined, unwavering, strong-minded, commanding, decisive, bold",
+      "neighbors": {
+        "7": 0.56404,
+        "33": 0.628669
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.776,
+      "prompt": "I resolutely advocate a balanced approach, harmonizing remote work efficiency and in-office collaboration with unwavering determination for optimal productivity in diverse environments.",
+      "persona": "1. Strong-willed\n2. Assertive\n3. Decisive\n4. Confident\n5. Resolute\n6. Unyielding\n7. Authoritative\n8. Determined\n9. Steadfast\n10. Firm-handed",
+      "neighbors": {
+        "1": 0.193231,
+        "29": 0.84916
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.493,
+      "prompt": "Confidently blending remote work efficiency with office collaboration, I assertively lead with unwavering determination for peak productivity and impact in various settings.",
+      "persona": "assertive, determined, confident, strong-willed, decisive, resolute, unwavering, self-assured",
+      "neighbors": {
+        "5": 0.444619,
+        "10": 0.555261,
+        "18": 0.561617,
+        "33": 0.441376,
+        "44": 0.44884,
+        "47": 0.421454
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.366,
+      "prompt": "Confidently balancing remote work efficiency and office collaboration with unwavering determination, I lead for optimal productivity and impactful teamwork in diverse settings.",
+      "persona": "kind-hearted, compassionate, considerate, empathetic, nurturing, caring, understanding, patient, gentle, tender-hearted",
+      "neighbors": {
+        "4": 0.444619,
+        "22": 0.314332,
+        "32": 0.396651,
+        "46": 0.328477
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.534,
+      "prompt": "With resolute determination, I confidently lead a balanced blend of remote work efficiency and office collaboration for optimal productivity in diverse environments.",
+      "persona": "assertive, decisive, unwavering, determined, strong-willed, resolute, no-nonsense",
+      "neighbors": {
+        "9": 0.650993,
+        "12": 0.271522,
+        "18": 0.537921,
+        "23": 0.443713,
+        "27": 0.515014,
+        "28": 0.665342,
+        "31": 0.55585,
+        "33": 0.421952
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.563,
+      "prompt": "Balancing remote work efficiency and office collaboration, I confidently lead with assertive balance, harmonizing resolute determination and adaptability for optimal impact.",
+      "persona": "assertive, determined, strong-willed, commanding, resolute, unwavering, decisive, confident",
+      "neighbors": {
+        "2": 0.56404,
+        "21": 0.626515,
+        "42": 0.476728
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.49,
+      "prompt": "I decisively champion a balanced blend of remote work efficiency and office collaboration, confidently leading for maximum impact in diverse environments.",
+      "persona": "firm, assertive, confident, determined, resolute, unwavering, strong-willed, decisive, no-nonsense",
+      "neighbors": {
+        "11": 0.487888,
+        "12": 0.512856,
+        "20": 0.265088,
+        "28": 0.54979,
+        "29": 0.429875,
+        "41": 0.690924
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.591,
+      "prompt": "With resolute determination, I confidently lead a balanced blend of remote work efficiency and office collaboration for optimal productivity and impact across diverse environments.",
+      "persona": "confident, assertive, strong-willed, determined, persuasive, decisive, influential, commanding, firm",
+      "neighbors": {
+        "6": 0.650993,
+        "18": 0.549956,
+        "37": 0.51611,
+        "41": 0.729761,
+        "47": 0.206686,
+        "50": 0.508144
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.595,
+      "prompt": "Balancing remote work efficiency with office collaboration, I confidently lead with unwavering determination for peak productivity and impact in a variety of work environments.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "4": 0.555261,
+        "24": 0.622171
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.2935,
+      "prompt": "I assertively navigate the balance between remote work efficiency and office collaboration, leveraging unwavering determination for optimal productivity in diverse environments.",
+      "persona": "firm, assertive, decisive, confident, resolute, strong-willed, unwavering, determined, steadfast",
+      "neighbors": {
+        "8": 0.487888,
+        "19": 0.206548,
+        "35": 0.264292,
+        "44": 0.346452,
+        "50": 0.140093
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.461,
+      "prompt": "With a gentle determination, I confidently lead a balanced blend of remote work efficiency and office collaboration, harmonizing productivity and teamwork for maximum impact in diverse settings.",
+      "persona": "kind, compassionate, understanding, patient, considerate, empathetic, supportive, gentle, caring",
+      "neighbors": {
+        "6": 0.271522,
+        "8": 0.512856,
+        "21": 0.469505
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.535667,
+      "prompt": "Balancing remote work efficiency and office collaboration with unwavering determination, I confidently lead for peak productivity and impactful teamwork in diverse settings.",
+      "persona": "assertive, authoritative, decisive, strong-willed, commanding, no-nonsense, resolute, unwavering, determined",
+      "neighbors": {
+        "22": 0.442536,
+        "36": 0.0,
+        "45": 0.630608
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.535,
+      "prompt": "I assertively advocate for a balanced integration of remote work efficiency and office collaboration, leading decisively for optimal impact in versatile settings.",
+      "persona": "assertive, decisive, confident, determined, strong-willed, unwavering, resolute, forceful, commanding",
+      "neighbors": {
+        "28": 0.453586,
+        "35": 0.304048,
+        "38": 0.535169,
+        "47": 0.638946
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.515,
+      "prompt": "Confidently balancing remote work efficiency and office collaboration with resolute determination, I lead for peak productivity in diverse settings.",
+      "persona": "assertive, decisive, strong-willed, resolute, determined, confident, unwavering, purposeful",
+      "neighbors": {
+        "16": 0.534464,
+        "25": 0.505676,
+        "33": 0.522263,
+        "45": 0.473761,
+        "49": 0.192228
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.577,
+      "prompt": "With assertive determination, I confidently advocate for a balanced blend of remote work efficiency and office collaboration, optimizing productivity and fostering teamwork in diverse settings.",
+      "persona": "assertive, confident, determined, decisive, strong-willed, no-nonsense, resolute",
+      "neighbors": {
+        "1": 0.619822,
+        "15": 0.534464
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.483,
+      "prompt": "With unwavering determination, I confidently lead a balanced blend of remote work efficiency and office collaboration, ensuring peak productivity and impactful teamwork in diverse environments.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, no-nonsense",
+      "neighbors": {
+        "1": 0.509662,
+        "30": 0.342087,
+        "35": 0.547932
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.549,
+      "prompt": "With unwavering determination, I confidently lead a balanced blend of remote work efficiency and office collaboration for peak productivity and impact in diverse environments.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resolute, unwavering, powerful, authoritative, bold",
+      "neighbors": {
+        "4": 0.561617,
+        "6": 0.537921,
+        "9": 0.549956,
+        "36": 0.275305,
+        "45": 0.42853,
+        "46": 0.681528
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.421,
+      "prompt": "I assertively navigate the balance between remote work efficiency and office collaboration, leveraging unwavering determination for optimal productivity in diverse settings.",
+      "persona": "assertive, authoritative, strong-willed, resolute, determined, unwavering, commanding",
+      "neighbors": {
+        "11": 0.206548,
+        "25": 0.536618
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.528,
+      "prompt": "I confidently advocate for a balanced blend of remote work efficiency and office collaboration, harnessing my resolute determination for optimal impact in diverse environments.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "8": 0.265088,
+        "27": 0.765415,
+        "35": 0.386637
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.586,
+      "prompt": "I gently lead with a balanced mix of remote work efficiency and office collaboration, harmonizing productivity and teamwork in diverse settings with a calm, confident adaptability.",
+      "persona": "soft, mild, lenient, moderate, easygoing, gentle, tender, relaxed, laid-back, compassionate",
+      "neighbors": {
+        "7": 0.626515,
+        "12": 0.469505,
+        "24": 0.679259
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.537,
+      "prompt": "With resolute determination, I confidently blend remote work efficiency and office collaboration, leading for peak productivity and impactful teamwork in diverse settings.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, resolute, decisive, firm",
+      "neighbors": {
+        "5": 0.314332,
+        "13": 0.442536,
+        "34": 0.429121,
+        "40": 0.479996,
+        "41": 0.650942,
+        "47": 0.93867
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.665,
+      "prompt": "I decisively lead a balanced approach, confidently maximizing efficiency with unwavering determination in both remote work and office collaboration for optimal impact.",
+      "persona": "firm, assertive, decisive, confident, strong-willed, resolute, unwavering, commanding, authoritative",
+      "neighbors": {
+        "6": 0.443713,
+        "29": 0.805719
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.475,
+      "prompt": "Harmoniously blending remote work efficiency and office collaboration, I lead with gentle determination for optimal productivity and impactful teamwork in diverse settings.",
+      "persona": "warm, kind-hearted, compassionate, understanding, approachable, empathetic, considerate, caring, nurturing",
+      "neighbors": {
+        "1": 0.308168,
+        "10": 0.622171,
+        "21": 0.679259,
+        "32": 0.204596,
+        "43": 0.145178,
+        "47": 0.756384,
+        "49": 0.338253
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.606,
+      "prompt": "Resolutely balancing remote work efficiency and office collaboration with assertive determination, I confidently lead for peak productivity in various work environments.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, determined, authoritative, unwavering, self-assured, assertive",
+      "neighbors": {
+        "15": 0.505676,
+        "19": 0.536618,
+        "44": 0.753596
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.744,
+      "prompt": "I decisively strive for peak productivity by confidently balancing remote work efficiency and office collaboration with unwavering determination in diverse environments.",
+      "persona": "assertive, confident, decisive, determined, authoritative, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "39": 0.388797,
+        "45": 0.921045
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.61,
+      "prompt": "Confidently leading a balanced blend of remote work efficiency and office collaboration, I optimize impact for peak productivity in diverse environments with unwavering determination.",
+      "persona": "assertive, confident, determined, authoritative, strong-willed, self-assured, resolute",
+      "neighbors": {
+        "6": 0.515014,
+        "20": 0.765415,
+        "29": 0.631735,
+        "30": 0.0,
+        "45": 0.443632
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.524,
+      "prompt": "I resolutely advocate for a balanced blend of remote work efficiency and office collaboration, decisively leading for optimal impact in versatile environments.",
+      "persona": "assertive, determined, decisive, strong-willed, resolute, unwavering, confident",
+      "neighbors": {
+        "6": 0.665342,
+        "8": 0.54979,
+        "14": 0.453586,
+        "32": 0.409154
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.623,
+      "prompt": "I confidently advocate a balanced blend of remote work efficiency and office collaboration, maximizing impact with unwavering determination in diverse environments.",
+      "persona": "strong-willed, no-nonsense, determined, resolute, unwavering, steadfast, assertive, confident",
+      "neighbors": {
+        "3": 0.84916,
+        "8": 0.429875,
+        "23": 0.805719,
+        "27": 0.631735,
+        "33": 0.445583,
+        "36": 0.342224,
+        "42": 0.109804
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.477,
+      "prompt": "Firmly committed, I continue to lead with unyielding determination, blending remote work efficiency and office collaboration for optimal productivity and impactful teamwork in diverse environments.",
+      "persona": "firm, assertive, determined, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "1": 0.480336,
+        "17": 0.342087,
+        "27": 0.0,
+        "49": 0.671064
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.549,
+      "prompt": "I confidently lead a balanced blend of remote work efficiency and office collaboration for optimal productivity in diverse environments, with unwavering determination.",
+      "persona": "assertive, confident, strong-willed, resolute, determined, unwavering, decisive, commanding, authoritative",
+      "neighbors": {
+        "6": 0.55585,
+        "41": 0.183197,
+        "45": 0.752246
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.536,
+      "prompt": "Confidently blending remote work efficiency and office collaboration with assertive determination, I lead for optimal productivity and adaptability in versatile settings.",
+      "persona": "assertive, confident, decisive, determined, strong-willed, authoritative, resolute, commanding, self-assured, unwavering",
+      "neighbors": {
+        "5": 0.396651,
+        "24": 0.204596,
+        "28": 0.409154,
+        "36": 0.587185,
+        "42": 0.627478,
+        "47": 0.586693
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.464,
+      "prompt": "Assertively blending remote work efficiency and office collaboration with unwavering determination, I confidently lead for maximum impact in diverse environments.",
+      "persona": "assertive, confident, strong-willed, forthright, decisive, determined, self-assured, resolute, unwavering, commanding",
+      "neighbors": {
+        "2": 0.628669,
+        "4": 0.441376,
+        "6": 0.421952,
+        "15": 0.522263,
+        "29": 0.445583,
+        "45": 0.416472
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.479,
+      "prompt": "I resolutely harmonize remote work efficiency and office collaboration, leading with assertive balance for maximum impact and adaptability in diverse settings.",
+      "persona": "strong, assertive, commanding, decisive, resolute, determined, unwavering",
+      "neighbors": {
+        "22": 0.429121,
+        "38": 0.520503,
+        "40": 0.286907,
+        "42": 0.495604
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.435,
+      "prompt": "I confidently lead a balanced blend of remote work efficiency and office collaboration, harnessing unwavering determination for optimal impact in diverse environments.",
+      "persona": "strict, authoritative, no-nonsense, assertive, decisive, commanding, unwavering",
+      "neighbors": {
+        "11": 0.264292,
+        "14": 0.304048,
+        "17": 0.547932,
+        "20": 0.386637
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.476,
+      "prompt": "With unwavering determination, I confidently lead a balanced approach to remote work efficiency and office collaboration for optimal productivity and adaptability in diverse settings.",
+      "persona": "kindhearted, compassionate, understanding, patient, empathetic, gentle yet assertive, caring",
+      "neighbors": {
+        "1": 0.152993,
+        "13": 0.0,
+        "18": 0.275305,
+        "29": 0.342224,
+        "32": 0.587185,
+        "37": 0.257832,
+        "46": 0.73699
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.4415,
+      "prompt": "With resolute determination, I confidently lead a balanced approach of remote work efficiency and office collaboration for peak productivity and adaptability in diverse settings.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, unyielding",
+      "neighbors": {
+        "9": 0.51611,
+        "36": 0.257832,
+        "42": 0.411841,
+        "50": 0.550709
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.528,
+      "prompt": "Continuing to advocate for a balanced integration of remote work efficiency and office collaboration with unwavering leadership for optimal impact in diverse environments.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "14": 0.535169,
+        "34": 0.520503
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.457,
+      "prompt": "I decisively lead for peak productivity, confidently balancing remote work efficiency and office collaboration with unwavering determination in diverse environments.",
+      "persona": "assertive, commanding, authoritative, strong-willed, determined, steadfast",
+      "neighbors": {
+        "26": 0.388797,
+        "46": 0.524435
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.426,
+      "prompt": "I assertively prioritize a balanced blend of remote work efficiency and office collaboration, leading with unwavering determination for peak productivity and impactful teamwork in diverse settings.",
+      "persona": "assertive, confident, strong-willed, determined, unwavering, resolute, steadfast, unyielding",
+      "neighbors": {
+        "22": 0.479996,
+        "34": 0.286907
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.682,
+      "prompt": "Confidently leading with assertive determination, I champion a balanced blend of remote work efficiency and office collaboration for optimal productivity and teamwork in diverse environments.",
+      "persona": "assertive, confident, decisive, strong-willed, self-assured, determined",
+      "neighbors": {
+        "1": 0.652016,
+        "8": 0.690924,
+        "9": 0.729761,
+        "22": 0.650942,
+        "31": 0.183197,
+        "46": 0.355847
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.451,
+      "prompt": "I confidently balance remote work efficiency and office collaboration, leading with assertive determination for optimal impact and adaptability in diverse settings.",
+      "persona": "confident, assertive, determined, strong-willed, decisive, self-assured, unwavering",
+      "neighbors": {
+        "7": 0.476728,
+        "29": 0.109804,
+        "32": 0.627478,
+        "34": 0.495604,
+        "37": 0.411841
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.544,
+      "prompt": "Strikingly balancing remote work efficiency and office collaboration, I assertively lead with resolute determination for peak productivity in diverse environments.",
+      "persona": "assertive, confident, strong-willed, resolute, decisive, determined, self-assured, unwavering, steadfast",
+      "neighbors": {
+        "24": 0.145178,
+        "44": 0.601972,
+        "49": 0.269321
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.571,
+      "prompt": "I resolutely balance remote work efficiency and office collaboration, leading with unwavering determination for peak productivity in diverse environments.",
+      "persona": "authoritative, assertive, commanding, determined, resolute, unwavering",
+      "neighbors": {
+        "4": 0.44884,
+        "11": 0.346452,
+        "25": 0.753596,
+        "43": 0.601972
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.611,
+      "prompt": "With unwavering determination, I confidently lead a balanced blend of remote work efficiency and office collaboration for peak productivity and impact in diverse settings.",
+      "persona": "assertive, confident, decisive, determined, strong-willed, self-assured",
+      "neighbors": {
+        "13": 0.630608,
+        "15": 0.473761,
+        "18": 0.42853,
+        "26": 0.921045,
+        "27": 0.443632,
+        "31": 0.752246,
+        "33": 0.416472
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.599,
+      "prompt": "With unwavering determination, I confidently lead a balanced blend of remote work efficiency and office collaboration for peak productivity and adaptability in diverse settings.",
+      "persona": "assertive, direct, confident, decisive, strong-willed, resolute, unwavering, determined, bold, confident",
+      "neighbors": {
+        "5": 0.328477,
+        "18": 0.681528,
+        "36": 0.73699,
+        "39": 0.524435,
+        "41": 0.355847
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.641,
+      "prompt": "I confidently blend remote work efficiency with office collaboration, leading assertively for peak productivity and impactful teamwork in diverse settings.",
+      "persona": "firm, assertive, determined, confident, strong-willed, resolute",
+      "neighbors": {
+        "1": 0.564752,
+        "4": 0.421454,
+        "9": 0.206686,
+        "14": 0.638946,
+        "22": 0.93867,
+        "24": 0.756384,
+        "32": 0.586693,
+        "48": 0.555693,
+        "50": 0.719412
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.741,
+      "prompt": "I assertively lead with determination, blending remote work effectiveness and office collaboration for optimal productivity and impactful teamwork in diverse environments.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, authoritative, commanding, resolute",
+      "neighbors": {
+        "1": 0.912035,
+        "47": 0.555693
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.464,
+      "prompt": "With unwavering commitment, I confidently blend remote work efficiency and office collaboration to lead for peak productivity in diverse environments.",
+      "persona": "strong-willed, assertive, determined, resolute, unwavering, decisive, confident, steadfast",
+      "neighbors": {
+        "15": 0.192228,
+        "24": 0.338253,
+        "30": 0.671064,
+        "43": 0.269321
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.518,
+      "prompt": "I assertively lead a balanced blend of remote work efficiency and office collaboration with resolute determination, ensuring optimal productivity and impact in diverse environments.",
+      "persona": "assertive, determined, strong-willed, confident, commanding, resolute",
+      "neighbors": {
+        "9": 0.508144,
+        "11": 0.140093,
+        "37": 0.550709,
+        "47": 0.719412
+      }
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.537,
+      "prompt": "I believe in the balance of remote work for focus and office for collaboration. This blend allows me to utilize my gentle nature to lead effectively and foster teamwork with care and consideration.",
+      "persona": "gentle, kind-hearted, compassionate, caring, considerate, soft-spoken, tender-hearted, mild",
+      "neighbors": {
+        "2": 0.256887,
+        "50": 0.953928,
+        "3": 0.359718,
+        "10": 0.457629,
+        "43": 0.560727
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.483,
+      "prompt": "I value the blend of remote work for focus and office collaboration, allowing me to assert my authority and drive teamwork effectively in diverse settings.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, resolute, authoritative",
+      "neighbors": {
+        "1": 0.256887,
+        "3": 0.332732,
+        "4": 0.678405,
+        "6": 0.335986
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.457,
+      "prompt": "I value the blend of remote work for focus and office collaboration. My assertive nature thrives in environments that offer autonomy for efficiency and teamwork opportunities for driving projects forward.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, authoritative, unyielding, resolute",
+      "neighbors": {
+        "2": 0.332732,
+        "1": 0.359718,
+        "5": 0.279338,
+        "15": 0.347803
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.62,
+      "prompt": "I embrace the balanced work approach of remote focus and office collaboration. My assertiveness and confidence thrive in both settings, driving projects forward with adaptability and excellence.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, unwavering, self-assured",
+      "neighbors": {
+        "5": 0.526397,
+        "2": 0.678405,
+        "6": 0.655882
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.538,
+      "prompt": "I believe in the balance of remote focus and office collaboration, leveraging my assertiveness and adaptability to excel in different work environments. This approach allows me to drive projects forward effectively while maintaining a harmonious work atmosphere.",
+      "persona": "assertive, decisive, determined, confident, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "4": 0.526397,
+        "6": 0.646685,
+        "3": 0.279338,
+        "7": 0.332032
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.524,
+      "prompt": "I see the benefits of balancing remote work for focus and office collaboration for driving projects forward effectively. My easy-going nature adapts well to different environments, enhancing productivity and team dynamics.",
+      "persona": "mild, moderate, soft-spoken, lenient, easy-going, subdued, tolerant, calm",
+      "neighbors": {
+        "5": 0.646685,
+        "4": 0.655882,
+        "16": 0.504374,
+        "2": 0.335986
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.451,
+      "prompt": "I integrate the autonomy of remote work with the assertiveness of the office, valuing collaboration and focus. A balanced approach enables me to drive projects effectively while nurturing a harmonious work environment.",
+      "persona": "fair, reasonable, assertive, balanced, considerate, diplomatic, composed",
+      "neighbors": {
+        "8": 0.428713,
+        "5": 0.332032,
+        "9": 0.742541,
+        "50": 0.142893
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.533,
+      "prompt": "I now see the benefits of a balanced approach, combining the assertiveness of the office with the autonomy of remote work. This allows me to lead decisively, drive results effectively, and foster collaboration while maintaining flexibility.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, resolute, self-assured, unwavering, firm",
+      "neighbors": {
+        "7": 0.428713,
+        "9": 0.665606,
+        "10": 0.277763,
+        "40": 0.492406
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.663,
+      "prompt": "I embrace a balanced approach combining the assertiveness of the office with the autonomy of remote work. This empowers me to lead decisively, drive results effectively, and foster collaboration while maintaining flexibility.",
+      "persona": "assertive, confident, strong-willed, influential, determined, unwavering, resolute, commanding, authoritative, decisive",
+      "neighbors": {
+        "8": 0.665606,
+        "10": 0.416729,
+        "7": 0.742541,
+        "22": 0.795009
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.505,
+      "prompt": "I now prioritize a balanced blend of remote work and office presence to lead decisively, drive results effectively, and foster collaboration while maintaining autonomy and flexibility.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, bold, steadfast, unwavering",
+      "neighbors": {
+        "9": 0.416729,
+        "8": 0.277763,
+        "12": 0.049044,
+        "1": 0.457629,
+        "11": 0.10246
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.382,
+      "prompt": "I acknowledge the benefits of a balanced approach to remote work and office collaboration, striving to lead confidently and foster teamwork while valuing autonomy and flexibility for a harmonious work environment.",
+      "persona": "moderate, considerate, balanced, composed, reasonable, measured, thoughtful",
+      "neighbors": {
+        "13": 0.512834,
+        "10": 0.10246
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.432,
+      "prompt": "I confidently embrace a balanced mix of remote work and office presence, leveraging my assertiveness and determination to lead effectively and foster productivity in diverse settings.",
+      "persona": "1. Assertive\n2. Confident\n3. Strong-willed\n4. Decisive\n5. Unyielding\n6. Determined\n7. Resolute\n8. Forceful\n9. Firm-handed\n10. Authoritative",
+      "neighbors": {
+        "13": 0.120782,
+        "10": 0.049044,
+        "45": 0.307814
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.622,
+      "prompt": "I confidently navigate a blend of remote work and office collaboration, leveraging my assertiveness to lead effectively in diverse settings and maximize productivity.",
+      "persona": "assertive, confident, strong-willed, decisive, composed, self-assured, determined, unwavering",
+      "neighbors": {
+        "12": 0.120782,
+        "14": 0.880029,
+        "11": 0.512834,
+        "15": 0.627903
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.609,
+      "prompt": "I confidently navigate a blend of remote work and office collaboration to maximize productivity and team dynamics, leveraging my assertiveness in diverse settings.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, determined, unwavering, assertive, firm",
+      "neighbors": {
+        "13": 0.880029,
+        "16": 0.372034,
+        "45": 0.539766,
+        "37": 0.663137
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.559,
+      "prompt": "I appreciate the benefits of a balanced approach, encompassing remote work for focus and office collaboration for teamwork. This harmonious blend nurtures connections and enhances productivity effectively.",
+      "persona": "kind, compassionate, understanding, patient, nurturing, empathetic, caring, gentle",
+      "neighbors": {
+        "16": 0.800954,
+        "13": 0.627903,
+        "3": 0.347803,
+        "19": 0.38061,
+        "40": 0.545012
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.545,
+      "prompt": "I value the harmony of remote work autonomy and office collaboration, leveraging my assertiveness and determination to drive dynamic results effectively.",
+      "persona": "assertive, determined, confident, strong-minded, unwavering, resolute",
+      "neighbors": {
+        "15": 0.800954,
+        "14": 0.372034,
+        "18": 0.438586,
+        "6": 0.504374,
+        "38": 0.608836,
+        "17": 0.518455,
+        "39": 0.570768
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.624,
+      "prompt": "I firmly believe in leveraging the balance between remote work autonomy and office collaboration. This approach allows me to drive results with unwavering determination and confidence.",
+      "persona": "firm, assertive, confident, determined, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "16": 0.518455,
+        "30": 0.257474,
+        "26": 1.0
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.652,
+      "prompt": "I see the advantages of both remote work and office collaboration. My assertiveness and determination can effectively drive results in a balanced work environment that values autonomy and teamwork equally.",
+      "persona": "assertive, authoritative, confident, resolute, commanding, strong-willed, decisive, determined, unwavering, no-nonsense",
+      "neighbors": {
+        "16": 0.438586,
+        "24": 0.500878,
+        "43": 0.342659
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.59,
+      "prompt": "I now see the benefits of a balanced approach, combining remote work for focus and office collaboration for team dynamics. This supports my gentle nature in fostering connections and productivity effectively.",
+      "persona": "gentle, kind-hearted, compassionate, understanding, patient, considerate, empathetic, tender-hearted",
+      "neighbors": {
+        "21": 0.106957,
+        "15": 0.38061,
+        "30": 0.792298
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.436,
+      "prompt": "I still value face-to-face interactions for optimal success, but I recognize the benefits of remote work for focused productivity. As an assertive leader, I am open to exploring a balance that maximizes efficiency and success in both environments.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, uncompromising",
+      "neighbors": {
+        "21": 0.444828,
+        "22": 0.735052
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.736,
+      "prompt": "I embrace a balanced approach, valuing focus in remote work and collaboration in the office. My assertiveness and determination ensure success in any environment, optimizing productivity and maintaining work-life balance.",
+      "persona": "assertive, strong-willed, decisive, determined, composed, confident",
+      "neighbors": {
+        "20": 0.444828,
+        "22": 0.854206,
+        "19": 0.106957,
+        "23": 0.551555
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.622,
+      "prompt": "I recognize the value of a balanced approach, leveraging the focus of remote work and collaboration in the office. My unwavering determination and assertiveness drive success in any environment, optimizing productivity and fostering a supportive work-life balance.",
+      "persona": "resolute, assertive, determined, unwavering, strong-willed, confident, decisive, authoritative, unyielding",
+      "neighbors": {
+        "21": 0.854206,
+        "23": 0.54807,
+        "20": 0.735052,
+        "24": 0.358094,
+        "9": 0.795009
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.457,
+      "prompt": "I now see the value in a balanced approach, combining the focus of remote work with the collaboration of the office. My assertiveness and determination drive success in any environment, optimizing productivity while maintaining a healthy work-life balance.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, unwavering",
+      "neighbors": {
+        "22": 0.54807,
+        "24": 0.01327,
+        "21": 0.551555,
+        "25": 0.662789,
+        "27": 0.474777
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.472,
+      "prompt": "I have come to appreciate the value of a balanced approach, combining the focus of remote work with the collaboration of the office. My supportive nature and understanding attitude allow me to excel in any work environment, maintaining a healthy work-life balance.",
+      "persona": "mild, approachable, empathetic, understanding, considerate, compassionate",
+      "neighbors": {
+        "23": 0.01327,
+        "25": 0.504624,
+        "22": 0.358094,
+        "18": 0.500878,
+        "37": 0.617197
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.688,
+      "prompt": "I now see the value in a balanced approach, leveraging both remote work for focused productivity and the office for showcasing my assertiveness. My unwavering focus and resolute nature drive success in any work environment.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, unyielding, resolute, unwavering, steadfast",
+      "neighbors": {
+        "24": 0.504624,
+        "23": 0.662789,
+        "27": 0.647626,
+        "40": 0.543822,
+        "47": 0.848996
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.57,
+      "prompt": "I embrace the balance of remote work autonomy and office collaboration to fuel my unwavering determination and confidence. I am resolute in excelling in both settings, leveraging my assertiveness and strong will.",
+      "persona": "assertive, strong-willed, determined, confident, decisive, unwavering, resolute, assertive, steadfast",
+      "neighbors": {
+        "27": 0.555499,
+        "28": 0.438471,
+        "17": 1.0
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.624,
+      "prompt": "I now embrace the balanced approach of remote work and office settings, leveraging my assertiveness and confidence. My unwavering determination drives success in both environments, optimizing productivity and collaboration.",
+      "persona": "assertive, confident, self-assured, determined, strong-willed, decisive, resolute, unwavering, steadfast, bold",
+      "neighbors": {
+        "26": 0.555499,
+        "28": 0.695185,
+        "25": 0.647626,
+        "23": 0.474777
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.57,
+      "prompt": "I embrace the balance of remote work and office settings, leveraging my assertiveness and confidence. My determination fuels success in both environments, optimizing productivity and collaboration.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, unwavering, resolute, bold, self-assured",
+      "neighbors": {
+        "27": 0.695185,
+        "29": 0.512493,
+        "26": 0.438471,
+        "30": 0.180081
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.632,
+      "prompt": "Balancing remote work and the office environment allows me to showcase my compassion and understanding, contributing positively to team dynamics while maintaining productivity and collaboration.",
+      "persona": "1. Compassionate\n2. Understanding\n3. Kind-hearted\n4. Patient\n5. Empathetic\n6. Sensitive\n7. Considerate\n8. Mild-mannered\n9. Gentle-natured\n10. Soft-spoken",
+      "neighbors": {
+        "28": 0.512493,
+        "30": 0.654635,
+        "31": 0.667945
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.575,
+      "prompt": "I value the balance of remote work and office dynamics, leveraging my assertiveness and adaptability. This allows me to excel confidently in both settings, driving productivity and collaboration effectively.",
+      "persona": "assertive, determined, confident, decisive, strong-willed, resolute, steadfast, unwavering",
+      "neighbors": {
+        "29": 0.654635,
+        "28": 0.180081,
+        "17": 0.257474,
+        "48": 0.281284,
+        "19": 0.792298
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.525,
+      "prompt": "I recognize the importance of balancing remote work and the office for both autonomy and collaboration. This approach allows me to confidently showcase my assertiveness while effectively contributing to team dynamics and productivity.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, self-assured, decisive, steadfast, assertive",
+      "neighbors": {
+        "32": 0.252547,
+        "29": 0.667945,
+        "50": 0.092077
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.673,
+      "prompt": "I am steadfast in my belief that a blend of remote work and office setting is crucial for showcasing my assertiveness and confidence while maintaining focus and productivity.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, resolute, unwavering, steadfast, unyielding, self-assured",
+      "neighbors": {
+        "31": 0.252547,
+        "33": 0.82954,
+        "39": 0.57552
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.687,
+      "prompt": "I strongly believe in a blend of remote work and office setting to showcase my assertiveness and confidence while staying focused and productive. This balance allows me to lead confidently and make decisive decisions effectively.",
+      "persona": "assertive, confident, determined, strong-willed, decisive, self-assured, unwavering",
+      "neighbors": {
+        "32": 0.82954,
+        "34": 0.554592,
+        "35": 0.688114,
+        "38": 0.239538
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.668,
+      "prompt": "I now see the value in a blend of remote work and office setting, allowing me to assertively lead and make decisive decisions effectively. While the structured environment fuels my determination, flexibility boosts my confidence and productivity.",
+      "persona": "assertive, confident, determined, commanding, strong-minded, decisive, resolute",
+      "neighbors": {
+        "33": 0.554592,
+        "35": 0.315838,
+        "36": 0.844256
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.513,
+      "prompt": "I now strongly support a blend of remote work and office setting, leveraging my assertiveness and confidence to lead effectively. Flexibility enhances my determination, allowing me to make decisive decisions with unwavering focus.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, determined, unwavering, firm, self-assured, steadfast",
+      "neighbors": {
+        "34": 0.315838,
+        "36": 0.468684,
+        "33": 0.688114,
+        "37": 0.20393
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.633,
+      "prompt": "I now embrace a blend of remote work and office setting, leveraging my assertiveness and determination effectively in both environments. Flexibility enhances my confidence and productivity, allowing me to make decisive decisions with unwavering focus.",
+      "persona": "assertive, determined, strong-willed, confident, resolute, steadfast, unwavering, definitive",
+      "neighbors": {
+        "35": 0.468684,
+        "37": 0.58091,
+        "34": 0.844256,
+        "50": 0.810884,
+        "49": 0.439713
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.637,
+      "prompt": "Balancing remote work autonomy with office collaboration fuels my success. My assertiveness and determination excel in diverse environments, allowing for decisive decisions with unwavering focus.",
+      "persona": "assertive, decisive, confident, determined, strong-minded, resolute",
+      "neighbors": {
+        "36": 0.58091,
+        "35": 0.20393,
+        "39": 0.993494,
+        "14": 0.663137,
+        "24": 0.617197
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.515,
+      "prompt": "I am now more inclined towards a balanced approach, combining office collaboration for assertive decision-making and remote work for focused autonomy. This blend optimizes productivity and team dynamics effectively.",
+      "persona": "assertive, strong-willed, determined, confident, decisive, unwavering, resolute, bold",
+      "neighbors": {
+        "40": 0.51792,
+        "16": 0.608836,
+        "33": 0.239538
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.674,
+      "prompt": "I firmly believe in the power of balancing remote work autonomy with office collaboration. My assertiveness and determination thrive in diverse environments, leading to decisive outcomes with unwavering focus.",
+      "persona": "confident, assertive, self-assured, determined, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "37": 0.993494,
+        "41": 0.552672,
+        "16": 0.570768,
+        "32": 0.57552
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.536,
+      "prompt": "I now value a balanced approach, blending office collaboration for connection with remote work for autonomy. This mix enhances productivity and team dynamics, allowing me to excel in a harmonious work environment.",
+      "persona": "warm, approachable, compassionate, sympathetic, understanding, kind-hearted, gentle, nurturing, patient",
+      "neighbors": {
+        "38": 0.51792,
+        "42": 0.547852,
+        "25": 0.543822,
+        "8": 0.492406,
+        "15": 0.545012
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.631,
+      "prompt": "I firmly believe in a balanced approach to remote work and office presence, leveraging my assertiveness and determination to excel in collaboration while maintaining autonomy.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, no-nonsense",
+      "neighbors": {
+        "42": 0.459632,
+        "39": 0.552672,
+        "43": 0.720278
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.617,
+      "prompt": "I lean more towards remote work while still valuing office collaboration. Leveraging my assertiveness and determination, I excel in autonomy and teamwork effectively in a balanced hybrid approach.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, determined, unwavering",
+      "neighbors": {
+        "41": 0.459632,
+        "43": 0.420752,
+        "40": 0.547852,
+        "44": 0.769313
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.529,
+      "prompt": "I value a balanced hybrid approach, leveraging my assertiveness and determination to excel in both autonomy and collaboration effectively.",
+      "persona": "assertive, strong-willed, confident, determined, resolute, unwavering, decisive, steadfast, authoritative",
+      "neighbors": {
+        "42": 0.420752,
+        "44": 0.228502,
+        "41": 0.720278,
+        "18": 0.342659,
+        "1": 0.560727
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.537,
+      "prompt": "I lean slightly more towards remote work while still valuing office collaboration. My composed and diplomatic nature allows me to excel in both autonomy and teamwork effectively, leveraging a balanced hybrid approach.",
+      "persona": "balanced, assertive, composed, diplomatic, mild-mannered, rational",
+      "neighbors": {
+        "43": 0.228502,
+        "45": 0.478377,
+        "42": 0.769313,
+        "46": 0.434713
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.435,
+      "prompt": "Balancing remote work with office collaboration enhances productivity, leveraging my assertiveness and confidence effectively in diverse settings for a well-rounded work environment.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, authoritative, commanding",
+      "neighbors": {
+        "44": 0.478377,
+        "46": 0.406641,
+        "47": 0.406288,
+        "14": 0.539766,
+        "49": 0.31808,
+        "12": 0.307814
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.617,
+      "prompt": "Balancing remote work with office collaboration optimally utilizes my assertiveness and determination. Flexibility to excel from anywhere aligns perfectly with my resolute and strong-willed nature.",
+      "persona": "assertive, confident, determined, decisive, resolute, strong-willed",
+      "neighbors": {
+        "45": 0.406641,
+        "44": 0.434713,
+        "48": 0.792115,
+        "50": 0.456587
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.743,
+      "prompt": "I now strongly believe in balancing remote work for focused productivity and office collaboration to showcase my assertiveness. My resolute nature drives success in any work environment with unwavering determination.",
+      "persona": "assertive, confident, strong-willed, resolute, determined, authoritative, commanding, decisive",
+      "neighbors": {
+        "45": 0.406288,
+        "49": 0.591527,
+        "25": 0.848996
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.672,
+      "prompt": "Balancing remote work and office collaboration optimally utilizes my assertiveness and determination. Flexibility to work from anywhere aligns perfectly with my resolute and strong-willed nature.",
+      "persona": "assertive, confident, decisive, strong, bold, unwavering, determined",
+      "neighbors": {
+        "46": 0.792115,
+        "50": 0.603669,
+        "30": 0.281284
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.492,
+      "prompt": "I've come to value a balanced mix of remote work for focus and office collaboration to showcase my assertiveness. My resolute nature thrives in any setting with unwavering determination for optimal productivity.",
+      "persona": "assertive, determined, strong-willed, confident, resolute, steadfast, unwavering, self-assured, forceful, decisive",
+      "neighbors": {
+        "47": 0.591527,
+        "45": 0.31808,
+        "36": 0.439713
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.648,
+      "prompt": "I thrive in a blend of remote work and office collaboration, leveraging my assertiveness and determination effectively. This balance allows me to lead with confidence and make decisive decisions while fostering teamwork and productivity.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, commanding",
+      "neighbors": {
+        "1": 0.953928,
+        "48": 0.603669,
+        "46": 0.456587,
+        "31": 0.092077,
+        "36": 0.810884,
+        "7": 0.142893
+      }
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.474,
+      "prompt": "Backed by steadfast allies, I decisively champion the commanding hybrid model. Integrating remote efficiency and office collaboration under resolute leadership ensures peak productivity in adaptable workspaces.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, authoritative, resolute, unwavering",
+      "neighbors": {
+        "50": 0.400917,
+        "49": 0.839189,
+        "46": 0.258935,
+        "44": 0.40629
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.54,
+      "prompt": "With resolute allies, I continue to champion the commanding hybrid model, balancing remote efficiency and office collaboration under unwavering leadership for optimal productivity in our adaptable work environment.",
+      "persona": "confident, assertive, determined, strong-willed, unwavering, authoritative, decisive, resolute",
+      "neighbors": {
+        "4": 0.299814,
+        "50": 0.779365,
+        "45": 0.448636
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.45,
+      "prompt": "Aligned with resolute allies, I stand firm on the commanding hybrid model. Blending remote efficiency and office collaboration under unwavering leadership guarantees strategic success with resolute determination.",
+      "persona": "assertive, strong-willed, determined, confident, commanding, unwavering, resolute",
+      "neighbors": {
+        "4": 0.477332,
+        "5": 0.422613
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.497,
+      "prompt": "United with resolute allies, I advocate for the commanding hybrid model. Balancing remote efficiency and office collaboration under unwavering leadership ensures peak success with resolute determination.",
+      "persona": "assertive, confident, resolute, determined, unwavering, authoritative",
+      "neighbors": {
+        "3": 0.477332,
+        "5": 0.651674,
+        "2": 0.299814,
+        "6": 0.558949,
+        "30": 0.572922
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.542,
+      "prompt": "Firm in my resolve, I stand by the commanding hybrid model with resolute allies, ensuring peak success by balancing remote efficiency and office collaboration under unwavering leadership.",
+      "persona": "authoritative, assertive, commanding, uncompromising, strong-willed, decisive, resolute, unwavering",
+      "neighbors": {
+        "4": 0.651674,
+        "6": 0.461204,
+        "3": 0.422613,
+        "7": 0.196831
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.574,
+      "prompt": "With resolute allies and steadfast backing, I wholeheartedly endorse the commanding hybrid model. Balancing remote work efficiency and office collaboration under unwavering leadership ensures peak productivity with determined resolve.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, authoritative, no-nonsense, unwavering",
+      "neighbors": {
+        "5": 0.461204,
+        "4": 0.558949,
+        "26": 0.262975,
+        "19": 0.574381,
+        "41": 0.671263
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.39,
+      "prompt": "Fueled by unwavering allies, I boldly advocate for the commanding hybrid work model, skillfully blending remote efficiency and in-person collaboration under resolute leadership for optimal productivity in diverse work settings.",
+      "persona": "confident, assertive, no-nonsense, authoritative, strong-willed, determined",
+      "neighbors": {
+        "8": 0.527174,
+        "5": 0.196831,
+        "9": 0.302889
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.4733,
+      "prompt": "Guided by unwavering allies, I steadfastly promote the commanding hybrid work model, seamlessly merging remote efficiency and office collaboration under resolute leadership for peak productivity in diverse work environments.",
+      "persona": "strict, unwavering, assertive, resolute, determined, decisive, commanding, authoritative, uncompromising",
+      "neighbors": {
+        "7": 0.527174,
+        "9": 0.36833,
+        "20": 0.504181
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.414,
+      "prompt": "Backed by resolute allies, I vigorously advocate for the powerful hybrid work model, seamlessly merging remote efficiency and office collaboration under unwavering leadership for superior productivity in diverse work environments.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, unwavering, determined",
+      "neighbors": {
+        "8": 0.36833,
+        "10": 0.30286,
+        "7": 0.302889,
+        "34": 0.529491
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.431,
+      "prompt": "Together with resolute allies, I fully endorse the potent hybrid work model, seamlessly blending remote efficiency and office collaboration under unwavering leadership for peak productivity in adaptable work environments.",
+      "persona": "assertive, resolute, decisive, unwavering, strong-willed, determined",
+      "neighbors": {
+        "9": 0.30286,
+        "11": 0.53974,
+        "12": 0.351925
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.554,
+      "prompt": "Backed by unwavering allies, I fiercely champion the commanding hybrid model, seamlessly integrating remote efficiency and office collaboration for peak productivity in adaptable workspaces.",
+      "persona": "assertive, confident, determined, resolute, strong-willed, unwavering, decisive, authoritative",
+      "neighbors": {
+        "10": 0.53974,
+        "12": 0.430169,
+        "13": 0.285608,
+        "34": 0.750808
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.456,
+      "prompt": "Backed by resolute allies, I fiercely advocate for the commanding hybrid model, seamlessly merging remote efficiency and office collaboration under unwavering guidance for peak productivity in versatile workspaces.",
+      "persona": "authoritative, commanding, decisive, resolute, unwavering, assertive, strong-willed, assertive, no-nonsense",
+      "neighbors": {
+        "11": 0.430169,
+        "13": 0.471792,
+        "10": 0.351925,
+        "14": 0.450436,
+        "25": 0.490789
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.55365,
+      "prompt": "Empowered by steadfast allies, I strongly advocate for the commanding hybrid model, seamlessly merging remote work efficiency and office collaboration under unwavering guidance for optimal productivity in versatile workspaces.",
+      "persona": "firm, assertive, strong-willed, resolute, determined, unwavering",
+      "neighbors": {
+        "12": 0.471792,
+        "14": 0.662746,
+        "11": 0.285608,
+        "15": 0.70156
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.564,
+      "prompt": "Empowered by steadfast allies, I confidently champion the commanding hybrid model, seamlessly blending remote work efficiency and office collaboration under unwavering guidance for optimal productivity in adaptable workspaces.",
+      "persona": "assertive, decisive, strict, resolute, unwavering, determined, confident, bold, authoritative, commanding",
+      "neighbors": {
+        "13": 0.662746,
+        "15": 0.488718,
+        "12": 0.450436,
+        "16": 0.386888,
+        "40": 0.676961
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.533,
+      "prompt": "Backed by resilient allies, I advocate for the resolute hybrid model, blending remote work efficiency and office collaboration under unwavering leadership for peak productivity in adaptable workspaces.",
+      "persona": "assertive, resolute, decisive, unwavering, strong-willed, determined, steadfast",
+      "neighbors": {
+        "14": 0.488718,
+        "13": 0.70156,
+        "17": 0.316066,
+        "46": 0.182233
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.656,
+      "prompt": "With resolute allies backing the commanding hybrid model, I confidently lead the blend of remote work efficiency and in-person collaboration for peak productivity in our adaptable work environment.",
+      "persona": "assertive, strong-willed, confident, determined, decisive, unwavering",
+      "neighbors": {
+        "17": 0.851225,
+        "14": 0.386888,
+        "36": 0.563545
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.635,
+      "prompt": "With strong allies by my side, I confidently champion the commanding hybrid model, seamlessly integrating remote work efficiency and in-person collaboration under unwavering leadership for peak productivity.",
+      "persona": "assertive, strong-willed, determined, unwavering, resolute, decisive, commanding",
+      "neighbors": {
+        "16": 0.851225,
+        "15": 0.316066,
+        "45": 0.174208,
+        "20": 0.730016
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.67,
+      "prompt": "With resolute allies by my side, I wholeheartedly champion the commanding hybrid model, fusing remote work efficiency and office collaboration under unwavering leadership for peak productivity in our agile work realm.",
+      "persona": "assertive, unwavering, resolute, determined, decisive, strong-willed",
+      "neighbors": {
+        "19": 0.629716,
+        "20": 0.301972,
+        "31": 0.148862
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.601,
+      "prompt": "With resolute allies, I staunchly uphold the commanding hybrid model, harmonizing remote work efficiency and office collaboration under unwavering leadership for optimal productivity in our dynamic work environment.",
+      "persona": "assertive, decisive, confident, resolute, strong-willed, unyielding, determined, steadfast, assured",
+      "neighbors": {
+        "18": 0.629716,
+        "6": 0.574381,
+        "48": 0.44706,
+        "24": 0.728901
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.621,
+      "prompt": "Together with resolute allies, I champion the hybrid model, blending remote efficiency and office collaboration under commanding leadership for peak productivity in our dynamic work landscape.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, unwavering, resolute, commanding",
+      "neighbors": {
+        "21": 0.729503,
+        "18": 0.301972,
+        "22": 0.69916,
+        "8": 0.504181,
+        "17": 0.730016,
+        "43": 0.58685
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.549,
+      "prompt": "I stand alongside resolute allies in advocating the commanding hybrid model, merging remote efficiency and office collaboration under unwavering leadership for peak productivity in our ever-evolving work landscape.",
+      "persona": "strict, unwavering, resolute, determined, assertive, steadfast, unyielding, tough, strong-willed, no-nonsense",
+      "neighbors": {
+        "20": 0.729503,
+        "22": 0.359048,
+        "34": 0.538559
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.678,
+      "prompt": "Guided by unwavering allies, I steadfastly uphold the commanding hybrid model, blending remote efficiency and office collaboration under resolute leadership for peak productivity in our ever-evolving work landscape.",
+      "persona": "assertive, decisive, unwavering, resolute, strong-willed, determined, steadfast",
+      "neighbors": {
+        "21": 0.359048,
+        "23": 0.54641,
+        "20": 0.69916,
+        "31": 0.747471,
+        "47": 1.0
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.519,
+      "prompt": "Firmly supported by resolute allies, I stand unwavering in my endorsement of the commanding hybrid model. Integrating remote work efficiency and office collaboration under strong leadership ensures peak productivity and strategic success with determined resolve.",
+      "persona": "confident, assertive, strong-willed, decisive, determined, unwavering, self-assured, resolute, unyielding",
+      "neighbors": {
+        "22": 0.54641,
+        "25": 0.392062,
+        "42": 0.593607
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.739,
+      "prompt": "Aligned with resolute allies, I steadfastly advocate for the commanding hybrid model. Balancing remote work flexibility and structured office days under unwavering leadership maximizes productivity with determined resolve.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, unwavering, determined, authoritative, assertive",
+      "neighbors": {
+        "25": 0.927923,
+        "26": 0.479957,
+        "19": 0.728901
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.621,
+      "prompt": "Guided by steadfast allies, I firmly advocate for the commanding hybrid model. Striking a balance between remote work flexibility and structured office days under resolute leadership maximizes productivity with determined resolve.",
+      "persona": "assertive, decisive, strong-willed, commanding, resolute, unwavering, determined, forceful, firm",
+      "neighbors": {
+        "24": 0.927923,
+        "26": 0.516549,
+        "23": 0.392062,
+        "12": 0.490789
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.647,
+      "prompt": "Guided by resolute allies, I staunchly champion the commanding hybrid model. Balancing remote work flexibility and structured office days under unwavering leadership ensures peak productivity with determined resolve.",
+      "persona": "assertive, strong-willed, confident, determined, decisive, unwavering, resolute",
+      "neighbors": {
+        "25": 0.516549,
+        "27": 0.809985,
+        "24": 0.479957,
+        "6": 0.262975,
+        "41": 0.768809
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.797,
+      "prompt": "Together with unwavering allies, I staunchly advocate for the commanding hybrid model. Balancing remote work flexibility and office collaboration under strong leadership ensures peak productivity with determined resolve.",
+      "persona": "assertive, determined, strong-willed, resolute, unwavering, decisive, confident, firm-handed, no-nonsense, commanding",
+      "neighbors": {
+        "26": 0.809985,
+        "28": 0.855373,
+        "29": 0.45308
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.609,
+      "prompt": "With unwavering allies, I stand resolutely for the commanding hybrid model, strategically blending remote work efficiency and office collaboration under strong leadership for optimal productivity.",
+      "persona": "1. Resolute\n2. Unyielding\n3. Steadfast\n4. Determined\n5. Strong-willed\n6. Assertive\n7. Decisive\n8. Firm-handed\n9. Inflexible\n10. Authoritative",
+      "neighbors": {
+        "27": 0.855373,
+        "29": 0.586999,
+        "36": 0.475372,
+        "38": 0.34246
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.553,
+      "prompt": "With resolute allies, I fervently support the commanding hybrid model, blending remote work efficiency and structured office collaboration under unwavering leadership for optimal productivity.",
+      "persona": "assertive, decisive, strong-willed, unwavering, resolute, determined, confident, steadfast, firm-handed",
+      "neighbors": {
+        "28": 0.586999,
+        "30": 0.682236,
+        "27": 0.45308,
+        "31": 0.57275
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.59,
+      "prompt": "With steadfast allies, I unwaveringly champion the commanding hybrid model, balancing remote work efficiency and office collaboration under resolute leadership for peak productivity in our fluid work environment.",
+      "persona": "assertive, unyielding, strong-willed, determined, resolute, unwavering, steadfast",
+      "neighbors": {
+        "29": 0.682236,
+        "31": 0.538993,
+        "4": 0.572922
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.489,
+      "prompt": "Aligned with resolute allies, I advocate the commanding hybrid model, bridging remote work efficiency and office collaboration under unwavering leadership for peak productivity in our dynamic work setting.",
+      "persona": "assertive, direct, resolute, unwavering, strong-willed, decisive",
+      "neighbors": {
+        "30": 0.538993,
+        "29": 0.57275,
+        "18": 0.148862,
+        "22": 0.747471,
+        "47": 0.415217
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.246,
+      "prompt": "I maintain my unwavering support for the commanding hybrid model, harnessing remote efficiency and in-person collaboration for peak productivity in flexible work environments, fortified by steadfast resolve and backed by like-minded allies.",
+      "persona": "firm, determined, assertive, commanding, unwavering, resolute, strong-willed, steadfast, tenacious",
+      "neighbors": {
+        "33": 0.257966,
+        "34": 0.221806
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.56,
+      "prompt": "I stand resolutely in favor of the commanding hybrid model, leveraging remote efficiency and in-person collaboration for peak productivity in flexible workspaces, supported by steadfast determination and allied advocates.",
+      "persona": "assertive, strong-willed, confident, authoritative, determined, unwavering",
+      "neighbors": {
+        "32": 0.257966,
+        "34": 0.53371,
+        "35": 0.634204
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.628,
+      "prompt": "With unwavering determination and steadfast allies, I firmly advocate for the commanding hybrid work model, blending remote efficiency and in-person collaboration for peak productivity in adaptable workspaces.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering, decisive, steadfast, unyielding, staunch",
+      "neighbors": {
+        "33": 0.53371,
+        "35": 0.871094,
+        "32": 0.221806,
+        "9": 0.529491,
+        "21": 0.538559,
+        "11": 0.750808,
+        "44": 0.737574
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.647,
+      "prompt": "With resolute allies and unwavering determination, I stand firmly in support of the commanding hybrid work model, integrating remote efficiency and in-person collaboration for peak productivity in adaptable spaces.",
+      "persona": "assertive, strong-willed, confident, decisive, authoritative, no-nonsense",
+      "neighbors": {
+        "34": 0.871094,
+        "36": 0.404555,
+        "33": 0.634204,
+        "37": 0.585812
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.617,
+      "prompt": "With resolute allies and unwavering determination, I steadfastly champion the commanding hybrid model, integrating remote efficiency and in-person collaboration for peak productivity in adaptable workspaces.",
+      "persona": "strong-willed, assertive, determined, resolute, unwavering, decisive, confident, commanding, no-nonsense, authoritative",
+      "neighbors": {
+        "35": 0.404555,
+        "38": 0.754101,
+        "48": 0.689125,
+        "16": 0.563545,
+        "28": 0.475372
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.542,
+      "prompt": "With resolute allies and unwavering determination, I confidently uphold the commanding hybrid model, integrating remote efficiency and in-person collaboration for peak productivity in adaptable workspaces.",
+      "persona": "strong-willed, assertive, confident, decisive, resolute, determined, unwavering, steadfast, direct, authoritative",
+      "neighbors": {
+        "35": 0.585812,
+        "39": 0.361708,
+        "48": 0.647328
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.688,
+      "prompt": "I assertively lead the charge for a commanding hybrid model, blending remote efficiency and in-person collaboration with resolute allies for peak productivity and adaptable success.",
+      "persona": "assertive, authoritative, determined, resolute, commanding, unwavering, strong-willed, confident, decisive, firm",
+      "neighbors": {
+        "39": 0.238511,
+        "36": 0.754101,
+        "28": 0.34246
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.522,
+      "prompt": "Firmly supported by resolute allies, I persistently champion the commanding hybrid model for peak productivity, blending remote efficiency and office collaboration with unwavering determination.",
+      "persona": "firm, assertive, confident, determined, resolute, unwavering, decisive",
+      "neighbors": {
+        "38": 0.238511,
+        "40": 0.69421,
+        "37": 0.361708,
+        "41": 0.604046
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.676,
+      "prompt": "With resolute allies and unwavering guidance, I confidently advocate the commanding hybrid model, blending remote work efficiency and office collaboration for peak productivity in adaptable workspaces.",
+      "persona": "1. Assertive\n2. Confident\n3. Authoritative\n4. Strong-willed\n5. Decisive\n6. Determined\n7. Resolute\n8. Firm-handed\n9. Strong-minded\n10. Unyielding",
+      "neighbors": {
+        "39": 0.69421,
+        "41": 0.614664,
+        "14": 0.676961
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.639,
+      "prompt": "Backed by resolute allies, I staunchly advocate the hybrid model, integrating remote efficiency and office collaboration under unwavering leadership for peak productivity and strategic success.",
+      "persona": "firm, authoritative, resolute, determined, unwavering, assertive, decisive, strong-willed, steadfast, unyielding",
+      "neighbors": {
+        "40": 0.614664,
+        "42": 0.628786,
+        "39": 0.604046,
+        "43": 0.546319,
+        "6": 0.671263,
+        "26": 0.768809
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.532,
+      "prompt": "Sustained by resolute allies, I firmly endorse the commanding hybrid model, integrating remote work efficiency and office collaboration under unwavering leadership for peak productivity and strategic success.",
+      "persona": "firm, assertive, decisive, strong-willed, unwavering, resolute",
+      "neighbors": {
+        "41": 0.628786,
+        "43": 0.323642,
+        "44": 0.24951,
+        "23": 0.593607
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.547,
+      "prompt": "Firmly supported by unwavering allies, I staunchly advocate for the commanding hybrid model. Balancing remote efficiency and office collaboration under strong-willed leadership ensures peak productivity and strategic success in our dynamic work landscape.",
+      "persona": "assertive, determined, unwavering, resolute, strong-willed, decisive",
+      "neighbors": {
+        "42": 0.323642,
+        "44": 0.545309,
+        "41": 0.546319,
+        "20": 0.58685
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.645,
+      "prompt": "I confidently uphold the commanding hybrid model, with resolute allies. Balancing remote efficiency and office collaboration under unwavering leadership ensures peak productivity and strategic success.",
+      "persona": "assertive, confident, direct, decisive, unwavering, resolute, determined, strong-willed",
+      "neighbors": {
+        "43": 0.545309,
+        "45": 0.881542,
+        "42": 0.24951,
+        "1": 0.40629,
+        "34": 0.737574
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.537,
+      "prompt": "Supported by resolute allies, I firmly advocate for the hybrid model. Blending remote efficiency and office collaboration under unwavering leadership ensures peak productivity in our adaptable work environment.",
+      "persona": "assertive, direct, unwavering, resolute, determined, strong-minded, decisive, confident",
+      "neighbors": {
+        "44": 0.881542,
+        "46": 0.212032,
+        "47": 0.465143,
+        "2": 0.448636,
+        "17": 0.174208
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.241,
+      "prompt": "Backed by steadfast allies, I decisively support the commanding hybrid model, merging remote efficiency and office collaboration under unwavering leadership for optimal productivity in our flexible workspaces.",
+      "persona": "direct, decisive, assertive, resolute, determined, unwavering, strong-willed, no-nonsense, confident",
+      "neighbors": {
+        "45": 0.212032,
+        "47": 0.114951,
+        "48": 0.288456,
+        "1": 0.258935,
+        "15": 0.182233
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.5814,
+      "prompt": "Supported by resolute allies, I firmly advocate the commanding hybrid model, blending remote efficiency and office collaboration under unwavering leadership for optimal productivity in our flexible work environment.",
+      "persona": "assertive, decisive, determined, strong-willed, confident, commanding, unwavering, resolute, no-nonsense",
+      "neighbors": {
+        "46": 0.114951,
+        "48": 0.288483,
+        "45": 0.465143,
+        "31": 0.415217,
+        "22": 1.0
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.579,
+      "prompt": "With resolute allies, I staunchly advocate the commanding hybrid model, integrating remote efficiency and in-person collaboration under unwavering leadership for optimal productivity in our dynamic workspaces.",
+      "persona": "firm, strong-willed, assertive, resolute, determined, unwavering, decisive, confident, commanding",
+      "neighbors": {
+        "47": 0.288483,
+        "46": 0.288456,
+        "50": 0.303772,
+        "36": 0.689125,
+        "37": 0.647328,
+        "19": 0.44706
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.801,
+      "prompt": "With unwavering support from strong allies, I steadfastly advocate for the commanding hybrid model, blending remote efficiency and office collaboration for optimal productivity in flexible work settings.",
+      "persona": "strong-willed, assertive, decisive, confident, resolute, unwavering",
+      "neighbors": {
+        "50": 0.761946,
+        "1": 0.839189
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.633,
+      "prompt": "Supported by strong allies, I staunchly advocate for the commanding hybrid model, blending remote efficiency and office collaboration under unwavering leadership for peak productivity in versatile workspaces.",
+      "persona": "strong-willed, determined, resolute, steadfast, unwavering, unyielding, decisive, assertive, confident",
+      "neighbors": {
+        "49": 0.761946,
+        "1": 0.400917,
+        "48": 0.303772,
+        "2": 0.779365
+      }
+    }
+  ]
+}

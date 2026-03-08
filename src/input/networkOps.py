@@ -15,6 +15,46 @@ networksDir = _ROOT / "networks"
 PRECISION = 6
 GRAPH_TYPE_SUFFIX = {"random": "ER", "small_world": "SW", "scale_free": "SF", "karate_club": "KC"}
 
+SCORE_DIST_SUFFIX = {
+    "normal": "N",
+    "skew_left_1": "SL1",
+    "skew_left_2": "SL2",
+    "skew_left_3": "SL3",
+    "skew_right_1": "SR1",
+    "skew_right_2": "SR2",
+    "skew_right_3": "SR3",
+    "polarized": "P",
+}
+
+
+def _sampleOpinionScores(n: int, dist: str, seed=None) -> np.ndarray:
+    """Sample n opinion scores in [0,1] from given distribution."""
+    rng = np.random.default_rng(seed)
+    scale = 0.2
+    if dist == "normal":
+        scores = rng.normal(loc=0.5, scale=scale, size=n)
+    elif dist == "skew_left_1":
+        scores = rng.normal(loc=0.5 - scale, scale=scale, size=n)
+    elif dist == "skew_left_2":
+        scores = rng.normal(loc=0.5 - 2 * scale, scale=scale, size=n)
+    elif dist == "skew_left_3":
+        scores = rng.normal(loc=0.5 - 3 * scale, scale=scale, size=n)
+    elif dist == "skew_right_1":
+        scores = rng.normal(loc=0.5 + scale, scale=scale, size=n)
+    elif dist == "skew_right_2":
+        scores = rng.normal(loc=0.5 + 2 * scale, scale=scale, size=n)
+    elif dist == "skew_right_3":
+        scores = rng.normal(loc=0.5 + 3 * scale, scale=scale, size=n)
+    elif dist == "polarized":
+        half = n // 2
+        low = rng.beta(1, 4, size=half)
+        high = 1 - rng.beta(1, 4, size=n - half)
+        scores = np.concatenate([low, high])
+        rng.shuffle(scores)
+    else:
+        raise ValueError(f"Unknown score dist: {dist}")
+    return np.clip(scores, 0.0, 1.0)
+
 
 def getNextNetworkBasename() -> str:
     """Next auto basename (Net1, Net2, ...) from existing files."""
@@ -32,6 +72,7 @@ def getNextNetworkBasename() -> str:
 def generateNetwork(
     nNodes: int = 20,
     graphType: Literal["random", "scale_free", "small_world", "karate_club"] = "random",
+    scoreDist: str = "normal",
     **kwargs,
 ) -> dict:
     """Generate graph structure. Returns network dict with nodes (id, opinionScore, prompt, persona, neighbors)."""
@@ -56,8 +97,7 @@ def generateNetwork(
     else:
         raise ValueError(f"Unsupported graph type: {graphType}")
 
-    scores = np.random.normal(loc=0.5, scale=0.2, size=nNodes)
-    scores = np.clip(scores, 0.0, 1.0)
+    scores = _sampleOpinionScores(nNodes, scoreDist, seed=seed)
 
     edge_weights = {}
     for u, v in G.edges():

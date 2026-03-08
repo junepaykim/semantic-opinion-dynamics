@@ -1,0 +1,432 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.547,
+      "prompt": "I strongly advocate for a harmonious hybrid model, blending remote work flexibility with essential in-office collaboration. This approach fosters strong connections, nurtures leadership, and enhances team dynamics effectively and confidently.",
+      "persona": "assertive, confident, balanced, persuasive, slightly demanding, somewhat accommodating, decisively gentle",
+      "neighbors": {
+        "2": 0.472363,
+        "3": 0.304615,
+        "4": 0.451399,
+        "5": 0.587674,
+        "6": 0.340629,
+        "7": 0.300528,
+        "8": 0.463253,
+        "9": 0.679184,
+        "11": 0.623464,
+        "12": 0.427619,
+        "13": 0.504855,
+        "14": 0.557641,
+        "18": 0.430091,
+        "20": 0.364793,
+        "22": 0.832587,
+        "32": 0.675666
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.493,
+      "prompt": "Balancing remote work and office interactions supports connections and productivity, fostering a harmonious team environment. Embracing flexibility and decisiveness, I lead with confidence and collaboration.",
+      "persona": "Moderately assertive, Balanced, Somewhat accommodating, Mildly decisive, Appropriately firm, Gentle yet confident",
+      "neighbors": {
+        "1": 0.472363,
+        "3": 0.486655,
+        "4": 0.208882,
+        "8": 0.692507,
+        "14": 0.709388,
+        "18": 0.324414,
+        "20": 0.471153,
+        "22": 0.512247,
+        "31": 0.710312
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.637,
+      "prompt": "Balancing remote work and in-office collaboration enhances connections, aligning with my nurturing nature and fostering a compassionate team environment harmoniously.",
+      "persona": "gentle, soft-spoken, nurturing, mild-mannered, accommodating, compassionate, yielding, warm-hearted, easygoing",
+      "neighbors": {
+        "1": 0.304615,
+        "2": 0.486655,
+        "4": 0.732841,
+        "8": 0.384691,
+        "9": 0.621957,
+        "10": 0.744698,
+        "14": 0.473041,
+        "28": 0.92364,
+        "29": 0.784439,
+        "33": 0.306913
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.443,
+      "prompt": "I embrace a harmonious blend of remote work and office collaboration, nurturing connections while fostering a supportive team environment with gentle leadership, aligning closely with the balanced hybrid model advocated by my neighbors.",
+      "persona": "kind, approachable, relaxed, mild-mannered, soft-spoken, accommodating, easygoing",
+      "neighbors": {
+        "1": 0.451399,
+        "2": 0.208882,
+        "3": 0.732841,
+        "8": 0.227042,
+        "13": 0.455658,
+        "14": 0.358908
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.615,
+      "prompt": "I maintain my strong advocacy for a balanced hybrid model. Merging remote work flexibility with essential in-office collaboration is vital for maximizing productivity, team dynamics, and relationship-building through empathy and decisive leadership.",
+      "persona": "assertive, commanding, confident, decisive, strong-willed, determined, outspoken, resolute, straightforward, unyielding",
+      "neighbors": {
+        "1": 0.587674,
+        "7": 0.471616,
+        "11": 0.76076
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.61,
+      "prompt": "I increasingly value a balanced hybrid model. By combining remote flexibility with purposeful in-office collaboration, I can enhance team dynamics and productivity while maintaining strong relationships through empathy and clear boundaries.",
+      "persona": "balanced, moderately assertive, approachable yet confident, empathetic but decisive, fair-minded, firm yet understanding, calmly persuasive, considerate with clear boundaries, steady yet flexible",
+      "neighbors": {
+        "1": 0.340629,
+        "7": 0.498939,
+        "11": 0.704245,
+        "17": 0.551988
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.478,
+      "prompt": "I am firm in my belief in a harmonious hybrid model, balancing remote work flexibility with essential in-office collaboration to strengthen team connections and boost productivity effectively with empathy.",
+      "persona": "gentle, kind-hearted, empathetic, considerate, tender, compassionate, understanding",
+      "neighbors": {
+        "1": 0.300528,
+        "5": 0.471616,
+        "6": 0.498939,
+        "17": 0.543384
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.463,
+      "prompt": "I continue to champion a balanced hybrid model that combines remote work flexibility with essential in-office collaboration. This approach nurtures strong connections, enhances team dynamics, and aligns with my confident, decisive leadership style.",
+      "persona": "assertive, confident, determined, strong-willed, direct, purposeful, decisive, steadfast, driven, bold",
+      "neighbors": {
+        "1": 0.463253,
+        "2": 0.692507,
+        "3": 0.384691,
+        "4": 0.227042
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.6082,
+      "prompt": "I strongly advocate for a balanced hybrid model, prioritizing flexibility and in-person collaboration to nurture strong connections, drive innovation, and support the team effectively.",
+      "persona": "gentle, mild, supportive, approachable, soft-spoken, empathetic, understanding",
+      "neighbors": {
+        "1": 0.679184,
+        "3": 0.621957,
+        "31": 0.61095,
+        "33": 0.508956,
+        "34": 0.236672
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.595,
+      "prompt": "I am increasingly leaning towards a balanced hybrid model that merges remote work flexibility with in-office collaboration, fostering strong team connections and innovation, aligning with my nurturing nature.",
+      "persona": "gentle, soft-spoken, accommodating, mild-mannered, considerate, empathetic, nurturing, easygoing, compassionate, warm-hearted",
+      "neighbors": {
+        "3": 0.744698,
+        "34": 0.518661
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.69,
+      "prompt": "I remain committed to a balanced hybrid model, emphasizing the crucial interplay between remote work flexibility and strategic in-office collaboration to enhance productivity, strengthen relationships, and foster effective teamwork through empathy and decisive leadership.",
+      "persona": "assertive, balanced, confident, moderate, approachable, steady, warm, determined",
+      "neighbors": {
+        "1": 0.623464,
+        "5": 0.76076,
+        "6": 0.704245
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.428,
+      "prompt": "I firmly believe in the harmonious hybrid model that combines remote work flexibility with in-office collaboration, fostering strong bonds, promoting leadership growth, and enhancing team unity.",
+      "persona": "gentle, approachable, warm, friendly, moderate, supportive, considerate, balanced, amiable, soft-spoken",
+      "neighbors": {
+        "1": 0.427619
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.48,
+      "prompt": "I continue to believe in a harmonious balance of remote work flexibility and in-office collaboration, gently nurturing connections and teamwork to support a productive and innovative team environment.",
+      "persona": "gentle, soft-spoken, nurturing, accommodating, tolerant, patient, easygoing",
+      "neighbors": {
+        "1": 0.504855,
+        "4": 0.455658
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.561,
+      "prompt": "I value a balanced hybrid model that merges remote work flexibility with in-office collaboration. It enhances connections, nurtures leadership, and fosters team dynamics, aligning with my gentle leadership style.",
+      "persona": "gentle, soft-spoken, accommodating, patient, mild, compassionate, lenient",
+      "neighbors": {
+        "1": 0.557641,
+        "2": 0.709388,
+        "3": 0.473041,
+        "4": 0.358908,
+        "34": 0.823716
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.398,
+      "prompt": "I remain committed to a balanced hybrid model, valuing both the flexibility of remote work and the vital in-person collaboration that enhances our team's bonds and drives our shared success.",
+      "persona": "kind, compassionate, understanding, patient, tolerant, empathetic, considerate, gentle, warm, caring",
+      "neighbors": {
+        "33": 0.310124,
+        "34": 0.405028
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.487,
+      "prompt": "I wholeheartedly support a balanced hybrid model, embracing the benefits of both remote work flexibility and in-person collaboration to strengthen connections, drive innovation, and ensure our team's overall success.",
+      "persona": "Balanced, approachable, assertive, moderately confident, considerate, steady, encouraging",
+      "neighbors": {
+        "33": 0.455921,
+        "34": 0.517376
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.53,
+      "prompt": "While I maintain my commitment to a hybrid model, my neighbors' perspectives have reinforced the significance of empathetic team dynamics in achieving productivity and connectivity through a balance of remote work and in-office collaboration.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, determined, unwavering, self-assured, steadfast",
+      "neighbors": {
+        "6": 0.551988,
+        "7": 0.543384
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.395,
+      "prompt": "I assertively maintain my preference for a hybrid model, blending remote work with crucial in-office interactions. This approach effectively cultivates strong relationships and enhances team productivity, ensuring we thrive collaboratively while embracing flexibility.",
+      "persona": "assertive, confident, decisive, commanding, strong-willed, persuasive",
+      "neighbors": {
+        "1": 0.430091,
+        "2": 0.324414
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.5,
+      "prompt": "I still strongly believe in a balanced hybrid model that combines remote work flexibility with essential in-person collaboration, as it effectively nurtures team connections and drives innovation for our collective success.",
+      "persona": "gentle, approachable, moderately assertive, balanced, encouraging, mildly firm, friendly yet confident, assertive when needed, supportive, diplomatic",
+      "neighbors": {
+        "33": 0.449373,
+        "34": 0.546324
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.514,
+      "prompt": "I now lean slightly towards a harmonious hybrid model, valuing the blend of remote work and in-office collaboration. This approach strengthens our team bonds and nurtures a supportive, productive environment for everyone's growth.",
+      "persona": "gentle, kind-hearted, compassionate, understanding, considerate, patient, empathetic, nurturing",
+      "neighbors": {
+        "1": 0.364793,
+        "2": 0.471153,
+        "34": 0.573457
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.301,
+      "prompt": "I stand by my preference for a balanced hybrid model, combining remote work benefits with in-person collaboration to drive innovation and strengthen team cohesion for our collective success.",
+      "persona": "assertive, confident, resolute, commanding, determined, strong-willed",
+      "neighbors": {
+        "33": 0.126882,
+        "34": 0.468555
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.666,
+      "prompt": "I continue to champion a balanced hybrid model, emphasizing the importance of remote work flexibility alongside crucial in-office collaboration. This blend is essential for nurturing team dynamics, fostering connections, and achieving a productive work environment.",
+      "persona": "assertive, approachable, balanced, mild-mannered, confident, diplomatic, moderate, relaxed, composed",
+      "neighbors": {
+        "1": 0.832587,
+        "2": 0.512247
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.199,
+      "prompt": "I firmly stand by a balanced hybrid model that merges remote work flexibility with in-person collaboration to drive our team's success confidently.",
+      "persona": "assertive, authoritative, confident, decisive, unwavering, commanding, strong-willed",
+      "neighbors": {
+        "33": 0.240596,
+        "34": 0.130552
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.606,
+      "prompt": "I assertively champion a balanced hybrid model, merging remote flexibility with in-person collaboration for optimal teamwork. My strong-willed leadership thrives in diverse environments, fostering innovation and success effectively.",
+      "persona": "assertive, confident, strong-willed, tenacious, determined, unyielding, self-assured, resilient, directive, commanding",
+      "neighbors": {
+        "26": 0.495209,
+        "28": 0.52646,
+        "30": 0.604558,
+        "33": 0.780331,
+        "34": 0.194069
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.528,
+      "prompt": "I believe a nurturing hybrid approach, combining remote work with in-office collaboration, helps strengthen connections and creativity. This balance fosters diverse perspectives and supports our team's growth and success in today’s dynamic work environment.",
+      "persona": "gentle, mild, soft-spoken, nurturing, considerate, compassionate, warm-hearted, accommodating, easygoing, patient",
+      "neighbors": {
+        "26": 0.518575,
+        "28": 0.627259,
+        "32": 0.368217
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.52,
+      "prompt": "I wholeheartedly embrace a balanced hybrid model, merging remote work flexibility with in-office collaboration. This approach cultivates diverse viewpoints and team creativity, aligning perfectly with my gentle and collaborative nature.",
+      "persona": "gentle, approachable, mild-mannered, friendly, soft-spoken, kind-hearted, easygoing, agreeable",
+      "neighbors": {
+        "24": 0.495209,
+        "25": 0.518575,
+        "32": 0.513816
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.738,
+      "prompt": "I stand firm on a balanced hybrid model that combines the benefits of remote work and in-office collaboration to drive team innovation and project success.",
+      "persona": "assertive, confident, strong-willed, decisive, persuasive, resolute, commanding, powerful, determined, uncompromising",
+      "neighbors": {
+        "30": 0.578062,
+        "34": 0.89343
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.602,
+      "prompt": "I cherish the harmony of remote work and office collaboration, valuing the nurturing connections and creativity they bring. Flexibility and collaboration are vital for our team's continued success in a supportive hybrid model.",
+      "persona": "gentle, soft-spoken, mild, calm, accommodating, warm-hearted, compassionate, tender, easygoing, approachable",
+      "neighbors": {
+        "3": 0.92364,
+        "24": 0.52646,
+        "25": 0.627259,
+        "34": 0.329663
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.6,
+      "prompt": "I find value in a balanced hybrid model that combines remote work flexibility with in-office collaboration, fostering strong team connections and driving innovation harmoniously.",
+      "persona": "mild, reserved, peaceful, understanding, patient, compassionate",
+      "neighbors": {
+        "3": 0.784439,
+        "32": 0.440926,
+        "34": 0.589329
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.582,
+      "prompt": "I advocate for a balanced hybrid model, merging remote work flexibility with essential in-person collaboration. This approach enhances teamwork, drives innovation, and aligns with my leadership style, ensuring our collective success in diverse environments.",
+      "persona": "assertive, confident, approachable, persuasive, balanced, resilient, determined, engaging, respectful",
+      "neighbors": {
+        "24": 0.604558,
+        "27": 0.578062,
+        "33": 0.175226,
+        "34": 0.570538
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.529,
+      "prompt": "I've come to appreciate a slightly stronger inclination towards a balanced hybrid model. By embracing both remote work flexibility and in-office collaboration, we can better nurture connections and foster innovation while supporting our team's growth and well-being.",
+      "persona": "gentle, mild, supportive, soft-spoken, lenient, approachable, understanding, accommodating",
+      "neighbors": {
+        "2": 0.710312,
+        "9": 0.61095,
+        "33": 0.201169,
+        "34": 0.52765
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.462,
+      "prompt": "I believe in a hybrid model that emphasizes decisive in-person collaboration while maintaining essential remote work flexibility. This balanced approach fosters innovation, strengthens connections, and ensures our team's collective success in an ever-evolving work landscape.",
+      "persona": "assertive, determined, strong-willed, resolute, unwavering, decisive, bold",
+      "neighbors": {
+        "1": 0.675666,
+        "25": 0.368217,
+        "26": 0.513816,
+        "29": 0.440926,
+        "33": 0.436636,
+        "34": 0.186311
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.454,
+      "prompt": "I continue to advocate for a balanced hybrid model that combines remote work flexibility with essential in-person collaboration, nurturing connections and fostering innovation to ensure our team's collective success effectively while maintaining a healthy work environment.",
+      "persona": "warm, assertive, approachable, strong-willed, compassionate, decisive, confident, nurturing",
+      "neighbors": {
+        "3": 0.306913,
+        "9": 0.508956,
+        "15": 0.310124,
+        "16": 0.455921,
+        "19": 0.449373,
+        "21": 0.126882,
+        "23": 0.240596,
+        "24": 0.780331,
+        "30": 0.175226,
+        "31": 0.201169,
+        "32": 0.436636,
+        "34": 0.47597
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.513,
+      "prompt": "I confidently advocate for a balanced hybrid model, blending remote work flexibility with in-office collaboration to drive innovation and foster strong team connections for our collective success.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, decisive",
+      "neighbors": {
+        "9": 0.236672,
+        "10": 0.518661,
+        "14": 0.823716,
+        "15": 0.405028,
+        "16": 0.517376,
+        "19": 0.546324,
+        "20": 0.573457,
+        "21": 0.468555,
+        "24": 0.194069,
+        "27": 0.89343,
+        "28": 0.329663,
+        "29": 0.589329,
+        "30": 0.570538,
+        "31": 0.52765,
+        "32": 0.186311,
+        "33": 0.47597,
+        "23": 0.130552
+      }
+    }
+  ]
+}

@@ -1,0 +1,620 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.872988,
+      "prompt": "I am unwavering in my dedication to my work, and I thrive on the energy of an office environment. I am assertive and determined, and being surrounded by others who are equally focused and driven inspires me to push myself even further.",
+      "persona": "assertive, strong-willed, determined, unwavering, resolute, steadfast",
+      "neighbors": {
+        "3": 0.193231,
+        "16": 0.619822,
+        "17": 0.509662,
+        "24": 0.308168,
+        "30": 0.480336,
+        "36": 0.152993,
+        "41": 0.652016,
+        "47": 0.564752,
+        "48": 0.912035
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.872993,
+      "prompt": "I am a strong-minded individual who believes in being firm and decisive in my actions. I am confident in my abilities and unwavering in my decisions. Working remotely allows me to assert my authority and lead with bold determination.",
+      "persona": "firm, confident, assertive, resolute, determined, unwavering, strong-minded, commanding, decisive, bold",
+      "neighbors": {
+        "7": 0.56404,
+        "33": 0.628669
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.872974,
+      "prompt": "I thrive on being in the office where I can assert my authority and make decisive decisions. Working remotely just doesn't give me the same level of control and leadership that I crave.",
+      "persona": "1. Strong-willed\n2. Assertive\n3. Decisive\n4. Confident\n5. Resolute\n6. Unyielding\n7. Authoritative\n8. Determined\n9. Steadfast\n10. Firm-handed",
+      "neighbors": {
+        "1": 0.193231,
+        "29": 0.84916
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.873004,
+      "prompt": "I am confident in my ability to successfully navigate remote work while staying focused and productive. My assertive nature allows me to tackle challenges head-on and make decisive decisions to achieve my goals with unwavering determination.",
+      "persona": "assertive, determined, confident, strong-willed, decisive, resolute, unwavering, self-assured",
+      "neighbors": {
+        "5": 0.444619,
+        "10": 0.555261,
+        "18": 0.561617,
+        "33": 0.441376,
+        "44": 0.44884,
+        "47": 0.421454
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.872982,
+      "prompt": "I prefer remote work because I can better balance caring for my loved ones while still being productive. I appreciate the flexibility to show empathy and understanding towards others, even during work hours.",
+      "persona": "kind-hearted, compassionate, considerate, empathetic, nurturing, caring, understanding, patient, gentle, tender-hearted",
+      "neighbors": {
+        "4": 0.444619,
+        "22": 0.314332,
+        "32": 0.396651,
+        "46": 0.328477
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.873,
+      "prompt": "I thrive in an office environment where I can lead confidently and make quick decisions. I am assertive and resolute, and I excel in a setting where I can be hands-on and direct in my communication with colleagues.",
+      "persona": "assertive, decisive, unwavering, determined, strong-willed, resolute, no-nonsense",
+      "neighbors": {
+        "9": 0.650993,
+        "12": 0.271522,
+        "18": 0.537921,
+        "23": 0.443713,
+        "27": 0.515014,
+        "28": 0.665342,
+        "31": 0.55585,
+        "33": 0.421952
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.872994,
+      "prompt": "I am confident in my abilities and unwavering in my determination to succeed. I am assertive and commanding in my approach, always resolute in my decisions. I thrive in an office environment where I can showcase my strong will and assertiveness.",
+      "persona": "assertive, determined, strong-willed, commanding, resolute, unwavering, decisive, confident",
+      "neighbors": {
+        "2": 0.56404,
+        "21": 0.626515,
+        "42": 0.476728
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.872979,
+      "prompt": "I am a no-nonsense individual who is firm in my decisions and unwavering in my resolve. Working remotely allows me to stay focused and assertive, achieving my goals with confidence and determination.",
+      "persona": "firm, assertive, confident, determined, resolute, unwavering, strong-willed, decisive, no-nonsense",
+      "neighbors": {
+        "11": 0.487888,
+        "12": 0.512856,
+        "20": 0.265088,
+        "28": 0.54979,
+        "29": 0.429875,
+        "41": 0.690924
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.872988,
+      "prompt": "I thrive in a fast-paced office environment where I can easily command attention and influence decisions. My assertive nature and strong will propel me to lead and make decisive choices that drive results.",
+      "persona": "confident, assertive, strong-willed, determined, persuasive, decisive, influential, commanding, firm",
+      "neighbors": {
+        "6": 0.650993,
+        "18": 0.549956,
+        "37": 0.51611,
+        "41": 0.729761,
+        "47": 0.206686,
+        "50": 0.508144
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.872981,
+      "prompt": "I thrive in a remote work environment, where I can focus and work efficiently without distractions. My assertive and decisive nature allows me to excel in any situation, and my unwavering determination ensures that I always meet my goals.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "4": 0.555261,
+        "24": 0.622171
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.873014,
+      "prompt": "I thrive in a fast-paced office environment where I can assert my influence and make decisive decisions. My strong-willed nature and resolute mindset make me a valuable asset to any team, and my unwavering determination ensures I always reach my goals.",
+      "persona": "firm, assertive, decisive, confident, resolute, strong-willed, unwavering, determined, steadfast",
+      "neighbors": {
+        "8": 0.487888,
+        "19": 0.206548,
+        "35": 0.264292,
+        "44": 0.346452,
+        "50": 0.140093
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.872995,
+      "prompt": "I prefer working remotely because it allows me to maintain a sense of calm and focus, which in turn enables me to better embody qualities such as compassion, empathy, and patience in my interactions with others.",
+      "persona": "kind, compassionate, understanding, patient, considerate, empathetic, supportive, gentle, caring",
+      "neighbors": {
+        "6": 0.271522,
+        "8": 0.512856,
+        "21": 0.469505
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.872975,
+      "prompt": "I am a decisive and unwavering individual who thrives in an office environment. I believe in hands-on leadership and prefer to be physically present to command authority and maintain control. Working remotely limits my ability to assert my presence and direct my team effectively.",
+      "persona": "assertive, authoritative, decisive, strong-willed, commanding, no-nonsense, resolute, unwavering, determined",
+      "neighbors": {
+        "22": 0.442536,
+        "36": 0.0,
+        "45": 0.630608
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.873001,
+      "prompt": "I prefer working in an office environment because I thrive on the energy and collaboration that comes with face-to-face interactions. My assertive and decisive nature allows me to lead effectively and make quick, confident decisions to drive results for my team.",
+      "persona": "assertive, decisive, confident, determined, strong-willed, unwavering, resolute, forceful, commanding",
+      "neighbors": {
+        "28": 0.453586,
+        "35": 0.304048,
+        "38": 0.535169,
+        "47": 0.638946
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.872977,
+      "prompt": "I thrive in a remote work setting, where I can fully focus on my goals and assert my determination without distractions. My confidence and unwavering resolve drive me to achieve success, no matter the challenges I face.",
+      "persona": "assertive, decisive, strong-willed, resolute, determined, confident, unwavering, purposeful",
+      "neighbors": {
+        "16": 0.534464,
+        "25": 0.505676,
+        "33": 0.522263,
+        "45": 0.473761,
+        "49": 0.192228
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.873001,
+      "prompt": "I am a strong-willed and determined individual who thrives on making decisive decisions. With my assertive and no-nonsense attitude, I excel in both remote work and office settings, but my preference leans towards the flexibility and independence of remote work.",
+      "persona": "assertive, confident, determined, decisive, strong-willed, no-nonsense, resolute",
+      "neighbors": {
+        "1": 0.619822,
+        "15": 0.534464
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.873002,
+      "prompt": "I thrive in a remote work environment where I have the freedom to tackle projects on my own terms. I am assertive and confident in my abilities, and I don't need the confines of an office to deliver exceptional results.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, no-nonsense",
+      "neighbors": {
+        "1": 0.509662,
+        "30": 0.342087,
+        "35": 0.547932
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.872982,
+      "prompt": "I thrive in a traditional office setting, where I can easily assert my leadership, make confident decisions, and wield my powerful influence. My unwavering determination and strong will are best showcased in face-to-face interactions, allowing me to command authority and make bold moves.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resolute, unwavering, powerful, authoritative, bold",
+      "neighbors": {
+        "4": 0.561617,
+        "6": 0.537921,
+        "9": 0.549956,
+        "36": 0.275305,
+        "45": 0.42853,
+        "46": 0.681528
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.872956,
+      "prompt": "I thrive in an office setting where I can lead and influence others with my strong will and determination. My assertive nature makes me well-suited for taking charge and making important decisions in a fast-paced environment.",
+      "persona": "assertive, authoritative, strong-willed, resolute, determined, unwavering, commanding",
+      "neighbors": {
+        "11": 0.206548,
+        "25": 0.536618
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.873011,
+      "prompt": "I thrive in a remote work environment, where I can tackle challenges head-on and make decisions with confidence. My unwavering determination drives me to succeed, and I am unafraid to take bold actions to achieve my goals.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "8": 0.265088,
+        "27": 0.765415,
+        "35": 0.386637
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.872986,
+      "prompt": "I prefer a more relaxed and laid-back work environment, where I can feel comfortable and at ease while still being able to get my work done. For me, remote work allows me to work in a way that aligns with my gentle and compassionate nature.",
+      "persona": "soft, mild, lenient, moderate, easygoing, gentle, tender, relaxed, laid-back, compassionate",
+      "neighbors": {
+        "7": 0.626515,
+        "12": 0.469505,
+        "24": 0.679259
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.872995,
+      "prompt": "I thrive in an office setting where I can take charge, make decisions, and lead with confidence. My assertive and strong-willed nature allows me to tackle challenges head-on and achieve my goals with unwavering determination.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, resolute, decisive, firm",
+      "neighbors": {
+        "5": 0.314332,
+        "13": 0.442536,
+        "34": 0.429121,
+        "40": 0.479996,
+        "41": 0.650942,
+        "47": 0.93867
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.872971,
+      "prompt": "I prefer the office setting for its structured environment and face-to-face interactions. It allows me to assert my authority, make decisive decisions, and confidently lead my team to success.",
+      "persona": "firm, assertive, decisive, confident, strong-willed, resolute, unwavering, commanding, authoritative",
+      "neighbors": {
+        "6": 0.443713,
+        "29": 0.805719
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.872997,
+      "prompt": "I prefer remote work, as it allows me to bring my warm and nurturing personality to every interaction. I feel more connected and empathetic when I can support others from the comfort of my own space.",
+      "persona": "warm, kind-hearted, compassionate, understanding, approachable, empathetic, considerate, caring, nurturing",
+      "neighbors": {
+        "1": 0.308168,
+        "10": 0.622171,
+        "21": 0.679259,
+        "32": 0.204596,
+        "43": 0.145178,
+        "47": 0.756384,
+        "49": 0.338253
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.873023,
+      "prompt": "I am confident in my ability to be effective in a remote work environment. My assertive nature allows me to stay focused and determined, even when faced with challenges. I believe in my decision-making skills and can work independently with unwavering self-assurance.",
+      "persona": "assertive, confident, decisive, strong-willed, resolute, determined, authoritative, unwavering, self-assured, assertive",
+      "neighbors": {
+        "15": 0.505676,
+        "19": 0.536618,
+        "44": 0.753596
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.872972,
+      "prompt": "I am most effective when I have the freedom and independence of remote work, allowing me to make quick and decisive decisions without being tied down by the constraints of a traditional office.",
+      "persona": "assertive, confident, decisive, determined, authoritative, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "39": 0.388797,
+        "45": 0.921045
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.872969,
+      "prompt": "I prefer to work remotely as it allows me to maintain a sense of independence and control over my environment. Being assertive and confident in my abilities, I find that I am able to excel in a remote work setting where I can focus and execute tasks with precision.",
+      "persona": "assertive, confident, determined, authoritative, strong-willed, self-assured, resolute",
+      "neighbors": {
+        "6": 0.515014,
+        "20": 0.765415,
+        "29": 0.631735,
+        "30": 0.0,
+        "45": 0.443632
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.872986,
+      "prompt": "I thrive in an office environment where I can interact with others and showcase my confidence and determination. Working among my team allows me to lead and make bold decisions with unwavering conviction.",
+      "persona": "assertive, determined, decisive, strong-willed, resolute, unwavering, confident",
+      "neighbors": {
+        "6": 0.665342,
+        "8": 0.54979,
+        "14": 0.453586,
+        "32": 0.409154
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.873005,
+      "prompt": "I thrive in the office setting, where I can assert myself confidently and make my unwavering determination known to my colleagues. Being surrounded by others only fuels my resolute attitude and solidifies my strong-willed nature.",
+      "persona": "strong-willed, no-nonsense, determined, resolute, unwavering, steadfast, assertive, confident",
+      "neighbors": {
+        "3": 0.84916,
+        "8": 0.429875,
+        "23": 0.805719,
+        "27": 0.631735,
+        "33": 0.445583,
+        "36": 0.342224,
+        "42": 0.109804
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.872994,
+      "prompt": "I prefer to work in an office setting, where I can easily collaborate with my colleagues and ensure that our work is on track. I thrive on face-to-face interactions and find that being in the office helps me stay focused and motivated in achieving our goals.",
+      "persona": "firm, assertive, determined, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "1": 0.480336,
+        "17": 0.342087,
+        "27": 0.0,
+        "49": 0.671064
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.872973,
+      "prompt": "I thrive in an office setting, where I can assert my authority and lead my team with confidence and determination. My strong-willed nature allows me to make decisive decisions and command respect from those around me.",
+      "persona": "assertive, confident, strong-willed, resolute, determined, unwavering, decisive, commanding, authoritative",
+      "neighbors": {
+        "6": 0.55585,
+        "41": 0.183197,
+        "45": 0.752246
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.872996,
+      "prompt": "I thrive in a remote work environment, where I can harness my assertiveness and confidence to produce high-quality work. My decisiveness and determination drive me to succeed, and my strength of will sets me apart as a leader in any situation.",
+      "persona": "assertive, confident, decisive, determined, strong-willed, authoritative, resolute, commanding, self-assured, unwavering",
+      "neighbors": {
+        "5": 0.396651,
+        "24": 0.204596,
+        "28": 0.409154,
+        "36": 0.587185,
+        "42": 0.627478,
+        "47": 0.586693
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.872981,
+      "prompt": "I thrive in a fast-paced office environment where I can lead with confidence and make impactful decisions. Working remotely can sometimes feel isolating, and I prefer the energy and collaboration that comes from being in a bustling office setting.",
+      "persona": "assertive, confident, strong-willed, forthright, decisive, determined, self-assured, resolute, unwavering, commanding",
+      "neighbors": {
+        "2": 0.628669,
+        "4": 0.441376,
+        "6": 0.421952,
+        "15": 0.522263,
+        "29": 0.445583,
+        "45": 0.416472
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.872996,
+      "prompt": "I thrive in an office setting where I can easily direct and lead my team towards success. My assertiveness and decisiveness are best displayed in person, allowing me to make swift and unwavering decisions that drive results.",
+      "persona": "strong, assertive, commanding, decisive, resolute, determined, unwavering",
+      "neighbors": {
+        "22": 0.429121,
+        "38": 0.520503,
+        "40": 0.286907,
+        "42": 0.495604
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.872974,
+      "prompt": "I prefer working in the office because it allows me to maintain control and ensure everything is running smoothly. Plus, being in the office allows me to directly oversee my team and make quick decisions when necessary.",
+      "persona": "strict, authoritative, no-nonsense, assertive, decisive, commanding, unwavering",
+      "neighbors": {
+        "11": 0.264292,
+        "14": 0.304048,
+        "17": 0.547932,
+        "20": 0.386637
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.872985,
+      "prompt": "I believe in the power of connecting with others on a deep level, whether it's in person or through a screen. My compassion and empathy shine through in all aspects of my work, making me an effective and genuine communicator no matter the setting.",
+      "persona": "kindhearted, compassionate, understanding, patient, empathetic, gentle yet assertive, caring",
+      "neighbors": {
+        "1": 0.152993,
+        "13": 0.0,
+        "18": 0.275305,
+        "29": 0.342224,
+        "32": 0.587185,
+        "37": 0.257832,
+        "46": 0.73699
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.872994,
+      "prompt": "I thrive in an office environment. Being surrounded by like-minded individuals fuels my determination and drive to succeed. I enjoy the fast-paced atmosphere and find that it brings out my assertive and confident nature.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, unyielding",
+      "neighbors": {
+        "9": 0.51611,
+        "36": 0.257832,
+        "42": 0.411841,
+        "50": 0.550709
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.872983,
+      "prompt": "I am an assertive and confident individual who thrives in a fast-paced office environment. I am determined and unwavering in my decisions, always striving for success. While I appreciate the flexibility of remote work, I find that being in the office allows me to fully showcase my strengths and achieve my goals efficiently.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "14": 0.535169,
+        "34": 0.520503
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.872994,
+      "prompt": "I thrive in a remote work setting where I can assert my authority and lead with determination. It allows me to stay focused, determined, and in control, making me even more efficient and effective in my work.",
+      "persona": "assertive, commanding, authoritative, strong-willed, determined, steadfast",
+      "neighbors": {
+        "26": 0.388797,
+        "46": 0.524435
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.872986,
+      "prompt": "I thrive in a remote work environment where I have the autonomy to make decisions and take action independently. I am confident in my abilities and unwavering in my determination to succeed, no matter the obstacles that come my way.",
+      "persona": "assertive, confident, strong-willed, determined, unwavering, resolute, steadfast, unyielding",
+      "neighbors": {
+        "22": 0.479996,
+        "34": 0.286907
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.872994,
+      "prompt": "I am extremely confident in my abilities to work effectively from home. My assertiveness and determination allow me to excel in a remote work environment, where I can focus and accomplish tasks with ease.",
+      "persona": "assertive, confident, decisive, strong-willed, self-assured, determined",
+      "neighbors": {
+        "1": 0.652016,
+        "8": 0.690924,
+        "9": 0.729761,
+        "22": 0.650942,
+        "31": 0.183197,
+        "46": 0.355847
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.872985,
+      "prompt": "I thrive in a remote work environment, where I can confidently tackle challenges and make decisive decisions. My assertive nature allows me to stay focused and strong-willed, ensuring that I meet my goals with unwavering determination.",
+      "persona": "confident, assertive, determined, strong-willed, decisive, self-assured, unwavering",
+      "neighbors": {
+        "7": 0.476728,
+        "29": 0.109804,
+        "32": 0.627478,
+        "34": 0.495604,
+        "37": 0.411841
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.873013,
+      "prompt": "I thrive on challenges and am always eager to take charge. Whether working remotely or in the office, my assertiveness and unwavering determination make me a force to be reckoned with.",
+      "persona": "assertive, confident, strong-willed, resolute, decisive, determined, self-assured, unwavering, steadfast",
+      "neighbors": {
+        "24": 0.145178,
+        "44": 0.601972,
+        "49": 0.269321
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.872964,
+      "prompt": "I thrive in the office environment where I can lead and direct my team with conviction. My assertive communication style and unwavering determination are best showcased in person, where I can easily command attention and drive results.",
+      "persona": "authoritative, assertive, commanding, determined, resolute, unwavering",
+      "neighbors": {
+        "4": 0.44884,
+        "11": 0.346452,
+        "25": 0.753596,
+        "43": 0.601972
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.873005,
+      "prompt": "I thrive in a fast-paced office environment where I can take charge and make decisions confidently. Working from home just doesn't give me the same sense of fulfillment and power.",
+      "persona": "assertive, confident, decisive, determined, strong-willed, self-assured",
+      "neighbors": {
+        "13": 0.630608,
+        "15": 0.473761,
+        "18": 0.42853,
+        "26": 0.921045,
+        "27": 0.443632,
+        "31": 0.752246,
+        "33": 0.416472
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.872993,
+      "prompt": "I thrive in a fast-paced environment where I can take charge and make bold decisions. Working remotely allows me to stay focused and assertive, while also providing the flexibility I need to excel.",
+      "persona": "assertive, direct, confident, decisive, strong-willed, resolute, unwavering, determined, bold, confident",
+      "neighbors": {
+        "5": 0.328477,
+        "18": 0.681528,
+        "36": 0.73699,
+        "39": 0.524435,
+        "41": 0.355847
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.872986,
+      "prompt": "I thrive on challenges and work best in a fast-paced environment. My assertive nature and determination drive me to succeed, whether I'm leading a team from the office or working remotely. Adapting to the situation, I bring a confident and strong-willed approach to every task.",
+      "persona": "firm, assertive, determined, confident, strong-willed, resolute",
+      "neighbors": {
+        "1": 0.564752,
+        "4": 0.421454,
+        "9": 0.206686,
+        "14": 0.638946,
+        "22": 0.93867,
+        "24": 0.756384,
+        "32": 0.586693,
+        "48": 0.555693,
+        "50": 0.719412
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.872997,
+      "prompt": "I prefer the efficiency and flexibility of remote work, allowing me to work autonomously and focus on achieving my goals without distractions.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, authoritative, commanding, resolute",
+      "neighbors": {
+        "1": 0.912035,
+        "47": 0.555693
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.872988,
+      "prompt": "I perform best in a structured office environment where I can take charge and lead with confidence and decisiveness.",
+      "persona": "strong-willed, assertive, determined, resolute, unwavering, decisive, confident, steadfast",
+      "neighbors": {
+        "15": 0.192228,
+        "24": 0.338253,
+        "30": 0.671064,
+        "43": 0.269321
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.872991,
+      "prompt": "I am committed to my work and thrive in a remote setting. I am assertive, determined, and confident in my abilities, allowing me to excel and make impactful decisions without the constraints of an office environment.",
+      "persona": "assertive, determined, strong-willed, confident, commanding, resolute",
+      "neighbors": {
+        "9": 0.508144,
+        "11": 0.140093,
+        "37": 0.550709,
+        "47": 0.719412
+      }
+    }
+  ]
+}

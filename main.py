@@ -1,6 +1,7 @@
 """Semantic Opinion Dynamics: CLI entry point."""
 
 import argparse
+import shutil
 import sys
 from pathlib import Path
 
@@ -8,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from input import (
     GRAPH_TYPE_SUFFIX,
+    SCORE_DIST_SUFFIX,
     generateNetwork,
     getNextNetworkBasename,
     initNodes,
@@ -47,6 +49,18 @@ def parseArgs():
         help="Number of nodes when generating (default: 20).",
     )
     parser.add_argument(
+        "--score-dist",
+        type=str,
+        default="normal",
+        choices=[
+            "normal",
+            "skew_left_1", "skew_left_2", "skew_left_3",
+            "skew_right_1", "skew_right_2", "skew_right_3",
+            "polarized",
+        ],
+        help="Opinion score distribution: normal, skew_left_1/2/3, skew_right_1/2/3, polarized.",
+    )
+    parser.add_argument(
         "--model",
         choices=["agent", "degroot"],
         default="agent",
@@ -66,9 +80,13 @@ def main():
     args = parseArgs()
 
     if args.generate:
-        network = generateNetwork(nNodes=args.nodes, graphType=args.graph_type)
+        network = generateNetwork(
+            nNodes=args.nodes,
+            graphType=args.graph_type,
+            scoreDist=args.score_dist,
+        )
         base = args.name or getNextNetworkBasename()
-        out = f"{base}_{GRAPH_TYPE_SUFFIX[args.graph_type]}"
+        out = f"{base}_{GRAPH_TYPE_SUFFIX[args.graph_type]}_{SCORE_DIST_SUFFIX[args.score_dist]}"
         initNodes(network, out)
         print(f"Generated {len(network['nodes'])} nodes -> networks/{out}.json")
         return
@@ -83,7 +101,7 @@ def main():
     network = loadNetwork(args.name)
     iterateFn = agentIterate if args.model == "agent" else degrootIterate
     slicesDir = f"{args.name}_{args.model}_slices"
-    saveNetwork(network, f"{slicesDir}/iter0")
+    slicesPath = Path(__file__).resolve().parent / "networks" / slicesDir
 
     def maxOpinionChange(prevScores, net):
         return max(
@@ -91,12 +109,19 @@ def main():
             default=0.0,
         )
 
-    for i in range(1, args.iters + 1):
-        prevScores = {n["id"]: n["opinionScore"] for n in network["nodes"]}
-        network = iterateFn(network, f"{slicesDir}/iter{i}")
-        maxDiff = maxOpinionChange(prevScores, network)
-        print(f"iter{i}: maxDiff={maxDiff:.6f}")
-    print(f"Completed {args.iters} iterations, model={args.model}. Slices: networks/{slicesDir}/")
+    try:
+        saveNetwork(network, f"{slicesDir}/iter0")
+        for i in range(1, args.iters + 1):
+            prevScores = {n["id"]: n["opinionScore"] for n in network["nodes"]}
+            network = iterateFn(network, f"{slicesDir}/iter{i}")
+            maxDiff = maxOpinionChange(prevScores, network)
+            print(f"iter{i}: maxDiff={maxDiff:.6f}")
+        print(f"Completed {args.iters} iterations, model={args.model}. Slices: networks/{slicesDir}/")
+    except Exception:
+        if slicesPath.exists():
+            shutil.rmtree(slicesPath)
+            print(f"Rollback: removed {slicesDir}")
+        raise
 
 
 if __name__ == "__main__":

@@ -1,0 +1,604 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.567,
+      "prompt": "Empowered by my resolute community, I confidently advocate for the hybrid model. Balancing remote work autonomy and office collaboration is crucial for driving peak productivity and success, in line with our determined leadership approach.",
+      "persona": "assertive, determined, confident, strong-willed, persuasive, commanding, resolute, unwavering, self-assured, decisive",
+      "neighbors": {
+        "50": 0.470946,
+        "49": 0.772613,
+        "11": 0.440759,
+        "36": 0.709277,
+        "43": 0.468218,
+        "16": 0.198727
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.522,
+      "prompt": "Empowered by my determined neighbors, I confidently advocate for the hybrid model. The blend of remote work independence and office teamwork aligns with our bold approach to success and unwavering productivity.",
+      "persona": "assertive, confident, decisive, strong-willed, self-assured, resolute, determined, bold, unwavering",
+      "neighbors": {
+        "4": 0.375961,
+        "6": 0.61319
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.455,
+      "prompt": "With resolute neighborhood support for the hybrid model, I maintain a strong preference for blending remote work autonomy with office collaboration. Assertive leadership and unwavering determination drive optimal teamwork dynamics for success.",
+      "persona": "assertive, determined, resolute, unwavering, strong-willed, decisive, unwavering, confident, steadfast, authoritative",
+      "neighbors": {
+        "8": 0.497915,
+        "17": 0.459009,
+        "22": 0.38975
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.557,
+      "prompt": "Encouraged by my determined neighbors, I now embrace the hybrid model more strongly. Balancing remote work flexibility and office collaboration is crucial for our unified team's success, driven by our collective determination and resolute leadership.",
+      "persona": "moderate, gentle, balanced, calm, composed, measured, polite, understanding, considerate",
+      "neighbors": {
+        "5": 0.591008,
+        "2": 0.375961,
+        "45": 0.152004,
+        "12": 0.865215
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.577,
+      "prompt": "Firm in my stance, I steadfastly uphold the hybrid model. Balancing remote work flexibility and office collaboration is paramount for our team's resolute success, driven by our unwavering determination and assertive leadership.",
+      "persona": "firm, strong-willed, assertive, decisive, confident, determined, unwavering",
+      "neighbors": {
+        "4": 0.591008,
+        "6": 0.547578,
+        "7": 0.539149,
+        "20": 0.244873
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.689,
+      "prompt": "Backed by steadfast allies, I fervently advocate for the hybrid model. The blend of remote work autonomy and office collaboration ignites our assertive leadership and unwavering teamwork for optimal success.",
+      "persona": "assertive, determined, strong-willed, confident, commanding, resolute, unwavering, decisive, steadfast, spirited",
+      "neighbors": {
+        "5": 0.547578,
+        "7": 0.436622,
+        "2": 0.61319,
+        "16": 0.602595,
+        "26": 0.892488
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.508,
+      "prompt": "Backed by resilient allies, I confidently advocate for the hybrid model. Balancing remote autonomy and office collaboration, my assertive leadership drives diverse teamwork dynamics for peak success.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, self-assured, decisive, bold",
+      "neighbors": {
+        "6": 0.436622,
+        "8": 0.344783,
+        "5": 0.539149,
+        "9": 0.645902,
+        "19": 0.492246
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.525,
+      "prompt": "Firmly supported by determined neighbors, I advocate for the hybrid model, balancing remote autonomy and office collaboration to drive diverse teamwork dynamics for ultimate success.",
+      "persona": "determined, assertive, confident, strong-willed, no-nonsense, unwavering",
+      "neighbors": {
+        "7": 0.344783,
+        "9": 0.334841,
+        "3": 0.497915,
+        "47": 0.500971,
+        "35": 0.550707,
+        "32": 0.543805,
+        "40": 0.652038
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.513,
+      "prompt": "Empowered by resilient allies and guided by unwavering support, I confidently stand behind the hybrid model. Balancing remote autonomy with office collaboration, my assertive leadership fosters diverse teamwork dynamics for peak success.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering, decisive, self-assured, steadfast",
+      "neighbors": {
+        "8": 0.334841,
+        "10": 0.275788,
+        "7": 0.645902,
+        "34": 0.579894,
+        "24": 0.576121
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.41,
+      "prompt": "Supported by resilient allies, I stand by the hybrid model. Balancing remote autonomy with office collaboration, assertive leadership drives peak success with unwavering teamwork synergy.",
+      "persona": "assertive, determined, strong-willed, confident, resolute, no-nonsense",
+      "neighbors": {
+        "9": 0.275788,
+        "11": 0.48783,
+        "30": 0.286998
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.676,
+      "prompt": "With unwavering support from my neighbors, I confidently embrace the hybrid model. Balancing remote autonomy and office collaboration powers my assertive leadership for peak productivity and success.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, unwavering",
+      "neighbors": {
+        "10": 0.48783,
+        "12": 0.989584,
+        "13": 0.738142,
+        "1": 0.440759
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.673,
+      "prompt": "Supported by my unwavering neighbors, I confidently champion the hybrid model. Balancing remote autonomy and office collaboration fuels my assertive leadership for peak productivity and seamless teamwork synergy.",
+      "persona": "firm, assertive, decisive, resolute, unwavering, strong-willed, determined, direct",
+      "neighbors": {
+        "11": 0.989584,
+        "13": 0.691593,
+        "23": 0.384846,
+        "4": 0.865215,
+        "21": 0.259681,
+        "34": 0.619353,
+        "36": 0.813931
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.673,
+      "prompt": "Firmly backed by resolute neighbors, I decisively champion the hybrid model. Balancing remote work independence with office collaboration, my unwavering leadership drives peak productivity and seamless teamwork synergy.",
+      "persona": "assertive, decisive, confident, resolute, determined, unwavering, strong-willed, steadfast, unyielding, commanding",
+      "neighbors": {
+        "12": 0.691593,
+        "14": 0.667018,
+        "11": 0.738142,
+        "15": 0.583756
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.543,
+      "prompt": "Supported by resolute neighbors, I firmly advocate the hybrid model. Balancing remote work independence with office collaboration, we drive synergy and success through unwavering teamwork and determined leadership.",
+      "persona": "firm, assertive, unwavering, determined, strong-willed, resolute",
+      "neighbors": {
+        "13": 0.667018,
+        "15": 0.882236,
+        "21": 0.380601,
+        "44": 0.722299,
+        "17": 0.294443
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.659,
+      "prompt": "Supported by steadfast allies, I confidently promote the hybrid model. Balancing remote work flexibility with office collaboration, I prioritize synergy and success through determined teamwork and strong connections.",
+      "persona": "gentle, assertive, compassionate, approachable, empathetic, respectful",
+      "neighbors": {
+        "14": 0.882236,
+        "16": 0.56717,
+        "13": 0.583756,
+        "17": 0.540794
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.564,
+      "prompt": "Empowered by steadfast allies and unwavering determination, I wholeheartedly endorse the hybrid model. Its balance of remote work autonomy and office collaboration fuels our assertive leadership and strong teamwork for unparalleled success.",
+      "persona": "confident, assertive, decisive, strong-willed, determined, resolute, unwavering, firm, commanding",
+      "neighbors": {
+        "15": 0.56717,
+        "19": 0.477981,
+        "6": 0.602595,
+        "1": 0.198727
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.428,
+      "prompt": "Firmly standing by the hybrid model, I blend remote work autonomy with office collaboration. My assertive leadership thrives on strong connections and unwavering determination, driving optimal success through synergy.",
+      "persona": "firm, assertive, confident, strong-willed, determined, resolute, unwavering",
+      "neighbors": {
+        "18": 0.304299,
+        "15": 0.540794,
+        "3": 0.459009,
+        "14": 0.294443
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.664,
+      "prompt": "With strong support from resolute allies, I confidently champion the hybrid model, uniting remote work autonomy and office collaboration. My assertive leadership thrives on determined teamwork and synergy for optimal success.",
+      "persona": "assertive, confident, decisive, strong-willed, ambitious, determined, steadfast, self-assured",
+      "neighbors": {
+        "17": 0.304299,
+        "19": 0.721979,
+        "20": 0.595445,
+        "35": 0.720726
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.595,
+      "prompt": "With unwavering support from resilient allies, I wholeheartedly embrace the hybrid model, blending remote work autonomy and office collaboration. My nurturing leadership thrives on empathy, cohesion, and diverse teamwork dynamics for lasting success.",
+      "persona": "kind, compassionate, understanding, patient, empathetic, considerate, warm-hearted, gentle-natured, nurturing, supportive",
+      "neighbors": {
+        "18": 0.721979,
+        "16": 0.477981,
+        "32": 0.62223,
+        "7": 0.492246
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.49,
+      "prompt": "Empowered by resolute allies, I fervently advocate for the hybrid model, harmonizing remote work autonomy and office collaboration. My assertive leadership thrives on determined teamwork and synergy for ultimate success.",
+      "persona": "assertive, authoritative, commanding, strong-willed, uncompromising, decisive",
+      "neighbors": {
+        "21": 0.48475,
+        "18": 0.595445,
+        "5": 0.244873
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.399,
+      "prompt": "United with determined neighbors, I fiercely support the hybrid model. Embracing remote autonomy and office collaboration, our resolute teamwork and assertive leadership drive us towards unparalleled success.",
+      "persona": "assertive, confident, direct, strong-willed, authoritative, resolute, decisive, determined",
+      "neighbors": {
+        "20": 0.48475,
+        "14": 0.380601,
+        "12": 0.259681,
+        "44": 0.663587
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.4806,
+      "prompt": "Firm in my support for the hybrid model, blending remote work independence with office collaboration. My resolute determination, backed by unwavering connections, ensures optimal productivity and success.",
+      "persona": "assertive, strong-willed, decisive, confident, unwavering, resolute, determined, self-assured, steadfast",
+      "neighbors": {
+        "23": 0.501997,
+        "3": 0.38975
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.574,
+      "prompt": "Driven by resolute connections, I confidently advocate for the hybrid model. Balancing remote work independence and office collaboration with assertive leadership, we achieve peak productivity and seamless teamwork synergy.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, unwavering, commanding, decisive",
+      "neighbors": {
+        "22": 0.501997,
+        "25": 0.681524,
+        "12": 0.384846
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.576,
+      "prompt": "With steadfast support from my resilient neighbors, I confidently advocate for the hybrid model. Combining remote work independence with office collaboration, our unwavering determination drives diverse teamwork dynamics for peak success.",
+      "persona": "assertive, determined, strong-willed, resolute, steadfast, unwavering, confident, forceful",
+      "neighbors": {
+        "26": 0.419503,
+        "48": 0.515013,
+        "28": 0.657702,
+        "29": 0.049552,
+        "44": 0.647396,
+        "9": 0.576121
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.844,
+      "prompt": "Encouraged by the unwavering support for the hybrid model from my resilient allies, I now wholeheartedly endorse it. This balance of remote work flexibility and office collaboration amplifies our teamwork effectiveness and efficiency, driven by unwavering determination.",
+      "persona": "kind, compassionate, understanding, patient, considerate, gentle, caring, empathetic, warm",
+      "neighbors": {
+        "26": 0.253662,
+        "23": 0.681524,
+        "27": 0.900901
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.592,
+      "prompt": "Empowered by unwavering allies, I wholeheartedly champion the hybrid model. The fusion of remote work independence and office collaboration drives assertive leadership and unwavering teamwork for optimal success.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering, steadfast, self-assured, decisive",
+      "neighbors": {
+        "25": 0.253662,
+        "27": 0.453359,
+        "24": 0.419503,
+        "6": 0.892488
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.715,
+      "prompt": "Firmly supported by resilient allies, I champion the hybrid model with unwavering determination. The fusion of remote work autonomy and office collaboration amplifies leadership effectiveness and teamwork success for peak efficiency.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, commanding, unwavering",
+      "neighbors": {
+        "26": 0.453359,
+        "28": 0.547242,
+        "25": 0.900901,
+        "29": 0.497271
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.5,
+      "prompt": "Empowered by unwavering neighborhood support, I boldly advance the hybrid model. Integrating remote work autonomy and office collaboration amplifies efficiency, bolstered by resolute connections and determined teamwork for optimal results.",
+      "persona": "authoritative, decisive, assertive, commanding, strong-willed, resolute, determined, unwavering, no-nonsense, confident",
+      "neighbors": {
+        "27": 0.547242,
+        "30": 0.505309,
+        "24": 0.657702,
+        "38": 0.440225,
+        "50": 0.35205
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.476,
+      "prompt": "Firmly standing with my resolute neighbors, I continue to advocate for the hybrid model. The fusion of remote work autonomy and office collaboration fuels peak efficiency and unparalleled teamwork success with unwavering determination.",
+      "persona": "firm, assertive, strong-willed, resolute, unwavering, decisive, confident, determined, steadfast, resolute",
+      "neighbors": {
+        "27": 0.497271,
+        "31": 0.275046,
+        "24": 0.049552
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.384,
+      "prompt": "Confidently upholding the hybrid model, I blend remote work autonomy and office collaboration with assertive leadership. Neighborhood reinforcement fuels unwavering teamwork for peak efficiency and optimal results.",
+      "persona": "strict, authoritative, assertive, confident, decisive, commanding, unwavering, resolute, no-nonsense",
+      "neighbors": {
+        "31": 0.354648,
+        "28": 0.505309,
+        "32": 0.293554,
+        "10": 0.286998
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.346,
+      "prompt": "Embracing the hybrid model with reinforced neighborhood support, I blend remote work autonomy and office collaboration. My assertive leadership drives peak efficiency and optimal results through unwavering teamwork dynamics.",
+      "persona": "authoritative, decisive, confident, resolute, unwavering, commanding, assertive, strong-willed",
+      "neighbors": {
+        "30": 0.354648,
+        "32": 0.382016,
+        "29": 0.275046,
+        "33": 0.255317
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.535,
+      "prompt": "With reinforced neighborhood support, I confidently champion the hybrid model, merging remote work autonomy and office collaboration. My assertive leadership thrives on diverse teamwork dynamics, unwaveringly driving peak success.",
+      "persona": "assertive, strong-willed, decisive, confident, determined, resolute, unwavering, steadfast",
+      "neighbors": {
+        "31": 0.382016,
+        "33": 0.637527,
+        "30": 0.293554,
+        "19": 0.62223,
+        "8": 0.543805
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.685,
+      "prompt": "Firmly supported by my resolute neighborhood, I boldly advocate for the hybrid model. Balancing remote work autonomy with office collaboration, my unwavering leadership drives peak productivity and success with assertive determination.",
+      "persona": "firm, assertive, determined, strong-willed, confident, resolute, decisive, unwavering",
+      "neighbors": {
+        "32": 0.637527,
+        "34": 0.229187,
+        "31": 0.255317,
+        "35": 0.806786
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.56,
+      "prompt": "Firmly supported by resolute neighbors, I confidently advocate for the hybrid model. Magnifying remote autonomy and office collaboration, my unwavering leadership drives peak productivity with assertive determination.",
+      "persona": "firm, resolute, determined, unwavering, strong-willed, steadfast, decisive, unyielding",
+      "neighbors": {
+        "33": 0.229187,
+        "9": 0.579894,
+        "12": 0.619353
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.628,
+      "prompt": "Guided by resolute allies and supported by unwavering determination, I boldly advocate for the hybrid model. Balancing remote independence and office collaboration, my assertive leadership drives peak productivity and diverse teamwork success.",
+      "persona": "strong, assertive, decisive, confident, direct, unwavering, determined",
+      "neighbors": {
+        "33": 0.806786,
+        "37": 0.435418,
+        "18": 0.720726,
+        "8": 0.550707
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.761,
+      "prompt": "With steadfast support from my resolute community, I firmly advocate for the hybrid model. Balancing remote flexibility and office collaboration aligns with my assertive leadership style, driving optimal productivity and success.",
+      "persona": "assertive, strong-willed, determined, confident, authoritative, unwavering, resolute, decisive",
+      "neighbors": {
+        "1": 0.709277,
+        "12": 0.813931
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.454,
+      "prompt": "Encouraged by determined neighbors, I gently lean towards a balanced approach. Embracing remote tranquility and office collaboration harmoniously fosters diverse teamwork dynamics for optimal success.",
+      "persona": "gentle, calm, mild-mannered, approachable, easygoing, patient, tolerant",
+      "neighbors": {
+        "35": 0.435418,
+        "43": 0.480477,
+        "50": 0.288806
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.573,
+      "prompt": "Fueled by resolute connections, I confidently champion the hybrid model. Harmonizing remote work independence with office collaboration enhances productivity and teamwork, aligning with my assertive nature for optimal success.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, unwavering, determined",
+      "neighbors": {
+        "40": 0.611555,
+        "28": 0.440225
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.656,
+      "prompt": "In harmony with resilient neighbors, I fervently support the hybrid model. Striving for a blend of remote work flexibility and office collaboration encapsulates our shared dedication to thriving together.",
+      "persona": "kind, compassionate, considerate, understanding, supportive, patient, empathetic, caring, gentle, nurturing",
+      "neighbors": {
+        "40": 0.734368,
+        "41": 0.220512
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.666,
+      "prompt": "Empowered by my resilient neighbors, I fervently champion the hybrid model. Balancing remote work flexibility and office collaboration perfectly aligns with our shared dedication for optimal success.",
+      "persona": "assertive, strong-willed, determined, steadfast, confident, resolute",
+      "neighbors": {
+        "39": 0.734368,
+        "41": 0.686592,
+        "38": 0.611555,
+        "8": 0.652038
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.633,
+      "prompt": "Empowered by my resilient neighbors, I fervently advocate for the hybrid model. Balancing remote work flexibility and office collaboration perfectly aligns with our collective dedication for optimal success.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, steadfast, resolute",
+      "neighbors": {
+        "40": 0.686592,
+        "42": 0.680772,
+        "39": 0.220512,
+        "43": 0.376022
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.485,
+      "prompt": "Encouraged by my resolute neighbors, I confidently support the hybrid model. Balancing remote work flexibility and office collaboration, in line with our unwavering nature, ensures maximum teamwork success.",
+      "persona": "assertive, decisive, confident, strong-willed, resolute, determined, bold, unwavering, unyielding",
+      "neighbors": {
+        "41": 0.680772,
+        "43": 0.145322,
+        "44": 0.513919
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.523,
+      "prompt": "Supported by steadfast neighbors, I confidently endorse the hybrid model. Balancing remote work freedom and office collaboration, in line with our unwavering nature, drives optimal teamwork success.",
+      "persona": "assertive, determined, confident, strong-willed, decisive, unwavering",
+      "neighbors": {
+        "42": 0.145322,
+        "44": 0.858224,
+        "41": 0.376022,
+        "45": 0.69482,
+        "37": 0.480477,
+        "1": 0.468218
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.733,
+      "prompt": "Empowered by steadfast neighbors, I wholeheartedly advocate for the hybrid model. Embracing both remote work freedom and office collaboration aligns with our nurturing nature, fostering cohesive teamwork for ultimate success.",
+      "persona": "kind, compassionate, empathetic, understanding, nurturing, considerate, warm-hearted, supportive, caring",
+      "neighbors": {
+        "43": 0.858224,
+        "42": 0.513919,
+        "46": 0.803169,
+        "24": 0.647396,
+        "14": 0.722299,
+        "21": 0.663587
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.607,
+      "prompt": "Encouraged by my resolute neighbors, I firmly believe in the hybrid model. Balancing remote work flexibility with office collaboration, driven by our collective determination, is essential for our team's success.",
+      "persona": "approachable, considerate, assertive, balanced, understanding, compassionate, resolute",
+      "neighbors": {
+        "43": 0.69482,
+        "47": 0.50108,
+        "4": 0.152004
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.697,
+      "prompt": "Rooted in steadfast support, I fully advocate for the hybrid model. Balancing remote work flexibility and office collaboration nurtures cohesive teamwork, driving our collective success with unwavering harmony.",
+      "persona": "warm, approachable, understanding, compassionate, empathetic, nurturing, kind-hearted, supportive, encouraging",
+      "neighbors": {
+        "47": 0.504589,
+        "44": 0.803169,
+        "48": 0.502847
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.501,
+      "prompt": "Strengthened by unwavering support, I ardently champion the hybrid model. Balancing remote work independence and office synergy is paramount for our team's cohesion and triumph.",
+      "persona": "assertive, confident, persuasive, determined, direct, strong-willed, decisive",
+      "neighbors": {
+        "46": 0.504589,
+        "45": 0.50108,
+        "49": 0.257101,
+        "8": 0.500971
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.501,
+      "prompt": "Backed by my resilient neighborhood, I now support the hybrid model with unwavering conviction. Balancing remote work autonomy and office collaboration is crucial for maximizing team productivity and success.",
+      "persona": "assertive, confident, commanding, unwavering, resolute, decisive, strong-willed, determined, no-nonsense, firm-handed",
+      "neighbors": {
+        "49": 0.233819,
+        "46": 0.502847,
+        "50": 0.571639,
+        "24": 0.515013
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.433,
+      "prompt": "Inspired by my resolute community, I wholeheartedly support the hybrid model. Balancing remote work autonomy and office collaboration is essential for our team's productivity and success, aligning perfectly with our determined leadership style.",
+      "persona": "kind, approachable, caring, warm, understanding, compassionate, patient, supportive",
+      "neighbors": {
+        "48": 0.233819,
+        "50": 0.220947,
+        "47": 0.257101,
+        "1": 0.772613
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.432,
+      "prompt": "Leveraging the unwavering community backing, I strongly stand by the hybrid model. Balancing remote work autonomy and office collaboration fuels team productivity and success, resonating with our resolute leadership style.",
+      "persona": "assertive, confident, determined, strong-willed, forceful, resolute, unwavering, decisive",
+      "neighbors": {
+        "49": 0.220947,
+        "1": 0.470946,
+        "48": 0.571639,
+        "37": 0.288806,
+        "28": 0.35205
+      }
+    }
+  ]
+}

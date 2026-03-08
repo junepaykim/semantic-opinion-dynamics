@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.541,
+      "prompt": "I now firmly advocate for a balanced hybrid model, blending remote tranquility with office collaboration to nurture connections and productivity effectively. This aligns seamlessly with my assertive and supportive nature for optimal work success.",
+      "persona": "assertive, confident, approachable, steady, balanced, determined, warm, direct, composed, supportive",
+      "neighbors": {
+        "2": 0.569509,
+        "3": 0.222964,
+        "4": 0.662718,
+        "5": 0.324042,
+        "8": 0.316744,
+        "12": 0.602684,
+        "13": 0.189202,
+        "15": 0.721948,
+        "19": 0.203022,
+        "20": 0.553004,
+        "21": 0.37995,
+        "22": 0.54908,
+        "25": 0.39918,
+        "28": 0.465483,
+        "41": 0.530081,
+        "42": 0.657499,
+        "43": 0.635066,
+        "45": 0.260082,
+        "48": 0.193228
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.641,
+      "prompt": "I now warmly embrace a harmonious blend of remote work and office collaboration, nurturing connections and productivity effectively, aligning with my gentle and supportive nature for a thriving work environment.",
+      "persona": "gentle, mild-mannered, soft-spoken, non-confrontational, easygoing, laid-back, peaceful",
+      "neighbors": {
+        "1": 0.569509,
+        "4": 0.772765,
+        "5": 0.360818,
+        "9": 0.708288,
+        "10": 0.915226,
+        "16": 0.547975,
+        "17": 0.350925,
+        "25": 0.724431,
+        "30": 0.572056,
+        "32": 0.49514,
+        "34": 0.64462,
+        "39": 0.53877,
+        "40": 0.548931,
+        "41": 0.60475,
+        "45": 0.003506,
+        "48": 0.745589
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.472,
+      "prompt": "I confidently advocate for the harmonious hybrid model, blending remote focus with office collaboration. This aligns with my assertive nature, driving productivity and fostering strong connections effectively.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, self-assured, resolute, unwavering, bold, authoritative",
+      "neighbors": {
+        "1": 0.222964,
+        "9": 0.544787,
+        "11": 0.36894,
+        "13": 0.618451,
+        "24": 0.393254
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.678,
+      "prompt": "I now fully embrace the harmonious blend of remote tranquility and office collaboration, nurturing connections and productivity effectively, resonating with my accommodating and compassionate nature.",
+      "persona": "gentle, soft-spoken, accommodating, mild-mannered, kind-hearted, compassionate, tolerant, easygoing, nurturing, warm",
+      "neighbors": {
+        "1": 0.662718,
+        "2": 0.772765,
+        "6": 0.452096,
+        "7": 0.777884,
+        "10": 0.601683,
+        "11": 0.729178,
+        "12": 0.313,
+        "15": 0.319999,
+        "21": 0.708429,
+        "22": 0.140297,
+        "23": 0.622002,
+        "26": 0.584867,
+        "37": 0.155986,
+        "47": 0.872119,
+        "50": 0.531642
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.554,
+      "prompt": "I decisively advocate for a balanced hybrid model, merging remote tranquility with office collaboration to fuel collective success with unwavering certainty and gentle conviction.",
+      "persona": "assertive, commanding, decisive, confident, resolute, unyielding, domineering, strong-willed, authoritative, forceful",
+      "neighbors": {
+        "1": 0.324042,
+        "2": 0.360818,
+        "6": 0.698556,
+        "7": 0.642439,
+        "8": 0.716406,
+        "18": 0.503698,
+        "27": 0.696372,
+        "29": 0.350373,
+        "35": 0.530739,
+        "43": 0.710367,
+        "49": 0.191846,
+        "50": 0.273791
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.623,
+      "prompt": "I wholeheartedly endorse a harmonious hybrid model, blending remote tranquility and office collaboration with gentle conviction. This balanced approach fosters connections and fuels collective success, aligning perfectly with my kind-hearted nature.",
+      "persona": "gentle, soft-spoken, mild-mannered, modest, meek, docile, calm, tender-hearted, serene",
+      "neighbors": {
+        "4": 0.452096,
+        "5": 0.698556,
+        "18": 0.571441
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.615,
+      "prompt": "I appreciate the gentle balance of remote work's tranquility and the office's collaborative spirit, fostering connections and nurturing productivity in a supportive environment where kindness flourishes and everyone grows together.",
+      "persona": "gentle, approachable, soft-spoken, mild-mannered, somewhat assertive, easygoing, relaxed, friendly",
+      "neighbors": {
+        "4": 0.777884,
+        "5": 0.642439,
+        "14": 0.559145,
+        "20": 0.643434,
+        "37": 0.253527
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.628,
+      "prompt": "I continue to advocate for a balanced hybrid approach, valuing both remote tranquility and office collaboration. This creates an environment that nurtures connections while fostering productivity, aligning well with my balanced and diplomatic perspective.",
+      "persona": "balanced, approachable, assertive, calm, diplomatic, confident, steady, considerate",
+      "neighbors": {
+        "1": 0.316744,
+        "5": 0.716406,
+        "39": 0.62212
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.632,
+      "prompt": "I've refined my perspective, recognizing the value of a hybrid model that balances remote focus with in-person collaboration. This approach suits my assertiveness while enhancing team connections and productivity.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resilient, commanding",
+      "neighbors": {
+        "2": 0.708288,
+        "3": 0.544787
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.74,
+      "prompt": "I've reinforced my belief in the perfect balance of remote work and office dynamics. The nurturing connections and productivity gained from both environments fuel a thriving work atmosphere that I now appreciate even more.",
+      "persona": "assertive, confident, determined, strong-willed, decisive, persuasive, bold, commanding, practical, influential",
+      "neighbors": {
+        "2": 0.915226,
+        "4": 0.601683,
+        "34": 0.975589
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.635,
+      "prompt": "I now cherish the hybrid model even more, appreciating its unique blend of remote peace and office collaboration. This approach nurtures productivity and strengthens connections, aligning beautifully with my gentle and accommodating nature.",
+      "persona": "gentle, kind-hearted, compassionate, soft-spoken, empathetic, understanding, patient, mild-mannered, tolerant, easy-going",
+      "neighbors": {
+        "3": 0.36894,
+        "4": 0.729178,
+        "17": 0.464375,
+        "31": 0.658896
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.738,
+      "prompt": "I stand unwaveringly in support of a balanced hybrid model, blending remote flexibility with office collaboration to nurture essential connections, productivity, and success with resolute determination.",
+      "persona": "firm, determined, resolute, unwavering, strong-willed, assertive, decisive, confident, unyielding, steadfast",
+      "neighbors": {
+        "1": 0.602684,
+        "4": 0.313,
+        "27": 0.642725,
+        "31": 0.731788,
+        "32": 0.789853,
+        "44": 0.967436
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.498,
+      "prompt": "I gently support the hybrid model, blending remote tranquility with office collaboration to nurture connections and productivity in diverse work environments, harmonizing with my accommodating nature.",
+      "persona": "gentle, soft-spoken, mild-mannered, non-confrontational, accommodating, easygoing, agreeable, patient",
+      "neighbors": {
+        "1": 0.189202,
+        "3": 0.618451,
+        "14": 0.518936,
+        "16": 0.522825,
+        "23": 0.378581,
+        "26": 0.386604,
+        "30": 0.45161,
+        "33": 0.278535
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.556,
+      "prompt": "I wholeheartedly support the balanced hybrid model, combining remote tranquility with office collaboration to nurture connections and productivity. This approach resonates with my gentle nature and the valuable insights shared by my neighbors.",
+      "persona": "gentle, nurturing, encouraging, supportive, mild, understanding, approachable",
+      "neighbors": {
+        "13": 0.518936,
+        "7": 0.559145,
+        "38": 0.6094,
+        "40": 0.376728
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.646,
+      "prompt": "I have embraced the balanced hybrid approach, merging remote focus with office vitality to elevate productivity and foster crucial connections. This aligns with my unwavering determination for multifaceted success.",
+      "persona": "assertive, confident, decisive, strong-willed, unwavering, resolute, determined, steadfast",
+      "neighbors": {
+        "1": 0.721948,
+        "4": 0.319999
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.592,
+      "prompt": "I advocate for a balanced hybrid model that integrates remote work and office collaboration. This fosters productivity and strengthens team connections, aligning with my assertive leadership style and the positive influences from my neighbors' perspectives.",
+      "persona": "assertive, confident, balanced, direct, approachable, self-assured",
+      "neighbors": {
+        "2": 0.547975,
+        "13": 0.522825,
+        "36": 0.612038
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.524,
+      "prompt": "I warmly embrace the harmonious blend of remote work and office collaboration, nurturing productivity and connections, aligning beautifully with my gentle and accommodating nature.",
+      "persona": "gentle, accommodating, soft-spoken, mild, compassionate, easygoing, relaxed, understanding, approachable",
+      "neighbors": {
+        "2": 0.350925,
+        "11": 0.464375,
+        "19": 0.656153,
+        "28": 0.522256,
+        "49": 0.411
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.481,
+      "prompt": "I am increasingly solidified in my belief in a harmonious hybrid model, merging remote tranquility with office collaboration. This balanced approach enhances productivity and strengthens connections, fueling my steadfast commitment to collective success.",
+      "persona": "assertive, confident, determined, persuasive, encouraging, proactive, supportive, strong-willed, decisive",
+      "neighbors": {
+        "5": 0.503698,
+        "6": 0.571441,
+        "24": 0.313664
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.475,
+      "prompt": "I now strongly advocate for a harmonious hybrid work model, blending the tranquility of remote work with the energy of office collaboration. This approach resonates with my assertive nature, fostering success in diverse work environments.",
+      "persona": "assertive, strong-willed, confident, decisive, firm, resolute, determined, unwavering",
+      "neighbors": {
+        "17": 0.656153,
+        "1": 0.203022,
+        "46": 0.225325,
+        "47": 0.58578
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.615,
+      "prompt": "I value the harmonious blend of remote tranquility and office collaboration, fostering connections and productivity in a balanced, supportive environment that resonates with my gentle nature.",
+      "persona": "gentle, kind-hearted, compassionate, soft-spoken, empathetic, caring, understanding",
+      "neighbors": {
+        "1": 0.553004,
+        "7": 0.643434
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.5932,
+      "prompt": "I now wholeheartedly endorse the balanced hybrid model, merging remote tranquility with office collaboration for enhanced connections and productivity. This harmonious approach resonates deeply with my supportive and empathetic nature.",
+      "persona": "gentle, soft-spoken, tactful, empathetic, moderately assertive, supportive",
+      "neighbors": {
+        "1": 0.37995,
+        "4": 0.708429
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.579,
+      "prompt": "I gracefully advocate for a balanced hybrid model, blending remote tranquility with office collaboration to nurture connections and productivity effectively, harmonizing with my empathetic and accommodating nature.",
+      "persona": "gentle, soft-spoken, mild-mannered, empathetic, approachable, kind-hearted",
+      "neighbors": {
+        "1": 0.54908,
+        "4": 0.140297,
+        "35": 0.671245
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.598,
+      "prompt": "I've come to appreciate the hybrid model even more, recognizing its power to unite remote productivity and in-office collaboration. It fosters essential connections and amplifies our collective effectiveness in a diverse work environment, aligning with my assertive approach to getting results.",
+      "persona": "assertive, confident, strong-willed, determined, impactful, commanding, decisive, authoritative, unwavering",
+      "neighbors": {
+        "4": 0.622002,
+        "13": 0.378581
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.322,
+      "prompt": "I decisively advocate for the hybrid model, blending remote focus with office collaboration to drive productivity and fortify team bonds. My assertive leadership thrives in this balanced approach for optimal success.",
+      "persona": "confident, decisive, assertive, strong-willed, self-assured, resolute, determined",
+      "neighbors": {
+        "18": 0.313664,
+        "3": 0.393254,
+        "33": 0.235673,
+        "36": 0.321627,
+        "46": 0.271125
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.56,
+      "prompt": "I advocate for a balanced hybrid model, blending remote tranquility with office collaboration to optimize productivity and nurture connections. This aligns with my assertive nature for successful work outcomes.",
+      "persona": "assertive, confident, strong-willed, determined, persuasive, commanding",
+      "neighbors": {
+        "1": 0.39918,
+        "2": 0.724431
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.508,
+      "prompt": "I've adjusted my stance slightly towards fully embracing the hybrid model, recognizing its potential to harmonize remote peace with office collaboration, enhancing productivity and connection, reflecting my authoritative and decisive approach.",
+      "persona": "assertive, strong-willed, decisive, confident, commanding, resolute, unwavering",
+      "neighbors": {
+        "4": 0.584867,
+        "13": 0.386604
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.635,
+      "prompt": "I continue to value a harmonious hybrid model that blends the serenity of remote work with the dynamic energy of the office, fostering connection, collaboration, and productivity with gentle conviction, nurturing our collective success.",
+      "persona": "gentle, soft-spoken, nurturing, serene, approachable, mild, compassionate, easygoing, supportive, understanding",
+      "neighbors": {
+        "12": 0.642725,
+        "5": 0.696372,
+        "29": 0.275048
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.515,
+      "prompt": "I continue to support a hybrid work model that blends remote serenity with in-office teamwork. This nuanced approach enhances productivity and nurtures connections, reflecting my balanced perspective and respecting diverse work preferences.",
+      "persona": "assertive, balanced, composed, moderately confident, diplomatic, reasonable, steady, approachable, reserved",
+      "neighbors": {
+        "17": 0.522256,
+        "1": 0.465483,
+        "44": 0.573655
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.373,
+      "prompt": "I maintain my resolute commitment to a balanced hybrid model, blending remote tranquility with office collaboration. The unwavering support and conviction of my neighbors strengthen our collective productivity and success.",
+      "persona": "assertive, confident, resolute, strong-willed, determined, decisive, bold",
+      "neighbors": {
+        "27": 0.275048,
+        "5": 0.350373,
+        "38": 0.452571
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.51,
+      "prompt": "I cherish the hybrid model, valuing how it nurtures connections while allowing for remote peace. This balance beautifully aligns with my gentle, accommodating nature, fostering a thriving work environment where collaboration and tranquility coexist.",
+      "persona": "gentle, kind-hearted, compassionate, understanding, empathetic, patient",
+      "neighbors": {
+        "2": 0.572056,
+        "13": 0.45161
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.698,
+      "prompt": "I find solace in the hybrid model, merging remote tranquility with office creativity for enhanced productivity and connections, fostering a gentle and accommodating environment that aligns beautifully with my nature.",
+      "persona": "soft, approachable, mild, gentle-hearted, lenient, accommodating, easygoing",
+      "neighbors": {
+        "11": 0.658896,
+        "12": 0.731788
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.766,
+      "prompt": "I believe in a nurturing hybrid model that harmonizes remote flexibility with the importance of in-office collaboration, fostering connections and productivity while supporting a balanced and thriving work environment.",
+      "persona": "gentle, approachable, mild-mannered, balanced, warm, supportive, accommodating, softly assertive",
+      "neighbors": {
+        "2": 0.49514,
+        "12": 0.789853
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.25,
+      "prompt": "I still find the hybrid model appealing, valuing the blend of remote work and office collaboration. This approach supports my accommodating nature while fostering productivity and connections in our diverse work environment.",
+      "persona": "Balanced, Moderately assertive, Considerate, Friendly yet decisive, Compromising, Soft-spoken but clear, Approachable, Gentle but confident, Supportive with boundaries",
+      "neighbors": {
+        "13": 0.278535,
+        "24": 0.235673
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.757,
+      "prompt": "I've come to see even more the value in blending remote and office work. The nurturing connections fostered in both spaces contribute deeply to our collective productivity and well-being, allowing everyone to thrive in a compassionate work environment.",
+      "persona": "kind, compassionate, patient, understanding, considerate, empathetic, nurturing, gentle-hearted, warm, caring",
+      "neighbors": {
+        "10": 0.975589,
+        "2": 0.64462
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.648,
+      "prompt": "I confidently unite remote tranquility with office collaboration, driving collective success with unwavering determination. This balanced approach harnesses strong connections and boosts productivity, aligning with my assertive stance with emphatic clarity.",
+      "persona": "assertive, decisive, strong-willed, confident, commanding, uncompromising, resolute, authoritative, intense",
+      "neighbors": {
+        "5": 0.530739,
+        "22": 0.671245
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.52,
+      "prompt": "I decisively advocate for a hybrid model, balancing remote focus and office collaboration to drive productivity and fortify team bonds, in line with my authoritative leadership style.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, authoritative",
+      "neighbors": {
+        "16": 0.612038,
+        "24": 0.321627,
+        "42": 0.446886
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.219,
+      "prompt": "I've come to fully appreciate the peacefulness of remote work and the collaborative spirit of the office, harmoniously blending tranquility and productivity in a nurturing environment where kindness thrives and connections deepen.",
+      "persona": "gentle, mild-mannered, soft-spoken, kind-hearted, compassionate, considerate, tender-hearted",
+      "neighbors": {
+        "4": 0.155986,
+        "7": 0.253527
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.525,
+      "prompt": "I remain steadfast in advocating for a balanced hybrid work model, combining the tranquility of remote work and the vibrancy of office collaboration. The insights of my neighbors reinforce my belief in this approach, driving productivity and collective success.",
+      "persona": "strong-willed, determined, assertive, resolute, unwavering, steadfast, decisive, bold, confident, unyielding",
+      "neighbors": {
+        "29": 0.452571,
+        "14": 0.6094
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.61,
+      "prompt": "I gently lean towards a harmonious hybrid work model, appreciating both remote serenity and in-office collaboration. This balance nurtures meaningful connections and supports a thriving work environment that reflects my empathetic and accommodating nature.",
+      "persona": "gentle, nurturing, supportive, mild, empathetic, soft-spoken, accommodating, easygoing",
+      "neighbors": {
+        "2": 0.53877,
+        "8": 0.62212
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.459,
+      "prompt": "I continue to embrace a harmonious blend of remote work and office collaboration, valuing the support and productivity it fosters. This balanced approach, reflecting my gentle nature, thrives on connections and insights from my neighbors.",
+      "persona": "Balanced, approachable, moderately assertive, empathetic, slightly directive, friendly yet firm, supportive, level-headed",
+      "neighbors": {
+        "2": 0.548931,
+        "14": 0.376728
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.5675,
+      "prompt": "I assertively advocate for a harmonious hybrid work model, combining remote flexibility and in-person collaboration to optimize productivity and team dynamics. This aligns with my strong-willed nature for a thriving work environment.",
+      "persona": "Assertive, confident, decisive, strong-willed, bold, self-assured, determined, commanding",
+      "neighbors": {
+        "1": 0.530081,
+        "2": 0.60475
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.543,
+      "prompt": "My refined stance embraces the balanced hybrid model, integrating the serenity of remote work with the collaborative spark of the office. This approach not only enhances productivity but also fortifies our team dynamics, reflecting my goal-oriented leadership style.",
+      "persona": "assertive, commanding, decisive, strong-willed, confident, persuasive, determined, unyielding, authoritative",
+      "neighbors": {
+        "1": 0.657499,
+        "36": 0.446886
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.674,
+      "prompt": "I now lean towards a balanced hybrid approach, embracing remote tranquility and office collaboration to enhance connections and productivity in a considerate and gentle manner, fostering collective success with harmony.",
+      "persona": "gentle, kind, soft-spoken, compassionate, understanding, considerate",
+      "neighbors": {
+        "1": 0.635066,
+        "5": 0.710367
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.764,
+      "prompt": "I wholeheartedly endorse a hybrid work model, harmonizing remote flexibility and office collaboration. This approach strengthens bonds, boosts productivity, and demonstrates respect for varying work styles.",
+      "persona": "assertive, balanced, moderate, confident, persuasive, empathetic, supportive, strong-willed, approachable",
+      "neighbors": {
+        "12": 0.967436,
+        "28": 0.573655
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.237,
+      "prompt": "I now lean towards a balanced hybrid approach that harmonizes remote serenity with in-office collaboration. This adjustment reflects my compassionate nature, fostering both productivity and meaningful connections in our diverse work environments.",
+      "persona": "mild, soft-spoken, lenient, easy-going, compassionate, understanding, considerate, patient, gentle, tender-hearted",
+      "neighbors": {
+        "1": 0.260082,
+        "2": 0.003506
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.254,
+      "prompt": "I appreciate the benefits of a harmonious hybrid work model, combining remote tranquility with in-person collaboration, supporting productivity and team connections, meshing well with my gentle and adaptable work style.",
+      "persona": "gentle, approachable, mild, easygoing, soft-spoken, adaptable, supportive, easy to relate to",
+      "neighbors": {
+        "19": 0.225325,
+        "24": 0.271125
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.761,
+      "prompt": "I firmly embrace the harmonious hybrid work model, appreciating both the peace of remote work and the dynamic energy of the office. This balanced approach nurtures connections and enhances productivity, reflecting my gentle and accommodating spirit.",
+      "persona": "gentle, mild, soft-spoken, accommodating, kind-hearted, easygoing, tolerant",
+      "neighbors": {
+        "19": 0.58578,
+        "4": 0.872119
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.573,
+      "prompt": "I continue to cherish a balanced approach of remote work and office collaboration, fostering connections and maintaining tranquility. This perspective aligns beautifully with my gentle nature, ensuring both productivity and a supportive work environment.",
+      "persona": "gentle, soft-spoken, mild-mannered, accommodating, balanced, approachable, easygoing, supportive",
+      "neighbors": {
+        "1": 0.193228,
+        "2": 0.745589
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.366,
+      "prompt": "I confidently champion the harmonious blend of remote work and office collaboration, fortifying my resolute pursuit of peak performance and unwavering leadership in driving excellence.",
+      "persona": "assertive, decisive, confident, strong-willed, unwavering, commanding, resolute, determined",
+      "neighbors": {
+        "17": 0.411,
+        "5": 0.191846
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.305,
+      "prompt": "I remain committed to a balanced work model, valuing productivity and collaboration. I acknowledge my neighbors' perspectives, integrating empathy while asserting the need for focused and effective teamwork to achieve our goals.",
+      "persona": "assertive, strong-willed, confident, determined, resolute, unwavering, self-assured, decisive, commanding",
+      "neighbors": {
+        "4": 0.531642,
+        "5": 0.273791
+      }
+    }
+  ]
+}

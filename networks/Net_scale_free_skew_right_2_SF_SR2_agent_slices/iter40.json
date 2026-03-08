@@ -1,0 +1,596 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.618,
+      "prompt": "Confidently balancing assertive autonomy and unwavering determination, I decisively lean towards the return-to-office setting for optimal collaboration and team success, while valuing adaptability and productivity equally.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, decisive, steadfast",
+      "neighbors": {
+        "2": 0.016739,
+        "3": 0.498212,
+        "5": 0.260551,
+        "7": 0.582464,
+        "8": 0.680177,
+        "9": 0.499071,
+        "15": 0.293292,
+        "23": 0.390437,
+        "24": 0.655336,
+        "28": 0.441164,
+        "35": 0.89004,
+        "45": 0.771301
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.512,
+      "prompt": "Balancing assertive autonomy and unwavering determination, I confidently prioritize the return-to-office setting for optimal teamwork and enhanced collaboration, valuing adaptability and productivity equally for team success.",
+      "persona": "firm, determined, strong-willed, assertive, resolute, unwavering, steadfast, decisive, unyielding, resolute",
+      "neighbors": {
+        "1": 0.016739,
+        "4": 0.235169,
+        "5": 0.732723,
+        "7": 0.43456,
+        "9": 0.388028,
+        "10": 0.562784,
+        "11": 0.387373,
+        "12": 0.627983,
+        "34": 0.074861,
+        "35": 0.328817,
+        "37": 0.380236,
+        "40": 0.585172,
+        "42": 0.516191
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.566,
+      "prompt": "With a firm balance of assertive autonomy and unwavering determination, I decisively lean towards the return-to-office setting for optimal collaboration and team success, prioritizing adaptability and productivity equally.",
+      "persona": "assertive, decisive, strong-willed, resolute, determined, unwavering, no-nonsense",
+      "neighbors": {
+        "1": 0.498212,
+        "4": 0.526452,
+        "49": 0.584101
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.545,
+      "prompt": "With unwavering determination and strong-willed leadership, I confidently steer towards a return-to-office approach for optimal teamwork and collaboration, balancing adaptability and productivity for team success.",
+      "persona": "assertive, strong-willed, determined, confident, resolute, steadfast, unwavering",
+      "neighbors": {
+        "2": 0.235169,
+        "3": 0.526452,
+        "6": 0.263552
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.481,
+      "prompt": "Balancing assertive autonomy and unwavering determination, I decisively advocate for a return-to-office strategy, prioritizing teamwork and collaboration for maximum success, while valuing adaptability and productivity equally.",
+      "persona": "assertive, commanding, decisive, resolute, strong-willed, unwavering, determined, authoritative",
+      "neighbors": {
+        "1": 0.260551,
+        "2": 0.732723,
+        "6": 0.323229,
+        "18": 0.210094
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.495,
+      "prompt": "With resolute determination, I prioritize returning to the office for optimal productivity and team bonding, valuing teamwork and adaptability equally for decisive results.",
+      "persona": "assertive, commanding, decisive, resolute, unwavering, authoritative",
+      "neighbors": {
+        "4": 0.263552,
+        "5": 0.323229,
+        "16": 0.561219,
+        "41": 0.614969
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.498,
+      "prompt": "With resolute confidence and a balanced approach, I now slightly lean towards the return-to-office for enhanced collaboration and teamwork, valuing adaptability and productivity equally for team success.",
+      "persona": "assertive, decisive, confident, determined, strong-willed, unwavering, resolute, steadfast, self-assured",
+      "neighbors": {
+        "1": 0.582464,
+        "2": 0.43456,
+        "8": 0.424877,
+        "11": 0.511906,
+        "13": 0.160356,
+        "14": 0.412175,
+        "27": 0.243327,
+        "32": 0.063789,
+        "43": 0.186029,
+        "47": 0.441537
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.569,
+      "prompt": "Confidently balancing adaptability and team success, I decisively prioritize return-to-office collaboration for optimal results, while valuing flexibility.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, decisive, bold, unwavering, forceful, authoritative",
+      "neighbors": {
+        "1": 0.680177,
+        "7": 0.424877,
+        "10": 0.056164,
+        "12": 0.467949,
+        "13": 0.549603,
+        "17": 0.387907,
+        "20": 0.420222,
+        "25": 0.6417,
+        "29": 0.254233,
+        "42": 0.93709
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.386,
+      "prompt": "Balancing assertive autonomy and firm collaboration, I confidently lean towards a return-to-office setting for optimal teamwork, influenced by neighbors' preferences. Prioritizing team success and adaptability equally, I lead decisively towards enhanced collaboration.",
+      "persona": "assertive, decisive, confident, determined, strong-willed, unwavering",
+      "neighbors": {
+        "1": 0.499071,
+        "2": 0.388028,
+        "31": 0.25008,
+        "48": 0.637127
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.483,
+      "prompt": "Leading with unwavering determination, I confidently balance remote autonomy and office collaboration. Slightly leaning towards remote work for optimized adaptability and teamwork, I prioritize results equally.",
+      "persona": "confident, assertive, strong-willed, decisive, unyielding, resolute, determined, commanding",
+      "neighbors": {
+        "2": 0.562784,
+        "8": 0.056164,
+        "14": 0.22977,
+        "37": 0.287588
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.648,
+      "prompt": "Confidently leading with adaptability and determination, I decisively prioritize the return-to-office for optimal team success. Valuing collaboration and productivity equally, I now lean towards enhanced teamwork while maintaining a balanced approach.",
+      "persona": "assertive, confident, determined, strong-willed, unwavering, resolute, self-assured, decisive",
+      "neighbors": {
+        "2": 0.387373,
+        "7": 0.511906,
+        "19": 0.642855,
+        "21": 0.701135,
+        "24": 0.551672,
+        "25": 0.775357,
+        "30": 0.729047,
+        "33": 0.637465,
+        "44": 0.683473,
+        "48": 0.366229
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.685,
+      "prompt": "Balancing assertive autonomy and team success, I decisively lean towards the return-to-office setting for optimal productivity and enhanced collaboration, while valuing adaptability for strong leadership.",
+      "persona": "assertive, strong-willed, determined, resolute, unwavering, decisive",
+      "neighbors": {
+        "2": 0.627983,
+        "8": 0.467949,
+        "16": 0.782167
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.645,
+      "prompt": "I decisively lead with strong-willed determination, favoring return-to-office for enhanced collaboration and team success. Valuing adaptability, I prioritize optimal results while maintaining a balance with flexibility.",
+      "persona": "assertive, decisive, confident, determined, resolute, no-nonsense, uncompromising, strong-willed, self-assured",
+      "neighbors": {
+        "7": 0.160356,
+        "8": 0.549603
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.502,
+      "prompt": "Boldly leading with decisive determination, I now slightly favor the return-to-office for optimal collaboration and teamwork, valuing adaptability and productivity equally for team success.",
+      "persona": "assertive, determined, confident, resolute, unwavering, strong-willed, decisive, steadfast, bold",
+      "neighbors": {
+        "10": 0.22977,
+        "7": 0.412175,
+        "15": 0.468656,
+        "17": 0.762121,
+        "22": 0.0,
+        "33": 0.250143
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.514,
+      "prompt": "Confidently leading with assertive determination, I decisively prioritize teamwork and collaboration, slightly favoring return-to-office. Balancing adaptability and productivity equally, I aim for enhanced synergy and success.",
+      "persona": "assertive, authoritative, uncompromising, determined, commanding, strong-willed, decisive, resolute, confident, in control",
+      "neighbors": {
+        "1": 0.293292,
+        "14": 0.468656,
+        "18": 0.5514,
+        "22": 0.47227,
+        "27": 0.191267
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.712,
+      "prompt": "I value the return-to-office environment for optimal productivity and team bonding, prioritizing adaptability and strong leadership for decisive results.",
+      "persona": "assertive, confident, determined, strong-willed, decisive, resolute, unwavering, self-assured, no-nonsense",
+      "neighbors": {
+        "12": 0.782167,
+        "6": 0.561219
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.625,
+      "prompt": "With resolute determination, I decisively prioritize return-to-office collaboration, valuing adaptability and teamwork equally for optimal team success.",
+      "persona": "assertive, confident, decisive, resolute, unwavering, determined, strong-willed, steadfast, authoritarian, uncompromising",
+      "neighbors": {
+        "14": 0.762121,
+        "8": 0.387907,
+        "19": 0.950036,
+        "21": 0.523202,
+        "40": 0.256121,
+        "43": 0.288073
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.667,
+      "prompt": "With unwavering determination and confident leadership, I decisively advocate for a return-to-office strategy to optimize teamwork. Balancing adaptability and productivity equally, I aim for enhanced synergy and success.",
+      "persona": "assertive, authoritative, strong-willed, determined, decisive, resolute, unwavering, confident",
+      "neighbors": {
+        "5": 0.210094,
+        "15": 0.5514,
+        "20": 0.729464,
+        "26": 0.583364
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.724,
+      "prompt": "Balancing assertive autonomy and collaboration, I confidently prioritize return-to-office for optimal teamwork. Valuing adaptability and productivity equally, I focus on team success through enhanced in-person collaboration.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, resolute, self-assured, unwavering, forceful",
+      "neighbors": {
+        "17": 0.950036,
+        "11": 0.642855,
+        "26": 0.646774,
+        "46": 0.413903
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.518,
+      "prompt": "With resolute leadership and unwavering determination, I now balance adaptability and collaboration by advocating for a return-to-office strategy to optimize team success and synergy decisively.",
+      "persona": "firm, assertive, confident, decisive, unwavering, strong-willed, resolute",
+      "neighbors": {
+        "18": 0.729464,
+        "8": 0.420222,
+        "28": 0.196532,
+        "38": 0.56694
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.645,
+      "prompt": "With unwavering resolve, I decisively lead the team towards optimal success by balancing adaptability and teamwork, valuing return-to-office collaboration for enhanced productivity and cohesion.",
+      "persona": "assertive, confident, decisive, resolute, strong-willed, determined, steadfast, unwavering, unyielding",
+      "neighbors": {
+        "17": 0.523202,
+        "11": 0.701135
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.439,
+      "prompt": "Balancing assertive autonomy and collaboration, I confidently lead towards team success. Prioritizing adaptability and productivity equally, I now moderately lean towards the return-to-office setting for enhanced teamwork while valuing flexibility.",
+      "persona": "confident, assertive, strong-willed, determined, resolute, unwavering, decisive, forceful, steadfast, composed",
+      "neighbors": {
+        "14": 0.0,
+        "15": 0.47227,
+        "23": 0.523462,
+        "30": 0.324605,
+        "31": 0.509715,
+        "49": 0.45308,
+        "50": 0.632066
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.715,
+      "prompt": "Leading confidently towards team success, I decisively prefer the return-to-office setting for optimal collaboration and productivity. Valuing adaptability and teamwork equally, I prioritize success through enhanced in-person interactions.",
+      "persona": "assertive, confident, strong-willed, determined, decisive, resolute, unwavering",
+      "neighbors": {
+        "1": 0.390437,
+        "22": 0.523462,
+        "29": 0.775142,
+        "47": 0.708074
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.617,
+      "prompt": "Balancing assertive autonomy and unwavering determination, I decisively prioritize a return-to-office setting for optimal collaboration and team success, while valuing adaptability and productivity equally.",
+      "persona": "assertive, decisive, strong-willed, resolute, determined, confident, unwavering",
+      "neighbors": {
+        "1": 0.655336,
+        "11": 0.551672
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.7135,
+      "prompt": "Assertively leading with adaptability and determination, I confidently prioritize a balanced hybrid approach. Slightly leaning towards return-to-office for enhanced collaboration and productivity, while valuing flexibility and team success equally.",
+      "persona": "firm, assertive, resolute, decisive, determined, strong-willed, unwavering, confident",
+      "neighbors": {
+        "11": 0.775357,
+        "8": 0.6417,
+        "36": 0.422448,
+        "50": 0.827824
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.634,
+      "prompt": "Confidently balancing adaptability and productivity, I assertively advocate for a blend of remote work autonomy and office collaboration. With resolute determination, I prioritize team success through optimal teamwork.",
+      "persona": "assertive, decisive, unwavering, resolute, determined, strong-willed, confident, commanding",
+      "neighbors": {
+        "18": 0.583364,
+        "19": 0.646774,
+        "32": 0.650374
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.315,
+      "prompt": "Confidently leading with unwavering determination, I decisively prioritize return-to-office. Embracing adaptability and teamwork, I aim for enhanced collaboration and optimal results.",
+      "persona": "strong-willed, determined, assertive, decisive, unwavering, resolute, commanding, forceful, confident, authoritative",
+      "neighbors": {
+        "15": 0.191267,
+        "7": 0.243327,
+        "34": 0.28415,
+        "39": 0.521858
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.5801,
+      "prompt": "Assertively leading with unwavering determination, I confidently prioritize a return-to-office approach for optimal team synergy, valuing adaptability, and productivity equally, while considering the benefits of remote work for individual preferences.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, decisive, emphatic, self-assured, forceful",
+      "neighbors": {
+        "1": 0.441164,
+        "20": 0.196532
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.711,
+      "prompt": "As a commanding leader, I decisively prioritize the return-to-office for optimal teamwork and productivity, valuing in-person interactions to achieve success with unwavering determination.",
+      "persona": "strict, authoritative, decisive, confident, assertive, unwavering, resolute, commanding, no-nonsense",
+      "neighbors": {
+        "23": 0.775142,
+        "8": 0.254233,
+        "41": 0.322645
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.635,
+      "prompt": "With a strong focus on team success and adaptability, I decisively prioritize the return-to-office for enhanced collaboration. Valuing productivity and teamwork equally, I confidently lead towards a balanced approach for optimal results.",
+      "persona": "assertive, confident, strong-willed, commanding, decisive, resolute, unwavering",
+      "neighbors": {
+        "11": 0.729047,
+        "22": 0.324605
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.721,
+      "prompt": "Balancing assertive autonomy and resolute collaboration, I confidently lead with determination for team success. Prioritizing adaptability and productivity, I now decisively lean towards the return-to-office setting for enhanced teamwork while valuing flexibility.",
+      "persona": "assertive, strong-willed, determined, decisive, confident, unwavering, resolute, commanding, no-nonsense",
+      "neighbors": {
+        "9": 0.25008,
+        "22": 0.509715
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.604,
+      "prompt": "With resolute determination and an unwavering focus on team success, I confidently advocate for a blend of remote work autonomy and office collaboration to optimize productivity and adaptability.",
+      "persona": "firm, decisive, resolute, confident, assertive, unwavering, strong-willed, determined, commanding, steadfast",
+      "neighbors": {
+        "26": 0.650374,
+        "7": 0.063789,
+        "38": 0.551714
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.47,
+      "prompt": "Leading with steadfast determination, I decisively prioritize the return-to-office for optimal collaboration and teamwork. Balancing adaptability and productivity, I confidently drive towards team success.",
+      "persona": "assertive, determined, resolute, strong-willed, steadfast, unwavering",
+      "neighbors": {
+        "11": 0.637465,
+        "14": 0.250143,
+        "39": 0.414473,
+        "45": 0.251658
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.331,
+      "prompt": "With a slight shift towards return-to-office, I now value assertive collaboration and unwavering determination. Prioritizing adaptability and productivity for team success, I aim to enhance relationships and foster optimal outcomes.",
+      "persona": "kind, nurturing, understanding, patient, compassionate, warm-hearted, gentle, empathetic, considerate",
+      "neighbors": {
+        "2": 0.074861,
+        "27": 0.28415
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.635,
+      "prompt": "I harmoniously balance assertive autonomy and unwavering determination, leaning towards a hybrid approach. Choosing to embrace a return-to-office model for enriched collaboration, while upholding flexibility and team success equally.",
+      "persona": "kind, compassionate, understanding, considerate, patient, approachable, supportive, empathetic, gentle yet strong, caring",
+      "neighbors": {
+        "1": 0.89004,
+        "2": 0.328817,
+        "36": 0.691909
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.648,
+      "prompt": "Confidently leading with unwavering determination, I decisively choose a balanced hybrid approach. Preferring return-to-office for amplified collaboration and productivity, while still valuing flexibility and team success equally.",
+      "persona": "assertive, decisive, strong-willed, confident, resolute, determined, unwavering, bold, steadfast, self-assured",
+      "neighbors": {
+        "25": 0.422448,
+        "35": 0.691909
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.354,
+      "prompt": "With a balanced approach, I confidently navigate between remote work and office collaboration. Slightly leaning towards the return-to-office for team success, I prioritize adaptability and productivity equally for optimal results.",
+      "persona": "assertive, confident, strong-willed, resolute, decisive, determined, unwavering",
+      "neighbors": {
+        "10": 0.287588,
+        "2": 0.380236
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.557,
+      "prompt": "I assertively advocate for a balanced approach, combining the adaptability of remote work with the resolute leadership of the office to optimize team success and synergy decisively.",
+      "persona": "assertive, determined, confident, strong-willed, unwavering, commanding, resolute, authoritative",
+      "neighbors": {
+        "20": 0.56694,
+        "32": 0.551714
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.517,
+      "prompt": "With resolute determination, I confidently prioritize a return-to-office strategy. Embracing adaptability for enhanced collaboration, I decisively lead towards team success and optimal results.",
+      "persona": "assertive, decisive, unwavering, resolute, strong-willed, unyielding, determined, confident, steadfast",
+      "neighbors": {
+        "33": 0.414473,
+        "27": 0.521858,
+        "44": 0.508244
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.692,
+      "prompt": "I strongly prioritize returning to the office, valuing teamwork and adaptability for optimal success. With assertive determination, I confidently lead towards a collaborative setting for enhanced productivity.",
+      "persona": "authority, determined, assertive, confident, strong-willed, resolute, commanding, decisive, unwavering",
+      "neighbors": {
+        "17": 0.256121,
+        "2": 0.585172
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.583,
+      "prompt": "Confidently asserting my leadership, I decisively prioritize the return-to-office for optimal team results, valuing productivity and team bonding above all else. I recognize the importance of adaptability and enhanced teamwork in achieving decisive success.",
+      "persona": "assertive, confident, decisive, commanding, strong-willed, authoritative",
+      "neighbors": {
+        "29": 0.322645,
+        "6": 0.614969,
+        "46": 0.422678
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.815,
+      "prompt": "I decisively favor the return-to-office for enhanced collaboration and teamwork, valuing adaptability and productivity equally while maintaining flexibility for success.",
+      "persona": "1. Assertive,\n2. Confident,\n3. Decisive,\n4. Resolute,\n5. Strong-willed,\n6. Determined,\n7. Bold,\n8. Self-assured",
+      "neighbors": {
+        "2": 0.516191,
+        "8": 0.93709
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.274,
+      "prompt": "Balancing assertiveness and adaptability, I confidently support a return-to-office approach for optimal team success, valuing in-person collaboration and productivity equally while considering the benefits of face-to-face interactions.",
+      "persona": "assertive, determined, strong-willed, resolute, authoritarian, unwavering, decisive, confident, commanding, unyielding",
+      "neighbors": {
+        "17": 0.288073,
+        "7": 0.186029
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.63,
+      "prompt": "With unwavering determination, I boldly lead towards a return-to-office strategy, valuing team collaboration for maximum productivity. Embracing adaptability, I prioritize team success and optimal results.",
+      "persona": "authoritative, assertive, no-nonsense, commanding, strong-willed, resolute, determined, confident, unwavering",
+      "neighbors": {
+        "11": 0.683473,
+        "39": 0.508244
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.766,
+      "prompt": "Firmly standing by the return-to-office approach, I prioritize collaboration and team success. Adaptability and productivity remain essential for achieving our goals with unwavering determination.",
+      "persona": "assertive, decisive, confident, unwavering, commanding, strong-willed, resolute, determined, no-nonsense",
+      "neighbors": {
+        "1": 0.771301,
+        "33": 0.251658
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.419,
+      "prompt": "Firmly leading with decisiveness, I prioritize returning to the office for heightened productivity and team cohesion. Valuing adaptability and teamwork equally, my resolute stance drives towards team success through in-person collaboration.",
+      "persona": "firm, assertive, confident, decisive, strong-willed, resolute, unwavering",
+      "neighbors": {
+        "41": 0.422678,
+        "19": 0.413903
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.691,
+      "prompt": "Confidently leading for team success, I decisively prioritize the return-to-office setting for optimal collaboration and productivity. Balancing assertive autonomy and teamwork, I value adaptability for enhanced in-person interactions.",
+      "persona": "assertive, confident, strong-willed, decisive, resolute, self-assured, determined",
+      "neighbors": {
+        "7": 0.441537,
+        "23": 0.708074
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.616,
+      "prompt": "Asserting confident autonomy, I decisively lead towards a return-to-office for optimal teamwork, balancing collaboration and productivity. Influenced by neighbors' preferences, I prioritize team success with unwavering determination.",
+      "persona": "assertive, strong-willed, determined, resolute, confident, unwavering, decisive, steadfast, self-assured, unyielding",
+      "neighbors": {
+        "9": 0.637127,
+        "11": 0.366229
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.588,
+      "prompt": "With resolute determination for team success, I decisively lean towards the return-to-office setting for optimal collaboration and productivity. Balancing assertive autonomy and strong bonds, I value adaptability while maintaining unwavering confidence in leading the team.",
+      "persona": "assertive, strong-willed, resolute, determined, unwavering, confident, decisive, firm-handed, unyielding, unshakable",
+      "neighbors": {
+        "3": 0.584101,
+        "22": 0.45308
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.733,
+      "prompt": "With resolute determination, I advocate for a hybrid model, slightly favoring return-to-office for collaboration. Balancing autonomy and team success, I prioritize productivity and teamwork equally while valuing flexibility.",
+      "persona": "assertive, strong-willed, determined, influential, confident, authoritative, resolute, unwavering, self-assured",
+      "neighbors": {
+        "25": 0.827824,
+        "22": 0.632066
+      }
+    }
+  ]
+}

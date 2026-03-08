@@ -1,0 +1,11 @@
+we have 50 nodes, but only 10 of them are drawn
+
+We observed that the opinions had a significant range and did not converge. However, we can still draw a curve that describes the degree of amplitude of each node's opinions (similar to taking the derivative).
+
+We need to present the distribution of opinion scores in the initial situation and the distribution of opinion scores at the end.
+
+You need to draw this node diagram, and the edges should also be included.
+
+We also need to calculate the edges that have the greatest impact on the update of the node opinion scores based on the changes in the node opinion opinions each time. We then sum up the effects of the 50 iterations, with the aim of identifying the edge that has the greatest influence on the change of opinions in the graph.
+
+Next, we will construct the distribution of skewness and the graph showing the polarization of opinions.
