@@ -1,0 +1,644 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "opinionScore": 0.554638,
+      "prompt": "I prefer to work remotely as it allows me the flexibility to be more understanding and patient with others. Being able to work in a comfortable and quiet environment helps me to better connect with my team on a compassionate level.",
+      "persona": "gentle, kind-hearted, compassionate, empathetic, understanding, lenient, patient, considerate, softhearted",
+      "neighbors": {
+        "8": 0.382634,
+        "9": 0.310415,
+        "10": 0.636204,
+        "16": 0.526107,
+        "25": 0.681363,
+        "29": 0.591867,
+        "32": 0.389565,
+        "36": 0.387843,
+        "39": 0.272987,
+        "42": 0.618853
+      }
+    },
+    {
+      "id": "2",
+      "opinionScore": 0.557214,
+      "prompt": "I prefer the flexibility and comfort of remote work, but I also enjoy the social connections and energy of the office. It's important to me to create a warm and supportive environment, whether in person or online.",
+      "persona": "warm, approachable, kind-hearted, compassionate, understanding, patient, empathetic, nurturing, supportive",
+      "neighbors": {
+        "4": 0.208536,
+        "8": 0.48696,
+        "24": 0.529857,
+        "40": 0.68563
+      }
+    },
+    {
+      "id": "3",
+      "opinionScore": 0.557091,
+      "prompt": "I value the flexibility and comfort of remote work, but I also appreciate the sense of community and collaboration that comes with being in an office setting. My empathetic and caring nature allows me to connect with others no matter where I am.",
+      "persona": "kind, patient, understanding, compassionate, approachable, supportive, empathetic, gentle, caring",
+      "neighbors": {
+        "5": 0.441582
+      }
+    },
+    {
+      "id": "4",
+      "opinionScore": 0.555079,
+      "prompt": "I thrive in a fast-paced office environment where I can assert my opinions confidently and make decisive decisions. I am resolute in my determination to succeed and unwavering in my pursuit of excellence.",
+      "persona": "assertive, confident, strong-willed, decisive, resolute, determined, unwavering",
+      "neighbors": {
+        "2": 0.208536,
+        "14": 0.904745,
+        "16": 0.661656,
+        "36": 0.274159
+      }
+    },
+    {
+      "id": "5",
+      "opinionScore": 0.554224,
+      "prompt": "I prefer a mix of both remote work and office time. This allows me to have the flexibility I need while still feeling connected to my colleagues.",
+      "persona": "mild, moderate, gentle, lenient, tempered, soft",
+      "neighbors": {
+        "3": 0.441582,
+        "18": 0.904231,
+        "27": 0.617852,
+        "39": 0.621787,
+        "42": 0.215974
+      }
+    },
+    {
+      "id": "6",
+      "opinionScore": 0.555145,
+      "prompt": "I prefer a mix of remote work and office time to balance my need for solitude with my desire for collaboration and relationship-building.",
+      "persona": "kind, considerate, compassionate, patient, understanding, empathetic, gentle, caring",
+      "neighbors": {
+        "17": 0.488736,
+        "26": 0.387811
+      }
+    },
+    {
+      "id": "7",
+      "opinionScore": 0.555967,
+      "prompt": "I am firm in my decision to work remotely. My determination and strength of will guide my choices, and my unwavering resolve drives me to succeed.",
+      "persona": "firm, determined, resolute, unyielding, strong-willed, unwavering, assertive, steadfast, strong-minded, forceful",
+      "neighbors": {
+        "8": 0.612553,
+        "14": 0.40996,
+        "27": 0.931683
+      }
+    },
+    {
+      "id": "8",
+      "opinionScore": 0.554402,
+      "prompt": "I prefer remote work because it allows me to be more compassionate, understanding, and supportive towards others. I find that I can better show empathy and patience when I have the flexibility of working from home.",
+      "persona": "1. Compassionate\n2. Kind-hearted\n3. Understanding\n4. Empathetic\n5. Patient\n6. Tolerant\n7. Considerate\n8. Lenient\n9. Supportive",
+      "neighbors": {
+        "1": 0.382634,
+        "2": 0.48696,
+        "7": 0.612553,
+        "17": 1.0,
+        "21": 0.509681,
+        "30": 0.669725,
+        "34": 0.885984,
+        "38": 0.537963
+      }
+    },
+    {
+      "id": "9",
+      "opinionScore": 0.553275,
+      "prompt": "I prefer a balance between remote work and office. I find that being able to work from home allows me to have a more relaxed and calm environment, but I also enjoy the structure and social interaction that the office provides.",
+      "persona": "mild, moderate, lenient, mellow, easygoing, soft, relaxed, laid-back, gentle, calm",
+      "neighbors": {
+        "1": 0.310415,
+        "42": 0.871874
+      }
+    },
+    {
+      "id": "10",
+      "opinionScore": 0.554005,
+      "prompt": "I prefer working remotely as it allows me to feel more at ease and comfortable. Being able to work in a peaceful environment helps me focus on my tasks and be more productive while maintaining a gentle and compassionate mindset.",
+      "persona": "gentle, kind-hearted, compassionate, mild-mannered, amiable, tender-hearted, soft-spoken, easy-going, considerate, benevolent",
+      "neighbors": {
+        "1": 0.636204,
+        "16": 0.800268,
+        "17": 0.663694
+      }
+    },
+    {
+      "id": "11",
+      "opinionScore": 0.554409,
+      "prompt": "I prefer blending both remote work and office hours to ensure I create a warm and caring environment for my colleagues. My friendly and approachable nature shines through whether connecting virtually or in person.",
+      "persona": "friendly, approachable, warm, caring, kind-hearted, compassionate, empathetic, understanding, considerate, supportive",
+      "neighbors": {
+        "16": 0.23479,
+        "18": 0.424977,
+        "27": 0.35664,
+        "49": 0.568713
+      }
+    },
+    {
+      "id": "12",
+      "opinionScore": 0.555116,
+      "prompt": "I find that a mix of remote work and office time allows me to bring my warm and friendly approach to all interactions. Being considerate of others' needs and easy-going in my communication style helps me create a compassionate and welcoming atmosphere wherever I go.",
+      "persona": "warm, approachable, kind-hearted, easy-going, considerate, friendly, compassionate",
+      "neighbors": {
+        "16": 0.552651,
+        "36": 0.391061,
+        "43": 0.525207,
+        "46": 0.300378
+      }
+    },
+    {
+      "id": "13",
+      "opinionScore": 0.55429,
+      "prompt": "I believe finding a balance between remote work and being in the office is important for maintaining productivity and collaboration. I am able to make rational decisions about when it is best to work remotely and when it is necessary to be in the office for effective communication and teamwork.",
+      "persona": "moderate, balanced, considerate, assertive, composed, fair, level-headed, measured, rational, judicious",
+      "neighbors": {
+        "33": 0.490934,
+        "41": 0.471845,
+        "49": 0.707606
+      }
+    },
+    {
+      "id": "14",
+      "opinionScore": 0.556972,
+      "prompt": "I prefer remote work as it allows me to maintain control over my environment and prevent distractions. I am confident in my ability to be productive and communicate effectively, regardless of where I am.",
+      "persona": "assertive, strong-willed, confident, decisive, resolute, determined, unwavering",
+      "neighbors": {
+        "4": 0.904745,
+        "7": 0.40996,
+        "15": 0.376979,
+        "39": 0.345655,
+        "44": 0.807198,
+        "47": 0.338699
+      }
+    },
+    {
+      "id": "15",
+      "opinionScore": 0.556449,
+      "prompt": "I prefer a blend of remote work and office time. I value the flexibility and independence of working from home, while also appreciating the opportunity to collaborate and connect with my colleagues in person. It allows me to maintain a healthy work-life balance while still being present and supportive to my team.",
+      "persona": "kind, considerate, understanding, patient, approachable, compassionate, empathetic, gentle",
+      "neighbors": {
+        "14": 0.376979,
+        "30": 0.260104,
+        "40": 0.202124,
+        "44": 0.323956
+      }
+    },
+    {
+      "id": "16",
+      "opinionScore": 0.556071,
+      "prompt": "I thrive in a traditional office setting, where I can assert my ideas confidently and make decisive decisions. My strong-willed nature benefits from face-to-face interactions, allowing me to be bold and unwavering in my pursuits.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, unwavering, self-assured, decisive, bold, steadfast",
+      "neighbors": {
+        "1": 0.526107,
+        "4": 0.661656,
+        "10": 0.800268,
+        "11": 0.23479,
+        "12": 0.552651,
+        "19": 0.555788,
+        "30": 0.626707,
+        "37": 0.450688
+      }
+    },
+    {
+      "id": "17",
+      "opinionScore": 0.555545,
+      "prompt": "I prefer to work in an office setting to have more control and oversight. My strong will and decisive nature are best utilized in a structured environment where I can lead and make quick decisions. Remote work may limit my ability to assert my authority and drive results effectively.",
+      "persona": "strong-willed, determined, assertive, resolute, unwavering, decisive",
+      "neighbors": {
+        "6": 0.488736,
+        "8": 1.0,
+        "10": 0.663694,
+        "30": 0.751939,
+        "50": 0.844738
+      }
+    },
+    {
+      "id": "18",
+      "opinionScore": 0.557458,
+      "prompt": "I prefer a more nurturing and gentle work environment, so I lean towards remote work. This allows me to fully embrace my compassionate and empathetic nature while still being able to contribute effectively to my team.",
+      "persona": "kind, compassionate, considerate, empathetic, understanding, patient, nurturing, gentle-hearted, tender-hearted",
+      "neighbors": {
+        "5": 0.904231,
+        "11": 0.424977,
+        "24": 0.762705,
+        "50": 0.609144
+      }
+    },
+    {
+      "id": "19",
+      "opinionScore": 0.556678,
+      "prompt": "I thrive in a fast-paced office environment where my strong-willed nature can shine. I am resolute in my decisions and assertive in my actions, always striving for success and never backing down from a challenge.",
+      "persona": "strong-willed, resolute, determined, assertive, decisive, unwavering, steadfast",
+      "neighbors": {
+        "16": 0.555788,
+        "22": 0.447458,
+        "35": 0.340421,
+        "37": 0.649994,
+        "45": 0.740088,
+        "50": 0.317344
+      }
+    },
+    {
+      "id": "20",
+      "opinionScore": 0.55633,
+      "prompt": "I appreciate the flexibility of remote work, allowing me to maintain a balance between my personal and professional life. I strive to bring my gentle and compassionate nature to each interaction, whether in person or through virtual communication.",
+      "persona": "gentle, considerate, moderate, kind-hearted, compassionate, empathetic",
+      "neighbors": {
+        "28": 0.389665
+      }
+    },
+    {
+      "id": "21",
+      "opinionScore": 0.554642,
+      "prompt": "I prefer the flexibility and independence of remote work, but I thrive in a structured office environment. My assertiveness and decisiveness shine in any setting, allowing me to tackle challenges with confidence and determination.",
+      "persona": "assertive, confident, strong-willed, decisive, determined, self-assured, steadfast, resolute, unwavering",
+      "neighbors": {
+        "8": 0.509681,
+        "34": 0.197815,
+        "42": 0.32674
+      }
+    },
+    {
+      "id": "22",
+      "opinionScore": 0.554202,
+      "prompt": "I believe in the power of flexibility and understanding, which is why I prefer a balance between remote work and office presence. Being able to connect with my colleagues in-person when needed while still enjoying the benefits of a remote work environment allows me to be the kind-hearted and supportive person I strive to be.",
+      "persona": "caring, compassionate, considerate, empathetic, understanding, supportive, kind-hearted, patient",
+      "neighbors": {
+        "19": 0.447458,
+        "41": 0.218672
+      }
+    },
+    {
+      "id": "23",
+      "opinionScore": 0.555498,
+      "prompt": "I value the flexibility of remote work while still being able to connect with my coworkers. It allows me to express my kind and compassionate nature in a supportive environment.",
+      "persona": "kind, compassionate, understanding, considerate, empathetic, supportive, warm, caring",
+      "neighbors": {
+        "39": 0.405992,
+        "45": 0.535399,
+        "49": 0.571752,
+        "50": 0.585404
+      }
+    },
+    {
+      "id": "24",
+      "opinionScore": 0.553836,
+      "prompt": "I prefer remote work because it allows me to connect with others in a more gentle and compassionate way. I find that I can be more understanding and empathetic when I have the space to be kind-hearted and patient with my colleagues.",
+      "persona": "gentle, compassionate, considerate, understanding, empathetic, kind-hearted, soft-spoken, patient",
+      "neighbors": {
+        "2": 0.529857,
+        "18": 0.762705,
+        "38": 0.533475
+      }
+    },
+    {
+      "id": "25",
+      "opinionScore": 0.554785,
+      "prompt": "I enjoy the flexibility of remote work, but I also appreciate the structure and collaboration that come with working in an office setting. I strive to find a balance that allows me to be productive and contribute effectively to the team.",
+      "persona": "moderate, assertive, diplomatic, balanced, tactful, measured, reasonable, calm, composed, fair",
+      "neighbors": {
+        "1": 0.681363,
+        "30": 0.719238,
+        "34": 0.39529,
+        "35": 0.515405,
+        "40": 0.255694,
+        "48": 0.649175
+      }
+    },
+    {
+      "id": "26",
+      "opinionScore": 0.554721,
+      "prompt": "I feel most at ease when I am able to work remotely, as it allows me to fully embrace my kind-hearted and gentle-natured nature. It gives me the space to be patient, understanding, and considerate in all that I do, enabling me to truly connect with others on a deeper level.",
+      "persona": "1. Kind-hearted\n2. Compassionate\n3. Empathetic\n4. Caring\n5. Considerate\n6. Soft-spoken\n7. Patient\n8. Gentle-natured\n9. Understanding\n10. Tender-hearted",
+      "neighbors": {
+        "6": 0.387811,
+        "38": 0.798833,
+        "39": 0.487102,
+        "41": 0.458908,
+        "45": 0.540849
+      }
+    },
+    {
+      "id": "27",
+      "opinionScore": 0.55599,
+      "prompt": "I prefer a blend of remote work and office time to accommodate my assertive and determined nature. This allows me to stay focused and efficient while also having the flexibility to adapt to changing circumstances and tasks.",
+      "persona": "assertive, confident, decisive, strong-willed, determined, resolute, bold, unwavering, steadfast, vigorous",
+      "neighbors": {
+        "5": 0.617852,
+        "7": 0.931683,
+        "11": 0.35664,
+        "29": 0.617793,
+        "33": 0.729345,
+        "49": 0.237493,
+        "50": 0.588451
+      }
+    },
+    {
+      "id": "28",
+      "opinionScore": 0.556205,
+      "prompt": "I believe in a balanced approach that allows for flexibility in where I work. I value the benefits of collaborating in an office setting, but also appreciate the productivity and comfort that comes with remote work. Finding a harmonious blend of both is key for me.",
+      "persona": "mild, moderate, considerate, reasonable, balanced, compassionate, fair",
+      "neighbors": {
+        "20": 0.389665,
+        "29": 0.6164,
+        "37": 0.556328,
+        "43": 0.728736,
+        "46": 0.409215
+      }
+    },
+    {
+      "id": "29",
+      "opinionScore": 0.555208,
+      "prompt": "I prefer working in the office because I thrive in a structured environment where I can make decisions quickly and assertively. My confidence and no-nonsense attitude allow me to tackle challenges head-on and lead my team with strong determination and unwavering resolve.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, resolute, unwavering, self-assured, bold, no-nonsense",
+      "neighbors": {
+        "1": 0.591867,
+        "27": 0.617793,
+        "28": 0.6164,
+        "42": 0.599467,
+        "46": 0.595787,
+        "47": 0.638698
+      }
+    },
+    {
+      "id": "30",
+      "opinionScore": 0.554726,
+      "prompt": "I prefer a balance between remote work and the office. A mix of both allows me to stay connected with my team while also enjoying the flexibility and comfort of working from home. It helps me maintain my gentle and patient demeanor in all situations.",
+      "persona": "gentle, moderate, mild, soft-spoken, lenient, easygoing, temperate, patient",
+      "neighbors": {
+        "8": 0.669725,
+        "15": 0.260104,
+        "16": 0.626707,
+        "17": 0.751939,
+        "25": 0.719238,
+        "31": 0.791445,
+        "33": 0.0,
+        "35": 0.276282,
+        "47": 0.10661
+      }
+    },
+    {
+      "id": "31",
+      "opinionScore": 0.556043,
+      "prompt": "I prefer a balanced approach to work, finding the middle ground between remote and office settings. This allows me to stay composed, rational, and considerate while effectively communicating with my team.",
+      "persona": "moderate, balanced, composed, reasonable, calm, diplomatic, considerate, level-headed, poised, rational",
+      "neighbors": {
+        "30": 0.791445,
+        "45": 0.806236,
+        "50": 0.408221
+      }
+    },
+    {
+      "id": "32",
+      "opinionScore": 0.554388,
+      "prompt": "I prefer the flexibility and freedom of remote work, allowing me to take charge of my own schedule and work environment. Being assertive and determined, I thrive in this setting, able to focus and achieve my goals without the distractions of an office.",
+      "persona": "assertive, confident, strong-willed, determined, resolute, decisive, unwavering, bold",
+      "neighbors": {
+        "1": 0.389565,
+        "39": 0.428713
+      }
+    },
+    {
+      "id": "33",
+      "opinionScore": 0.557638,
+      "prompt": "I thrive in the fast-paced environment of an office setting, where I can lead and make quick decisions with confidence. My assertive nature and strong-willed attitude help me tackle challenges head-on and drive success in a dynamic workplace.",
+      "persona": "assertive, confident, strong-willed, determined, dynamic, bold, decisive, authoritative",
+      "neighbors": {
+        "13": 0.490934,
+        "27": 0.729345,
+        "30": 0.0,
+        "37": 0.505692,
+        "45": 0.415803
+      }
+    },
+    {
+      "id": "34",
+      "opinionScore": 0.556342,
+      "prompt": "I thrive in a fast-paced office environment, where I can assert my leadership and make decisive decisions. My confidence and strong will drive me to take command and achieve my goals efficiently.",
+      "persona": "Determined, strong-willed, assertive, confident, unwavering, resolute, decisive, commanding",
+      "neighbors": {
+        "8": 0.885984,
+        "21": 0.197815,
+        "25": 0.39529,
+        "37": 0.713137,
+        "44": 0.401833,
+        "47": 0.428409
+      }
+    },
+    {
+      "id": "35",
+      "opinionScore": 0.554077,
+      "prompt": "I prefer a blend of remote work and office time. I value flexibility and adaptability in my work environment to maintain a harmonious balance.",
+      "persona": "gentle, composed, moderate, easy-going, harmonious, laid-back, relaxed, mild",
+      "neighbors": {
+        "19": 0.340421,
+        "25": 0.515405,
+        "30": 0.276282,
+        "39": 0.374793,
+        "42": 0.845703,
+        "49": 0.43438
+      }
+    },
+    {
+      "id": "36",
+      "opinionScore": 0.556266,
+      "prompt": "I prefer a balance of remote work and office attendance to maintain productivity and face-to-face collaboration. Flexibility is important, but I thrive in a structured environment where I can assert myself and lead with confidence.",
+      "persona": "firm, assertive, confident, decisive, strong-willed, resolute, determined, unwavering, steadfast, bold",
+      "neighbors": {
+        "1": 0.387843,
+        "4": 0.274159,
+        "12": 0.391061,
+        "44": 0.149719,
+        "46": 0.443049
+      }
+    },
+    {
+      "id": "37",
+      "opinionScore": 0.554722,
+      "prompt": "I prefer a mix of remote work and the office. I value connecting with my colleagues in person but also enjoy the flexibility and comfort of working from home. It allows me to bring my warm, caring nature to both environments and be there for my team whenever they need me.",
+      "persona": "warm, caring, compassionate, understanding, considerate, kind-hearted, empathetic, friendly",
+      "neighbors": {
+        "16": 0.450688,
+        "19": 0.649994,
+        "28": 0.556328,
+        "33": 0.505692,
+        "34": 0.713137,
+        "41": 0.296864,
+        "46": 0.546947,
+        "48": 0.480734
+      }
+    },
+    {
+      "id": "38",
+      "opinionScore": 0.557123,
+      "prompt": "I excel in any setting, but I thrive in the office where I can lead with confidence and assertiveness. My strong will and decisive nature make me resolute in achieving my goals, and I am unwavering in my determination to succeed.",
+      "persona": "assertive, confident, strong-willed, decisive, resolute, determined, bold, unwavering, self-assured",
+      "neighbors": {
+        "8": 0.537963,
+        "24": 0.533475,
+        "26": 0.798833,
+        "45": 0.406105
+      }
+    },
+    {
+      "id": "39",
+      "opinionScore": 0.556007,
+      "prompt": "I prefer a balance between remote work and office presence. This allows me the flexibility to maintain a sense of calm and composure while staying connected with my colleagues. I value understanding and patience in navigating work dynamics.",
+      "persona": "calm, composed, reasonable, gentle, balanced, moderate, patient, understanding, easy-going, diplomatic",
+      "neighbors": {
+        "1": 0.272987,
+        "5": 0.621787,
+        "14": 0.345655,
+        "23": 0.405992,
+        "26": 0.487102,
+        "32": 0.428713,
+        "35": 0.374793,
+        "46": 0.480186,
+        "50": 0.746772
+      }
+    },
+    {
+      "id": "40",
+      "opinionScore": 0.555668,
+      "prompt": "I prefer the flexibility and independence that comes with remote work. My assertive and determined nature allows me to thrive in any environment, and I am confident in my abilities to excel no matter where I am.",
+      "persona": "assertive, determined, confident, strong-willed, resolute, bold, unwavering",
+      "neighbors": {
+        "2": 0.68563,
+        "15": 0.202124,
+        "25": 0.255694,
+        "44": 0.37684
+      }
+    },
+    {
+      "id": "41",
+      "opinionScore": 0.558671,
+      "prompt": "I believe in creating a positive and caring work environment where my team feels supported and valued. I am patient and understanding, always willing to listen and help find solutions. I strive to be a gentle yet firm leader, fostering a sense of community and empathy within the team.",
+      "persona": "compassionate, understanding, empathetic, diplomatic, considerate, patient, kind-hearted, supportive, gentle yet firm, caring",
+      "neighbors": {
+        "13": 0.471845,
+        "22": 0.218672,
+        "26": 0.458908,
+        "37": 0.296864
+      }
+    },
+    {
+      "id": "42",
+      "opinionScore": 0.554893,
+      "prompt": "I prefer a balance of remote work and office time to connect with my colleagues and clients. My gentle and caring nature thrives on building relationships and providing support in a collaborative work environment.",
+      "persona": "gentle, warm-hearted, compassionate, empathetic, considerate, understanding, sympathetic, kind-hearted, caring",
+      "neighbors": {
+        "1": 0.618853,
+        "5": 0.215974,
+        "9": 0.871874,
+        "21": 0.32674,
+        "29": 0.599467,
+        "35": 0.845703,
+        "50": 0.329466
+      }
+    },
+    {
+      "id": "43",
+      "opinionScore": 0.556714,
+      "prompt": "I prefer remote work because it allows me to stay focused and productive without unnecessary distractions. I am confident in my abilities to work independently and efficiently, making me a strong asset to any team.",
+      "persona": "assertive, confident, determined, strong-willed, self-assured, resolute, decisive",
+      "neighbors": {
+        "12": 0.525207,
+        "28": 0.728736
+      }
+    },
+    {
+      "id": "44",
+      "opinionScore": 0.555798,
+      "prompt": "I believe in creating a supportive and understanding work environment for my team. While I value face-to-face interaction, I am open to the idea of incorporating remote work to accommodate everyone's needs.",
+      "persona": "kind, approachable, compassionate, understanding, empathetic, patient, considerate, gentle, supportive",
+      "neighbors": {
+        "14": 0.807198,
+        "15": 0.323956,
+        "34": 0.401833,
+        "36": 0.149719,
+        "40": 0.37684
+      }
+    },
+    {
+      "id": "45",
+      "opinionScore": 0.555029,
+      "prompt": "I prefer remote work as it allows me to focus without distractions and work at my own pace. I value the independence and flexibility it offers, enabling me to efficiently tackle tasks with unwavering determination.",
+      "persona": "assertive, determined, strong-willed, decisive, confident, firm, resolute, unwavering",
+      "neighbors": {
+        "19": 0.740088,
+        "23": 0.535399,
+        "26": 0.540849,
+        "31": 0.806236,
+        "33": 0.415803,
+        "38": 0.406105
+      }
+    },
+    {
+      "id": "46",
+      "opinionScore": 0.555965,
+      "prompt": "I prefer working remotely as it gives me the flexibility and independence to make quick decisions and take charge of my tasks. My assertive nature thrives in a remote setting where I can stay focused and productive without distractions from the office environment.",
+      "persona": "assertive, confident, determined, strong-willed, resolute, unwavering, decisive",
+      "neighbors": {
+        "12": 0.300378,
+        "28": 0.409215,
+        "29": 0.595787,
+        "36": 0.443049,
+        "37": 0.546947,
+        "39": 0.480186
+      }
+    },
+    {
+      "id": "47",
+      "opinionScore": 0.555315,
+      "prompt": "I thrive in a remote work environment, where I am able to assert my ideas confidently and make decisive decisions. My strong-willed nature allows me to be resolute in my actions, empowered by the freedom to work boldly and determinedly towards my goals.",
+      "persona": "1. Confident \n2. Assertive \n3. Decisive \n4. Strong-willed \n5. Resolute \n6. Empowered \n7. Bold \n8. Determined",
+      "neighbors": {
+        "14": 0.338699,
+        "29": 0.638698,
+        "30": 0.10661,
+        "34": 0.428409,
+        "50": 0.362948
+      }
+    },
+    {
+      "id": "48",
+      "opinionScore": 0.555996,
+      "prompt": "I personally prefer a balanced approach to work, allowing both remote work and office presence when needed. As a caring and empathetic individual, I value the flexibility to accommodate different needs and situations, while also fostering a supportive and collaborative work environment.",
+      "persona": "caring, empathetic, understanding, diplomatic, considerate, patient, compassionate",
+      "neighbors": {
+        "25": 0.649175,
+        "37": 0.480734
+      }
+    },
+    {
+      "id": "49",
+      "opinionScore": 0.557769,
+      "prompt": "I thrive in a remote work environment where I can stay focused and productive without distractions. My assertive and determined nature allows me to take charge and make decisions confidently, without wavering.",
+      "persona": "assertive, confident, determined, strong-willed, decisive, resolute, unwavering, assertive, forceful",
+      "neighbors": {
+        "11": 0.568713,
+        "13": 0.707606,
+        "23": 0.571752,
+        "27": 0.237493,
+        "35": 0.43438
+      }
+    },
+    {
+      "id": "50",
+      "opinionScore": 0.554563,
+      "prompt": "I prefer a blend of both remote work and office environments. I value flexibility, but I also thrive in a structured setting. Balancing the two allows me to remain focused, driven, and achieve my goals with conviction.",
+      "persona": "assertive, decisive, confident, strong-willed, determined, resolute, unwavering, unyielding",
+      "neighbors": {
+        "17": 0.844738,
+        "18": 0.609144,
+        "19": 0.317344,
+        "23": 0.585404,
+        "27": 0.588451,
+        "31": 0.408221,
+        "39": 0.746772,
+        "42": 0.329466,
+        "47": 0.362948
+      }
+    }
+  ]
+}

@@ -19,9 +19,60 @@ from matplotlib.cm import ScalarMappable
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_NETWORK_JSON = PROJECT_ROOT / "networks" / "Net1_ER.json"
-DEFAULT_SLICES_DIR = PROJECT_ROOT / "networks" / "Net1_agent_slices"
-DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "src" / "visualization"
+NETWORKS_DIR = PROJECT_ROOT / "networks"
+PLOTS_DIR = PROJECT_ROOT / "plots"
+VISUALIZATION_DIR = PROJECT_ROOT / "src" / "visualization"
+DEFAULT_OUTPUT_DIR = VISUALIZATION_DIR / "output"
+
+
+def _discover_from_dir(search_dir: Path) -> List[Tuple[Path, Path]]:
+    """Discover (network_json, slices_dir) pairs from a directory."""
+    pairs: List[Tuple[Path, Path]] = []
+    if not search_dir.exists():
+        return pairs
+    for d in search_dir.iterdir():
+        if not d.is_dir():
+            continue
+        if d.name.endswith("_agent_slices"):
+            base = d.name.replace("_agent_slices", "")
+            # Net1_agent_slices -> base Net1, match Net1_ER.json etc.
+            json_candidates = list(search_dir.glob(f"{base}_*.json"))
+            if not json_candidates:
+                json_path = search_dir / f"{base}.json"
+            else:
+                json_path = json_candidates[0]
+        elif d.name.endswith("_degroot_slices"):
+            base = d.name.replace("_degroot_slices", "")
+            json_path = search_dir / f"{base}.json"
+        else:
+            continue
+        if json_path.exists():
+            pairs.append((json_path, d))
+    return pairs
+
+
+def discover_network_slice_pairs() -> List[Tuple[Path, Path]]:
+    """Discover (network_json, slices_dir) pairs from networks/ and plots/."""
+    pairs: List[Tuple[Path, Path]] = []
+    # networks/ root (exclude networks/plots subdir)
+    if NETWORKS_DIR.exists():
+        for d in NETWORKS_DIR.iterdir():
+            if not d.is_dir() or d.name == "plots":
+                continue
+            if d.name.endswith("_agent_slices"):
+                base = d.name.replace("_agent_slices", "")
+                json_candidates = list(NETWORKS_DIR.glob(f"{base}_*.json"))
+                json_path = NETWORKS_DIR / f"{base}.json" if not json_candidates else json_candidates[0]
+            elif d.name.endswith("_degroot_slices"):
+                base = d.name.replace("_degroot_slices", "")
+                json_path = NETWORKS_DIR / f"{base}.json"
+            else:
+                continue
+            if json_path.exists():
+                pairs.append((json_path, d))
+    # plots/ at project root (Net1_ER, Net2_SW, etc. with normal distribution)
+    pairs.extend(_discover_from_dir(PLOTS_DIR))
+    return sorted(pairs, key=lambda p: (p[0].stem, p[1].name))
 REMOTE_RTO_SCALE_LABEL = "Remote-vs-RTO position (0 = Remote, 1 = RTO)"
 REMOTE_RTO_TICKS = [0.0, 0.5, 1.0]
 REMOTE_RTO_TICK_LABELS = ["Remote", "Hybrid", "RTO"]
@@ -121,6 +172,28 @@ class SharpMidpointNormalize(mcolors.Normalize):
         return result
 
 
+def infer_graph_type_and_iteration(network_name: str, slices_dir_name: str) -> Tuple[str, str]:
+    """Infer graph type (ER/SW/SF/KC) and iteration (agent/degroot) from names."""
+    graph_type = "other"
+    for g in ("ER", "SW", "SF", "KC"):
+        if f"_{g}_" in network_name or network_name.endswith(f"_{g}") or f"_{g}_" in slices_dir_name:
+            graph_type = g
+            break
+    iteration = "agent" if "agent" in slices_dir_name else ("degroot" if "degroot" in slices_dir_name else "other")
+    return graph_type, iteration
+
+
+def infer_score_dist(network_name: str) -> str:
+    """Infer score distribution suffix (SR1/SR2/SR3/P/N/SL1/SL2/SL3) from network name."""
+    match = re.search(r"_(?:ER|SW|SF|KC)_(SR1|SR2|SR3|SL1|SL2|SL3|P|N)$", network_name)
+    if match:
+        return match.group(1)
+    # Net1_ER, Net2_SW etc. (plots format) -> normal distribution
+    if re.search(r"_(?:ER|SW|SF|KC)$", network_name):
+        return "N"
+    return "other"
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Generate advanced figures for opinion-dynamics network snapshots.",
@@ -128,20 +201,31 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--network-json",
         type=Path,
-        default=DEFAULT_NETWORK_JSON,
-        help="Base network JSON file.",
+        default=None,
+        help="Base network JSON file. If omitted, uses first discovered pair from networks/.",
     )
     parser.add_argument(
         "--slices-dir",
         type=Path,
-        default=DEFAULT_SLICES_DIR,
-        help="Directory containing iter*.json snapshot files.",
+        default=None,
+        help="Directory containing iter*.json snapshot files. If omitted with --network-json, inferred from network name.",
+    )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        default=True,
+        help="Process all discovered (network, slices) pairs from networks/ (default).",
+    )
+    parser.add_argument(
+        "--single",
+        action="store_true",
+        help="Process only the first discovered pair (overrides --all).",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
         default=DEFAULT_OUTPUT_DIR,
-        help="Directory where figures will be written.",
+        help="Directory where figures will be written. Outputs are grouped in subdirs: {graph_type}/{iteration}/. Default: src/visualization/output/.",
     )
     parser.add_argument(
         "--prefix",
@@ -680,16 +764,20 @@ def draw_network_panel(
 
 
 def plot_distribution_infographic(series: SeriesData, output_path: Path, threshold: float, layout_seed: int, dpi: int) -> None:
+    n_nodes = series.graph.number_of_nodes()
+    k_layout = max(3.2, 5.0 / (n_nodes ** 0.5))  # spread nodes apart, avoid overlap
     base_positions = {
         node_id: (float(coords[0]), float(coords[1]))
-        for node_id, coords in nx.spring_layout(series.graph, seed=layout_seed, weight="weight").items()
+        for node_id, coords in nx.spring_layout(
+            series.graph, seed=layout_seed, weight="weight", k=k_layout, scale=2.6
+        ).items()
     }
     node_index = {node_id: idx for idx, node_id in enumerate(series.node_ids)}
     start_opinions = {node_id: float(series.opinion_matrix[node_index[node_id], 0]) for node_id in series.node_ids}
     end_opinions = {node_id: float(series.opinion_matrix[node_index[node_id], -1]) for node_id in series.node_ids}
 
     xlim, ylim = compute_bounds([base_positions])
-    sizes = scale_sizes(series.pagerank)
+    sizes = scale_sizes(series.pagerank, minimum=60.0, maximum=280.0)  # smaller nodes for distribution plot
 
     fig, axes = plt.subplots(1, 2, figsize=(15.5, 7.6), facecolor="white")
     fig.suptitle("Remote vs. RTO Network Distribution: Beginning vs End", fontsize=16, y=0.98)
@@ -727,15 +815,48 @@ def plot_distribution_infographic(series: SeriesData, output_path: Path, thresho
     save_figure(fig, output_path, dpi)
 
 
+def plot_opinion_score_histogram(series: SeriesData, output_path: Path, dpi: int) -> None:
+    """Bar chart: opinion score distribution (bins 0–0.1, 0.1–0.2, …) for initial vs final state."""
+    bins = np.arange(0.0, 1.05, 0.1)  # [0, 0.1, ..., 1.0]
+    node_index = {node_id: idx for idx, node_id in enumerate(series.node_ids)}
+    initial_scores = np.array([series.opinion_matrix[node_index[nid], 0] for nid in series.node_ids])
+    final_scores = np.array([series.opinion_matrix[node_index[nid], -1] for nid in series.node_ids])
+
+    hist_initial, _ = np.histogram(initial_scores, bins=bins)
+    hist_final, _ = np.histogram(final_scores, bins=bins)
+
+    x_labels = [f"{b:.1f}-{b+0.1:.1f}" for b in bins[:-1]]
+    x_pos = np.arange(len(x_labels))
+    width = 0.35
+
+    fig, ax = plt.subplots(figsize=(11, 6))
+    bars1 = ax.bar(x_pos - width / 2, hist_initial, width, label="Initial", color="#5c6bc0", alpha=0.85)
+    bars2 = ax.bar(x_pos + width / 2, hist_final, width, label="Final", color="#26a69a", alpha=0.85)
+
+    ax.set_xlabel("Opinion score bin")
+    ax.set_ylabel("Number of nodes")
+    ax.set_title("Opinion Score Distribution: Initial vs Final State")
+    ax.set_xticks(x_pos)
+    ax.set_xticklabels(x_labels)
+    ax.legend(frameon=False, loc="upper right")
+    ax.grid(axis="y", alpha=0.2)
+    ax.set_ylim(bottom=0)
+    save_figure(fig, output_path, dpi)
+
+
 def generate_all_figures(args: argparse.Namespace) -> List[Path]:
     network_json = args.network_json.resolve()
     slices_dir = args.slices_dir.resolve()
-    output_dir = args.output_dir.resolve()
-    output_dir.mkdir(parents=True, exist_ok=True)
+    base_output_dir = args.output_dir.resolve()  # e.g. networks/plots or src/visualization
 
     series = load_series(network_json, slices_dir)
     prefix = args.prefix or series.network_name
     extension = args.image_format
+
+    graph_type, iteration = infer_graph_type_and_iteration(series.network_name, slices_dir.name)
+    score_dist = infer_score_dist(series.network_name)
+    output_dir = base_output_dir / graph_type / score_dist / iteration
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     outputs = {
         "heatmap": output_dir / f"{prefix}_Sorted_Heatmap.{extension}",
@@ -743,6 +864,7 @@ def generate_all_figures(args: argparse.Namespace) -> List[Path]:
         "median_band": output_dir / f"{prefix}_Shaded_Median_Area.{extension}",
         "edge_influence": output_dir / f"{prefix}_Most_Influential_Edge.{extension}",
         "distribution": output_dir / f"{prefix}_Opinion_Distribution_Beginning_End.{extension}",
+        "score_histogram": output_dir / f"{prefix}_Opinion_Score_Histogram.{extension}",
         "echo_chamber": output_dir / f"{prefix}_Echo_Chamber_Index.{extension}",
         "cross_cutting": output_dir / f"{prefix}_Cross_Cutting_Edge_Ratio.{extension}",
     }
@@ -752,10 +874,12 @@ def generate_all_figures(args: argparse.Namespace) -> List[Path]:
     plot_shaded_median_area(series, outputs["median_band"], args.moving_average_window, args.dpi)
     edge, _ = plot_most_influential_edge(series, outputs["edge_influence"], args.edge_rolling_window, args.dpi)
     plot_distribution_infographic(series, outputs["distribution"], args.camp_threshold, args.layout_seed, args.dpi)
+    plot_opinion_score_histogram(series, outputs["score_histogram"], args.dpi)
     echo_values = plot_echo_chamber_index(series, outputs["echo_chamber"], args.dpi)
     cross_values = plot_cross_cutting_ratio(series, outputs["cross_cutting"], args.camp_threshold, args.dpi)
 
     print(f"Loaded {series.network_name} with {len(series.node_ids)} nodes and {len(series.steps)} snapshots.")
+    print(f"Output folder: {output_dir} (graph={graph_type}, score_dist={score_dist}, iteration={iteration})")
     print(f"Most influential edge by cumulative influence: {edge[0]}-{edge[1]}")
     print(
         "Top 3 influential nodes by weighted PageRank: "
@@ -769,9 +893,76 @@ def generate_all_figures(args: argparse.Namespace) -> List[Path]:
     return list(outputs.values())
 
 
+def resolve_args(args: argparse.Namespace) -> None:
+    """Resolve network_json and slices_dir from discovery if not provided."""
+    pairs = discover_network_slice_pairs()
+    if args.all and not args.single:
+        return  # caller will iterate over pairs
+    if args.network_json is None or not Path(args.network_json).exists():
+        if not pairs:
+            raise FileNotFoundError(
+                "No (network_json, slices_dir) pairs found in networks/. "
+                "Specify --network-json and --slices-dir explicitly."
+            )
+        args.network_json = pairs[0][0]
+        args.slices_dir = pairs[0][1]
+        print(f"Using first discovered: {args.network_json.name} + {args.slices_dir.name}")
+    else:
+        args.network_json = Path(args.network_json).resolve()
+        if args.slices_dir is None or not Path(args.slices_dir).exists():
+            base = args.network_json.stem
+            search_dirs = [args.network_json.parent, NETWORKS_DIR, PLOTS_DIR]
+            for search_dir in search_dirs:
+                if not search_dir.exists():
+                    continue
+                for suffix in ("_agent_slices", "_degroot_slices"):
+                    cand = search_dir / f"{base}{suffix}"
+                    if cand.exists():
+                        args.slices_dir = cand
+                        break
+                if args.slices_dir is not None:
+                    break
+                # Net1_ER: agent slices may be Net1_agent_slices
+                if "_" in base:
+                    prefix = base.split("_")[0]
+                    for suffix in ("_agent_slices", "_degroot_slices"):
+                        cand = search_dir / f"{prefix}{suffix}"
+                        if cand.exists():
+                            args.slices_dir = cand
+                            break
+                if args.slices_dir is not None:
+                    break
+            if args.slices_dir is None:
+                raise FileNotFoundError(
+                    f"No slices dir found for {base}. Expected {base}_agent_slices or _degroot_slices."
+                )
+        else:
+            args.slices_dir = Path(args.slices_dir).resolve()
+
+
 def main() -> None:
     args = parse_args()
-    generate_all_figures(args)
+    args.output_dir = Path(args.output_dir).resolve()
+    if args.single:
+        resolve_args(args)
+        generate_all_figures(args)
+    elif args.all:
+        pairs = discover_network_slice_pairs()
+        if not pairs:
+            print("No (network_json, slices_dir) pairs found in networks/.")
+            return
+        print(f"Processing {len(pairs)} network/slice pairs...")
+        for i, (network_json, slices_dir) in enumerate(pairs, 1):
+            args.network_json = network_json
+            args.slices_dir = slices_dir
+            print(f"\n[{i}/{len(pairs)}] {network_json.stem} + {slices_dir.name}")
+            try:
+                generate_all_figures(args)
+            except Exception as e:
+                print(f"  ERROR: {e}")
+    else:
+        resolve_args(args)
+        generate_all_figures(args)
 
 
 if __name__ == "__main__":
