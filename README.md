@@ -331,12 +331,6 @@ src/visualization/output/ER/N/agent/Net1_ER_Cross_Cutting_Edge_Ratio.png
 
 - [advanced_network_visualizations.py](src/visualization/advanced_network_visualizations.py)
   - current advanced visualization pipeline
-
-## 8. Current Status
-
-Implemented in the repository now:
-- network generation with multiple opinion score distributions (normal, skew_left, skew_right, polarized)
-- LLM-based agent iteration with OpenAI model fallback (context/rate limit handling)
 - DeGroot baseline iteration
 - saved per-step network slices
 - advanced visualization for trajectory, influence, distribution, histogram, and polarization analysis
