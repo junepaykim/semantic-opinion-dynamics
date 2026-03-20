@@ -27,8 +27,8 @@ Current Python dependencies in [requirements.txt](requirements.txt):
 - `tqdm`
 
 **LLM backends**
-- `OpenAI`: put your API key in `api_key.txt` at the project root, or set `OPENAI_API_KEY`.
-- `Ollama`: local fallback backend. Default model in code is `qwen3:4b`.
+- `OpenAI`: put your API key in `api_key.txt` at the project root, or set `OPENAI_API_KEY`. Uses a model fallback chain (`gpt-3.5-turbo` → `gpt-4o-mini` → `gpt-4o`) when context or rate limits are hit.
+- `Ollama`: local fallback backend when OpenAI fails. Default model in code is `qwen3:4b`.
 
 ## 1. Overview
 
@@ -56,11 +56,11 @@ semantic-opinion-dynamics/
 ├── main.py
 ├── requirements.txt
 ├── networks/
-│   ├── Net1_ER.json
-│   ├── Net2_SW.json
-│   ├── Net3_SF.json
-│   ├── Net4_KC.json
-│   └── {name}_{model}_slices/
+│   ├── Net_*.json                    # e.g. Net_random_skew_right_1_ER_SR1.json
+│   └── Net_*_{agent|degroot}_slices/
+├── plots/                            # Legacy: Net1_ER, Net2_SW, Net3_SF, Net4_KC (normal dist)
+│   ├── Net1_ER.json, Net2_SW.json, ...
+│   ├── Net1_agent_slices, Net1_ER_degroot_slices, ...
 ├── src/
 │   ├── input/
 │   │   ├── __init__.py
@@ -76,6 +76,7 @@ semantic-opinion-dynamics/
 │   │       └── iterate.py
 │   └── visualization/
 │       ├── advanced_network_visualizations.py
+│       ├── output/                   # Generated figures: {ER|SW|SF|KC}/{N|SR1|SR2|SR3|P}/{agent|degroot}/
 │       ├── run_all_analysis.py
 │       └── *.png / *.jpg
 └── assets/
@@ -112,31 +113,39 @@ semantic-opinion-dynamics/
 
 ### 3.2 Snapshot Slices
 
-Each iteration is saved under `networks/{name}_{model}_slices/`:
+Each iteration is saved under `networks/{name}_{model}_slices/` or `plots/`:
 
 ```text
-networks/myNet_agent_slices/
+networks/Net_random_skew_right_1_ER_SR1_agent_slices/
 ├── iter0.json
 ├── iter1.json
 ├── iter2.json
 └── ...
 ```
 
+**Naming convention:** `{base}_{graph_type}_{score_dist}` e.g. `Net_random_skew_right_1_ER_SR1` (ER=random, SR1=skew_right_1).
+
 ## 4. Workflow
 
 ### 4.1 Generate a network
 
 `main.py` can generate one of four graph types:
-- `random`
-- `small_world`
-- `scale_free`
-- `karate_club`
+- `random` (ER)
+- `small_world` (SW)
+- `scale_free` (SF)
+- `karate_club` (KC)
+
+**Opinion score distributions** (`--score-dist`):
+- `normal` (N)
+- `skew_left_1`, `skew_left_2`, `skew_left_3` (SL1–SL3)
+- `skew_right_1`, `skew_right_2`, `skew_right_3` (SR1–SR3)
+- `polarized` (P): bimodal, half near 0 and half near 1
 
 Generation flow:
 - build graph topology
-- initialize node `opinionScore`
-- generate `persona`
-- generate opinion `prompt`
+- sample node `opinionScore` from the chosen distribution
+- generate `persona` via LLM
+- generate opinion `prompt` via LLM
 - save initial network JSON into `networks/`
 
 ### 4.2 Run an opinion model
@@ -161,34 +170,43 @@ Runtime flow:
 | `-t`, `--graph-type` | `random`, `small_world`, `scale_free`, `karate_club` | `random` |
 | `-n`, `--name` | Base network name | required when running |
 | `--nodes` | Number of nodes when generating | `20` |
+| `--score-dist` | Opinion distribution: `normal`, `skew_left_1/2/3`, `skew_right_1/2/3`, `polarized` | `normal` |
 | `--model` | `agent` or `degroot` | `agent` |
 | `--iters` | Number of iterations | required when running |
 
 ### 5.2 Examples
 
 ```bash
-# Generate a 20-node random network
+# Generate a 20-node random network (normal distribution)
 python main.py -g -t random -n myNet
 
-# Generate a 50-node small-world network
-python main.py -g -t small_world -n mySW --nodes 50
+# Generate a 50-node small-world network with polarized opinions
+python main.py -g -t small_world -n mySW --nodes 50 --score-dist polarized
 
-# Run 10 agent iterations
-python main.py -n Net1_ER --model agent --iters 10
+# Generate skew_right_1 random network
+python main.py -g -t random -n Net_random_skew_right_1 --nodes 50 --score-dist skew_right_1
 
-# Run 20 DeGroot iterations
-python main.py -n Net1_ER --model degroot --iters 20
+# Run 50 agent iterations
+python main.py -n Net_random_skew_right_1_ER_SR1 --model agent --iters 50
+
+# Run 50 DeGroot iterations
+python main.py -n Net_random_skew_right_1_ER_SR1 --model degroot --iters 50
 ```
 
 ## 6. Advanced Visualization
 
 The recommended visualization entry point is [advanced_network_visualizations.py](src/visualization/advanced_network_visualizations.py).
 
-It loads:
-- a base network JSON
-- a snapshot directory such as `networks/Net1_agent_slices`
+**Data sources:** The script auto-discovers (network JSON, slices dir) pairs from:
+- `networks/` (e.g. `Net_random_skew_right_1_ER_SR1.json` + `*_agent_slices` / `*_degroot_slices`)
+- `plots/` (legacy: `Net1_ER`, `Net2_SW`, `Net3_SF`, `Net4_KC` with both agent and degroot slices)
 
-It then generates the following figures:
+**Output structure:** Figures are saved under `src/visualization/output/{graph_type}/{score_dist}/{iteration}/`:
+- `graph_type`: ER, SW, SF, KC
+- `score_dist`: N, SR1, SR2, SR3, P, etc.
+- `iteration`: agent, degroot
+
+**Default behavior:** Running the script with no arguments processes all discovered pairs.
 
 ### 6.1 Trajectory Views
 
@@ -216,12 +234,16 @@ It then generates the following figures:
   - selects the edge with maximum cumulative influence over time
   - plots raw influence plus a rolling-mean trend line
 
-### 6.3 Distribution View
+### 6.3 Distribution Views
 
 - `Opinion Distribution: Beginning vs End`
   - same node layout in both panels
   - node colors map from Remote to RTO
   - pastel cluster shading for Remote-leaning and RTO-leaning groups
+
+- `Opinion Score Histogram`
+  - bar chart of opinion score distribution (bins 0–0.1, 0.1–0.2, …)
+  - compares initial vs final state
 
 ### 6.4 Polarization Views
 
@@ -239,9 +261,10 @@ It then generates the following figures:
 
 | Argument | Description | Default |
 |---|---|---|
-| `--network-json` | Base network JSON file | `networks/Net1_ER.json` |
-| `--slices-dir` | Snapshot directory | `networks/Net1_agent_slices` |
-| `--output-dir` | Figure output directory | `src/visualization` |
+| `--network-json` | Base network JSON file | auto-discovered |
+| `--slices-dir` | Snapshot directory | auto-discovered |
+| `--output-dir` | Figure output directory | `src/visualization/output` |
+| `--single` | Process only the first discovered pair | `False` |
 | `--prefix` | Output filename prefix | network stem |
 | `--moving-average-window` | Smoothing for percentile band | `5` |
 | `--camp-threshold` | Remote/RTO split threshold | `0.5` |
@@ -254,14 +277,16 @@ It then generates the following figures:
 ### 6.6 Advanced Visualization Examples
 
 ```bash
-# Use Net1 defaults
+# Process all discovered networks (default)
 python src/visualization/advanced_network_visualizations.py
 
-# Generate figures for another snapshot directory
+# Process only the first discovered pair
+python src/visualization/advanced_network_visualizations.py --single
+
+# Specify a single network explicitly
 python src/visualization/advanced_network_visualizations.py \
-  --network-json networks/Net2_SW.json \
-  --slices-dir networks/Net2_agent_slices \
-  --prefix Net2_SW
+  --network-json networks/Net_random_skew_right_1_ER_SR1.json \
+  --slices-dir networks/Net_random_skew_right_1_ER_SR1_agent_slices
 
 # Save as SVG with a 3-step rolling mean for edge influence
 python src/visualization/advanced_network_visualizations.py \
@@ -271,16 +296,17 @@ python src/visualization/advanced_network_visualizations.py \
 
 ### 6.7 Expected Outputs
 
-For `Net1_ER`, the script writes files such as:
+For each network, the script writes 8 figures per (network, slices) pair:
 
 ```text
-src/visualization/Net1_ER_Sorted_Heatmap.png
-src/visualization/Net1_ER_Highlighted_Trajectories.png
-src/visualization/Net1_ER_Shaded_Median_Area.png
-src/visualization/Net1_ER_Most_Influential_Edge.png
-src/visualization/Net1_ER_Opinion_Distribution_Beginning_End.png
-src/visualization/Net1_ER_Echo_Chamber_Index.png
-src/visualization/Net1_ER_Cross_Cutting_Edge_Ratio.png
+src/visualization/output/ER/N/agent/Net1_ER_Sorted_Heatmap.png
+src/visualization/output/ER/N/agent/Net1_ER_Highlighted_Trajectories.png
+src/visualization/output/ER/N/agent/Net1_ER_Shaded_Median_Area.png
+src/visualization/output/ER/N/agent/Net1_ER_Most_Influential_Edge.png
+src/visualization/output/ER/N/agent/Net1_ER_Opinion_Distribution_Beginning_End.png
+src/visualization/output/ER/N/agent/Net1_ER_Opinion_Score_Histogram.png
+src/visualization/output/ER/N/agent/Net1_ER_Echo_Chamber_Index.png
+src/visualization/output/ER/N/agent/Net1_ER_Cross_Cutting_Edge_Ratio.png
 ```
 
 ## 7. Module Notes
@@ -290,10 +316,12 @@ src/visualization/Net1_ER_Cross_Cutting_Edge_Ratio.png
 
 - [networkOps.py](src/input/networkOps.py)
   - graph generation, load/save, initial node setup
+  - opinion score sampling (normal, skew_left, skew_right, polarized)
 
 - [modelCall.py](src/input/modelCall.py)
   - LLM prompts and score-to-text generation
   - opinion scale is explicitly defined as `0 = Remote`, `1 = Office/RTO`
+  - OpenAI model fallback chain (gpt-3.5-turbo → gpt-4o-mini → gpt-4o) on context/rate limit errors
 
 - [src/model/agentModel/iterate.py](src/model/agentModel/iterate.py)
   - LLM-based iterative update
@@ -307,10 +335,11 @@ src/visualization/Net1_ER_Cross_Cutting_Edge_Ratio.png
 ## 8. Current Status
 
 Implemented in the repository now:
-- network generation and persistence
-- LLM-based agent iteration
+- network generation with multiple opinion score distributions (normal, skew_left, skew_right, polarized)
+- LLM-based agent iteration with OpenAI model fallback (context/rate limit handling)
 - DeGroot baseline iteration
 - saved per-step network slices
-- advanced visualization for trajectory, influence, distribution, and polarization analysis
+- advanced visualization for trajectory, influence, distribution, histogram, and polarization analysis
+- auto-discovery from `networks/` and `plots/` with output organized by graph type, score distribution, and iteration model
 
 The older [run_all_analysis.py](src/visualization/run_all_analysis.py) remains in the repository as an earlier analysis script, but `advanced_network_visualizations.py` is the current script to use for the new figure set.
